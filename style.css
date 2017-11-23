@@ -1,0 +1,147 @@
+
+body{
+	background: url("img/bg.png");
+	font-family: 'PT Sans', serif;
+}
+h1{
+	color: #FF6C00;
+}
+h2{
+	color: #FF6C00;
+	font-size: 18px;
+}
+p{
+	font-size: 18px;
+}
+.btn_nav{
+	margin: 20px;
+	transition: background-color 3s ease;
+	text-decoration: none;
+	color: #715E5E;
+}
+.btn_nav:hover{
+	color: #FF6C00;
+	border-bottom: 4px solid currentColor;
+  	-webkit-box-shadow: 0 5px 6px -6px #222;
+  	-moz-box-shadow: 0 5px 6px -6px #222;
+  	box-shadow: 0 5px 6px -6px #222;
+}
+.footer{
+	bottom: 0;
+	padding: 60px;
+	text-align: center;
+}
+.light{
+	color: #FF6C00;
+	border-bottom: 4px solid currentColor;
+  	-webkit-box-shadow: 0 5px 6px -6px #222;
+  	-moz-box-shadow: 0 5px 6px -6px #222;
+  	box-shadow: 0 5px 6px -6px #222;
+}
+.center{
+	margin: auto;
+	text-align: center;
+}
+.content{
+	margin: 0 10%;
+	padding: 10px;
+	overflow: auto;
+	display: block;
+	float: left;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+.display{
+	padding: 20px;
+}
+.display-left{
+	font-size: 50px;
+	color: white;
+	float: left;
+}
+.display-right{
+	font-size: 50px;
+	color: white;
+	float: right;
+}
+.card-column {
+  width: 50%;
+  float: left;
+  padding: 4%;
+  box-sizing: border-box;
+}
+
+#logo{
+	margin: 30px auto;
+	text-align: center;
+}
+#navi{
+	margin: 15px;
+	font-size: 22px;
+}
+
+#avatar{
+	margin: 20px;
+	display: block;
+	float: left;
+}
+#about_text{
+	margin: 0 20px;
+	width: 70%;
+	display: block;
+	float: left;
+}
+#skill{
+	width: 20%;
+	float: right;
+}
+
+/*icons*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    border: white solid 1px;
+    color: white;
+}
+.fa-github {
+    border: white solid 1px;
+    color: white;
+}
+.fa-linkedin {
+    border: white solid 1px;
+    color: white;
+}
+
+.project-type{
+	width: 12%;
+	padding: 1% 3%;
+	float: left;
+}
+.slideshow-container {
+	max-width: 70%;
+	overflow: auto;
+	position: relative;
+	margin: 1%;
+	display: block;
+	padding: 1%;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+.project{
+	width: 40%;
+	height: 200px;
+	float: left;
+	position: relative;
+	margin: auto;
+	margin: 10px;
+	display: block;
+	padding: 5px 20px;
+	background-color: white;
+}

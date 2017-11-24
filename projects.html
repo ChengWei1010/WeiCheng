@@ -1,29 +1,31 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT Sans">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- for FF, Chrome, Opera -->
-<link rel="icon" type="image/png" href="img/logo.png" sizes="16x16">
-<link rel="icon" type="image/png" href="img/logo.png" sizes="32x32">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT Sans">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vollkorn SC">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- for FF, Chrome, Opera -->
+	<link rel="icon" type="image/png" href="img/logo.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="img/logo.png" sizes="32x32">
 
-<!-- for IE -->
-<link rel="icon" type="image/x-icon" href="img/logo.png" >
-<link rel="shortcut icon" type="image/x-icon" href="img/logo.png"/>
-<script src="page.js"></script>
+	<!-- for IE -->
+	<link rel="icon" type="image/x-icon" href="img/logo.png" >
+	<link rel="shortcut icon" type="image/x-icon" href="img/logo.png"/>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script src="scroll.js"></script>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>WEI CHENG-projects</title>
 </head>
 <body id="body">
-	<div id="logo">
+	<div class="logo">
 		<img src="img/logo.png" alt="">
 		<br>
-		<div id="navi">
+		<nav class="navbar">
 			<span><a href="index.html" class="btn_nav">About</a></span>
 			<span><a href="projects.html" class="light btn_nav" >Projects</a></span>
 			<span><a href="resume.html" class="btn_nav" >Resume</a></span>
-		</div>
+		</nav>
 	</div>
 	<div class="row">
 		<img class="project-type" src="img/app.png"/>
@@ -45,7 +47,9 @@
 		    	<h2>TripGIF-KS exhibition</h2>
 		    </div>
 		    <div class="project">
-		    	<h2>KRTCO</h2>
+		    	<img class="project-size" src="projects/krtco.png" alt="">
+		    	<h2>Kaohsiung Rapid Transit Co.</h2>
+		    	<h3>front-end develop</h3>
 		    </div>
 		</div>
 	</div>
@@ -54,7 +58,9 @@
 		<img class="project-type" src="img/game.png"/>
 		<div class="slideshow-container">
 		    <div class="project">
+		    	<img class="project-size" src="projects/nsysuhero.png" alt="">
 		    	<h2>NSYSU hero</h2>
+		    	<h3>game UI Design</h3>
 		    </div>
 		</div>
 	</div>
@@ -71,6 +77,11 @@
 		</div>
 	</div>
 
-	<div class="footer"></div>
+	<div class="footer">
+		<span id="connected">Connected with me:</span><br>
+		<span><a href="#" class="fa fa-facebook"></a></span>
+		<span><a href="https://github.com/ChengWei1010" class="fa fa-github"></a></span>
+		<span><a href="https://www.linkedin.com/in/wei-cheng-280045130/" class="fa fa-linkedin"></a></span>
+	</div>
 </body>
 </html>

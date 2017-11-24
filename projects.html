@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT Sans">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vollkorn SC">
@@ -22,49 +23,60 @@
 		<img class="logo" src="img/logo.png" alt="">
 		<br>
 		<div class="navbar">
-			<span><a href="index.html" class="btn_nav">About</a></span>
-			<span><a href="projects.html" class="light btn_nav">Projects</a></span>
-			<span><a href="resume.html" class="btn_nav">Artwork</a></span>
+			<span class="btn_nav"><a href="index.html">About</a></span>
+			<span class="btn_nav"><a href="projects.html" class="light">Projects</a></span>
+			<span class="btn_nav"><a href="resume.html">Artwork</a></span>
 		</div></div>
 	<div class="row">
 		<img class="project-type" src="img/app.png"/>
 		<div class="slideshow-container">
-		    <div class="project">
-		    	<h2>TripGIF-group mode</h2>
-		    </div>
+		    <div class="mask">
+			    <div class="project">
+			    	<h2>TripGIF-group mode</h2>
+			    </div>
+			</div>
 
 		    <div class="project">
 		    	<h2>FamiFilm</h2>
 		    </div>
-		</div></div><br>
+		</div></div>
 	<div class="row">
 		<img class="project-type" src="img/web.png"/>
 		<div class="slideshow-container">
 		    <div class="project">
 		    	<h2>TripGIF-KS exhibition</h2>
 		    </div>
-		    <div class="project">
-		    	<img class="project-size" src="projects/krtco.png" alt="">
-		    	<h2>Kaohsiung Rapid Transit Co.</h2>
-		    	<h3>front-end develop</h3>
-		    </div>
-		</div></div><br>
+		    <a href="http://bm.nsysu.edu.tw/krtc-competition2016/home.php">
+			    <div class="project">
+			    	<img class="project-size" src="projects/krtco.png" alt="">
+			    	<h2>Kaohsiung Rapid Transit Co.</h2>
+			    	<h3>front-end develop</h3>
+			    </div>
+		    </a>
+		</div></div>
 	<div class="row">
 		<img class="project-type" src="img/game.png"/>
 		<div class="slideshow-container">
 		    <div class="project">
 		    	<img class="project-size" src="projects/nsysuhero.png" alt="">
 		    	<h2>NSYSU hero</h2>
-		    	<h3>game UI design</h3>
+		    	<h3>Unity game UI design</h3>
 		    </div>
-		</div></div><br>
+		</div></div>
 	<div class="row">
 		<img class="project-type" src="img/video.png"/>
 		<div class="slideshow-container">
-		    <div class="project">
+		    <div class="project" onclick="openProject()">
 		    	<img class="project-size" src="projects/video_famifilm.png" alt="">
 		    	<h2>FamiFilm DEMO Video</h2>
 		    	<h3>video editing</h3>
+		    </div>
+		    <div class="project">
+		    	<a href="https://www.facebook.com/MSPTaiwan/videos/1454761914554866/">
+			    	<img target="_blank" class="project-size" src="projects/video_msp.png" alt="">
+			    	<h2>Microsoft Student Partners FAQ Video</h2>
+			    	<h3>video editing</h3>
+		    	</a>
 		    </div>
 		</div></div>
 
@@ -73,5 +85,27 @@
 		<span><a href="https://www.facebook.com/WeiChengLily" class="fa fa-facebook"></a></span>
 		<span><a href="https://github.com/ChengWei1010" class="fa fa-github"></a></span>
 		<span><a href="https://www.linkedin.com/in/wei-cheng-280045130/" class="fa fa-linkedin"></a></span></div>
+
+	<div class="project-content">
+		<span class="close" onclick="closeProject()">&times;</span>
+		<div id="video_famifilm">
+			<h4>FamiFilm DEMO Video</h4>
+			<div class="banner">				
+				<video width="80%" height="80%" controls>
+		  			<source src="projects/video_famifilm_demo.mp4" type="video/mp4">
+				</video>
+			</div>
+			<div class="column">
+				<span class="title">Tools</span><br>
+				iMovie<br>
+				keynote
+			</div>
+
+			<div class="column">
+				<span class="title">Description</span><br>
+				This is the graduation project mobile application demo video.<br>It introduces the main funtions of the app in Chinese and English.
+			</div>
+		</div>
+	</div>
 </body>
 </html>

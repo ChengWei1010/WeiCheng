@@ -13,3 +13,11 @@ $(document).ready(function() {
     }
   });
 });
+
+function openProject(){
+   $('.project-content').fadeIn(200);
+}
+
+function closeProject(){
+   $('.project-content').fadeOut(200);
+}

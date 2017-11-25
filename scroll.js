@@ -26,3 +26,10 @@ function closeProject(){
    $('#overlay').hide();
    $('#vid')[0].pause();
 }
+
+$(document).ready(function(){
+	$('.nav-icon').click(function(){
+		$(this).toggleClass('open');
+		$('.drawer').fadeToggle();
+	});
+});

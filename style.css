@@ -1,5 +1,6 @@
 html, body {
 	height: 100%;
+	font-size: 100%;
 }
 body{
 	margin: 0;
@@ -24,7 +25,11 @@ p{
 	font-size: 18px;
 	line-height: 29px;}
 a{
+	color: white;
 	text-decoration: none;
+}
+a:hover{
+	color: #FF6C00;
 }
 .header{
 	margin: 0 auto;
@@ -51,6 +56,9 @@ a{
 	font-size: 22px;
 	padding: 10px;
 	background-color: rgba(255, 255, 255, 0.9);}
+.drawer{
+	display: none;
+}
 .btn_nav{
 	margin-left: 10px;
 	margin-right: 10px;
@@ -68,7 +76,7 @@ a{
 	text-align: center;}
 .content{
 	margin: 1% 6% 5% 6%;
-	padding: 2%;
+	padding: 3%;
 	overflow: auto;
 	float: left;
 	background-color: rgba(255, 255, 255, 0.6);}
@@ -84,12 +92,13 @@ a{
 	float: left;
 }
 #about_text{
+	display: inline;
 	margin: 0 20px;
 	width: 60%;
-	display: block;
 	float: left;
 }
 #skill{
+	display: inline;
 	width: 30%;
 	float: right;
 }
@@ -230,45 +239,147 @@ video{
 	height:70%;
 	padding: 1%;
 }
-
-@media all and (max-width: 350px) {
-.drawer-toggle-label{ 
-content: ''; 
-display: block; 
-position: absolute; 
-height: 3px; 
-width: 40px; 
-background: #8d8d8d; 
-right: 5%;
-top: 5%; 
-box-shadow: 0 10px 0 #8d8d8d, 0 20px 0 #8d8d8d; } 
-
-.header{
-	width: 100%;
-	height: 10%;
-	margin: 0 auto;
-	text-align: center;
-	/*height: 30%;*/}
-.logo{
-	width: 10%;
-	float: left;
-	padding: 2% 5%;
+.drawer{
+	display: none;
 }
-.navbar.responsive .btn_nav {
-    display: none;
+@media screen and (max-width: 600px) {
+	.drawer-toggle{ 
+		cursor: pointer;
+		display: block; 
+		position: absolute; 
+		height: 56px; 
+		width: 30px; 
+		right: 6%;
+		top: 6%; 
+	}
+
+/* Icon 3 */
+.nav-icon{
+  width: 60px;
+  height: 45px;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
 }
-.navbar div.icon {
-	float: right;
-	display: block;
+
+.nav-icon span{
+  display: block;
+  position: absolute;
+  height: 9px;
+  width: 100%;
+  background: white;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+/* Icon 3 */
+
+.nav-icon span:nth-child(1) {
+  top: 0px;
+}
+
+.nav-icon span:nth-child(2),.nav-icon span:nth-child(3) {
+  top: 18px;
+}
+
+.nav-icon span:nth-child(4) {
+  top: 36px;
+}
+
+.nav-icon.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+.nav-icon.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.nav-icon.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.nav-icon.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
 }
 .navbar{
-	visibility: none;
+	display: none;
 }
-.banner-img{
-	float: left;
-	display: block;
-	width: 96%;
-	padding: 2%;
+	.drawer{
+		margin: 0% auto;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(180, 180, 180, 0.98);
+		color: white;
+	}
+
+	.drawer_btn_nav{
+		color: white;
+		font-size: 30px;
+		width: 100%;
+		margin: 5%;
+		padding: 5%;
+		display: table;
+		transition: background-color 0.5s ease;
+		text-decoration: none;
+	}
+	.drawer_btn_nav:hover{
+		color: #FF6C00;
+		background-color: rgba(255, 255, 255, 0.6);
+	}
+
+	.header{
+		width: 100%;
+		height: 100px;
+		margin: 0 auto;
+		text-align: center;
+		line-height: middle;}
+	.logo{
+		width: 90px;
+		float: left;
+		top: 4%;
+		padding: 2% 5%;
+	}
+	.banner-img{
+		float: left;
+		display: block;
+		width: 96%;
+		padding: 2%;
+	}
+	#about_text{
+		margin: 0 20px;
+		width: 90%;
+		float: left;
+	}
+	#skill{
+		width: 90%;
+		float: left;
+	}
 }
 
-}

@@ -45,7 +45,8 @@ a:hover{
     position: relative;
     overflow: hidden;
     text-align: center;
-    height: 20%;}
+    height: 20%;
+	font-family: 'Vollkorn SC'}
 .navbar-fixed{
 	top: 0;
     z-index: 99;
@@ -348,6 +349,7 @@ video{
 		display: table;
 		transition: background-color 0.5s ease;
 		text-decoration: none;
+		font-family: 'Vollkorn SC';
 	}
 	.drawer_btn_nav:hover{
 		color: #FF6C00;
@@ -381,5 +383,14 @@ video{
 		width: 90%;
 		float: left;
 	}
+	.project{
+	cursor: pointer;
+	width: 90%;
+	float: left;
+	position: relative;
+	margin: 0 3% auto;
+	padding: 1%;
+	display: block;
+	transition: all .2s ease-in-out;}
 }
 

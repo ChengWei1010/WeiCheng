@@ -231,7 +231,7 @@ video{
 	padding: 1%;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media all and (max-width: 350px) {
 .drawer-toggle-label{ 
 content: ''; 
 display: block; 

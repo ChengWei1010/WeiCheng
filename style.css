@@ -35,7 +35,6 @@ a{
 	padding-top: 2%;}
 .navbar{
     z-index: 100;
-    position: fixed;
 	margin: 20px;
 	font-size: 22px;
     position: relative;
@@ -156,13 +155,15 @@ a{
 	border-style: solid;
 	border-color: gray;
 	height: 96%;
-	width: 92%;
+	width: 88%;
 	margin: 1% 4%;
 	position: fixed;
 	top: 0;
 	left: 0;
+	overflow: scroll;
 }
 .close{
+	position: absolute;
 	cursor: pointer;
 	z-index: 101;
 	width: 50px;
@@ -181,25 +182,93 @@ a{
 	padding: 3%;
 }
 .banner{
-	margin: 10px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 2% 0;
 	text-align: center;
+	float: left;
+}
+.banner-img{
+	float: left;
+	display: block;
+	width: 48%;
+	padding: 1%;
 }
 .column{
 	width: auto;
 	float: left;
-	margin: 20px;
+	margin: 1% 3%;
 }
 .title{
 	font-size: 20px;
 }
-
+.detail{
+	display: none;
+}
 #connected{
 	margin-top: 5%;
 	font-size: 22px;
 	font-family: 'Vollkorn SC';
 	color: white;}
-
+#video_famifilm{
+	display: none;
+}
+#overlay{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+}
 img.project-size{
 	width: 100%;
 	height: auto;}
 img#pdf{width: 10%;}
+video{
+	width:70%;
+	height:70%;
+	padding: 1%;
+}
+
+@media only screen and (max-device-width: 480px) {
+.drawer-toggle-label{ 
+content: ''; 
+display: block; 
+position: absolute; 
+height: 3px; 
+width: 40px; 
+background: #8d8d8d; 
+right: 5%;
+top: 5%; 
+box-shadow: 0 10px 0 #8d8d8d, 0 20px 0 #8d8d8d; } 
+
+.header{
+	width: 100%;
+	height: 10%;
+	margin: 0 auto;
+	text-align: center;
+	/*height: 30%;*/}
+.logo{
+	width: 10%;
+	float: left;
+	padding: 2% 5%;
+}
+.navbar.responsive .btn_nav {
+    display: none;
+}
+.navbar div.icon {
+	float: right;
+	display: block;
+}
+.navbar{
+	visibility: none;
+}
+.banner-img{
+	float: left;
+	display: block;
+	width: 96%;
+	padding: 2%;
+}
+
+}

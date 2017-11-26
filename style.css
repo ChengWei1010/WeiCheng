@@ -28,9 +28,6 @@ a{
 	color: white;
 	text-decoration: none;
 }
-a:hover{
-	color: #FF6C00;
-}
 .header{
 	margin: 0 auto;
 	text-align: center;
@@ -52,7 +49,7 @@ a:hover{
     z-index: 99;
     position: fixed;
     width: 100%;
-    height: 30px;
+    height: 43px;
 	margin: 0;
 	font-size: 22px;
 	padding: 10px;
@@ -69,6 +66,9 @@ a:hover{
 .btn_nav:hover{
 	color: #FF6C00;
 	background-color: rgba(255, 255, 255, 0.6);
+}
+.a_nav:hover{
+	color: #FF6C00;
 }
 .light{
 	color: #FF6C00;}
@@ -110,9 +110,9 @@ a:hover{
 }
 /*icons*/
 .fa {
-    padding: 2%;
-    font-size: 30px;
-    width: 3%;
+    padding: 1%;
+    line-height: 50px;
+    width: 55px;
     margin: 1%;
     text-align: center;
     text-decoration: none;
@@ -130,12 +130,12 @@ a:hover{
 	margin: 1% 4% 1% 1%;
 }
 .project-type{
-	width: 10%;
+	width: 15%;
 	padding: 0% 3%;
 	float: left;
 }
 .slideshow-container {
-	max-width: 70%;
+	max-width: 90%;
 	overflow: auto;
 	position: relative;
 	margin: 1%;
@@ -243,16 +243,51 @@ video{
 .drawer{
 	display: none;
 }
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 2px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 2px 6px;
+    float: left;
+    display: inline-block;
+    width: 24.99999%;
+    position: relative;
+}
+
+
+/******************************************************/
+/******************************************************/
+/******************************************************/
 @media screen and (max-width: 600px) {
-	.drawer-toggle{ 
-		cursor: pointer;
-		display: block; 
-		position: absolute; 
-		height: 56px; 
-		width: 30px; 
-		right: 6%;
-		top: 6%; 
-	}
+.drawer-toggle{ 
+	cursor: pointer;
+	display: block; 
+	position: absolute; 
+	height: 56px; 
+	width: 30px; 
+	right: 6%;
+	top: 6%; 
+}
+.project-type{
+	width: 30%;
+	padding: 0% 3%;
+	float: left;
+}
 
 /* Icon 3 */
 .nav-icon{
@@ -363,10 +398,10 @@ video{
 		text-align: center;
 		line-height: middle;}
 	.logo{
-		width: 90px;
+		width: 100px;
 		float: left;
 		top: 4%;
-		padding: 2% 5%;
+		padding-left: 4%;
 	}
 	.banner-img{
 		float: left;
@@ -392,5 +427,29 @@ video{
 	padding: 1%;
 	display: block;
 	transition: all .2s ease-in-out;}
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
 }
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 

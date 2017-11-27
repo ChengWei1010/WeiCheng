@@ -42,8 +42,7 @@ a{
     position: relative;
     overflow: hidden;
     text-align: center;
-    height: 20%;
-	font-family: 'Vollkorn SC'}
+    height: 20%;}
 .navbar-fixed{
 	top: 0;
     z-index: 99;

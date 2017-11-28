@@ -28,116 +28,145 @@
 	<div class="nav-icon">
 	  <span></span> <span></span> <span></span> <span></span>
 	</div>
-
-	<div class="header">
+	<header>
 		<img class="logo" src="img/logo.png" alt="">
-		<div class="navbar">
-			<span class="btn_nav"><a href="index.html" class="a_nav">ABOUT ME</a></span>
-			<span class="btn_nav"><a href="projects.html" class="a_nav light">PROJECT</a></span>
-			<span class="btn_nav"><a href="artwork.html" class="a_nav">ARTWORK</a></span>
-		</div></div>
-	<div class="row">
-		<img class="project-type" src="img/app.png"/>
-		<div class="slideshow-container">
-		    <div class="mask">
-			    <div class="project">
-			    	<h2>TripGIF-group mode</h2>
-			    </div>
-			</div>
+	</header>
+	<nav>
+		<span class="btn_nav"><a href="index.html" class="a_nav">ABOUT ME</a></span>
+		<span class="btn_nav"><a href="projects.html" class="a_nav light">PROJECT</a></span>
+		<span class="btn_nav"><a href="artwork.html" class="a_nav">ARTWORK</a></span>
+	</nav>
 
-		    <div class="project">
-		    	<h2>FamiFilm</h2>
-		    </div>
-		</div></div>
+	<article>
 	<div class="row">
-		<img class="project-type" src="img/web.png"/>
-		<div class="slideshow-container">
+	    <div class="mask">
 		    <div class="project">
-		    	<h2>TripGIF-KS exhibition</h2>
+		    	<h2>TripGIF-group mode</h2>
 		    </div>
-		    <a href="http://bm.nsysu.edu.tw/krtc-competition2016/home.php">
-			    <div class="project">
-			    	<img class="project-size" src="projects/krtco.png" alt="">
-			    	<h2>Kaohsiung Rapid Transit Co.</h2>
-			    	<h3>front-end develop</h3>
-			    </div>
-		    </a>
-		</div></div>
-	<div class="row">
-		<img class="project-type" src="img/game.png"/>
-		<div class="slideshow-container">
-		    <div class="project" onclick="openProject('game')">
-		    	<img class="project-size" src="projects/nsysuhero.png" alt="">
-		    	<h2>NSYSU hero</h2>
-		    	<h3>Unity game UI design</h3>
-		    </div>
-		</div></div>
-	<div class="row">
-		<img class="project-type" src="img/video.png"/>
-		<div class="slideshow-container">
-		    <div class="project" onclick="openProject('video_famifilm')">
-		    	<img class="project-size" src="projects/video_famifilm.png" alt="">
-		    	<h2>FamiFilm DEMO Video</h2>
-		    	<h3>video editing</h3>
-		    </div>
-		    <div class="project">
-		    	<a href="https://www.facebook.com/MSPTaiwan/videos/1454761914554866/">
-			    	<img target="_blank" class="project-size" src="projects/video_msp.png" alt="">
-			    	<h2>Microsoft Student Partners FAQ Video</h2>
-			    	<h3>video editing</h3>
-		    	</a>
-		    </div>
-		</div></div>
+		</div>
 
-	<div class="footer">
-		<span id="connected">Connect with me:</span><br>
-		<a href="https://www.facebook.com/WeiChengLily" class="fa fa-facebook" style="font-size:25px"></a>
-		<a href="https://github.com/ChengWei1010" class="fa fa-github" style="font-size:25px"></a>
-		<a href="https://www.linkedin.com/in/wei-cheng-280045130/" class="fa fa-linkedin" style="font-size:25px"></a>
+	    <div class="project">
+	    	<h2>FamiFilm</h2>
+	    </div>
 	</div>
+	<div class="row">
+	    <div class="project" onclick="openProject('trip-ks')">
+	    	<img class="project-size" src="projects/trip-ks.png" alt="">
+	    	<h2>TripGIF-KS Exhibition Website</h2>
+	    	<h3>front-end develop</h3>
+	    </div>
+	    <a href="http://bm.nsysu.edu.tw/krtc-competition2016/home.php">
+		    <div class="project">
+		    	<img class="project-size" src="projects/krtco.png" alt="">
+		    	<h2>Kaohsiung Rapid Transit Co. Website</h2>
+		    	<h3>front-end develop</h3>
+		    </div>
+	    </a>
+	</div>
+	<div class="row">
+	    <div class="project-small" onclick="openProject('game')">
+	    	<img class="project-size" src="projects/nsysuhero.png" alt="">
+	    	<h2>NSYSU HERO</h2>
+	    	<h3>Unity game UI design</h3>
+	    </div>
+	    <div class="project-small" onclick="openProject('video_famifilm')">
+	    	<img class="project-size" src="projects/video_famifilm.png" alt="">
+	    	<h2>FamiFilm DEMO Video</h2>
+	    	<h3>video editing</h3>
+	    </div>
+	    <div class="project-small">
+	    	<a href="https://www.facebook.com/MSPTaiwan/videos/1454761914554866/">
+		    	<img target="_blank" class="project-size" src="projects/video_msp.png" alt="">
+		    	<h2>Microsoft Student Partners FAQ Video</h2>
+		    	<h3>video editing</h3>
+	    	</a>
+	    </div>
+	</div>
+	</article>
 	<div class="project-content">
-		<span class="close" onclick="closeProject()">&times;</span>
+		<div class="close" onclick="closeProject()">&times;</div>
+			<div class="detail" id="trip-ks">
+				<div class="banner">
+					<h5>TripGif - Website for Kaohsiung EcoMobility World Festival</h5>
+					<img class="banner-img-small" src="projects/trip-1.png" alt="">
+					<img class="banner-img-small" src="projects/trip-2.png" alt="">
+
+					<div class="prow">
+						<div class="pcol">
+							<h4>Company</h4>TripGIF<br>Kaohsiung, Taiwan
+						</div>
+						<div class="pcol">
+							<h4>Duration</h4>5 months
+						</div>
+					</div>
+					<div class="prow">
+						<div class="pcol">
+							<h4>Position</h4>Front-end Developer
+						</div>
+						<div class="pcol">
+							<h4>Tools</h4>
+							<li>HTML, CSS, javascript</li>
+						</div>
+					</div>
+					<div class="prow">
+						<h4>Description</h4>
+						 This website is customized for Eco-Mobility Festival. Users can uploaded images to the web service ,and the imbedded google map can show the image on the street scene based on each location. I am responsible for communicate with back-end developers and the visual designer, turning visual design into front-end code.
+						 </div>
+					</div>
+					<img class="banner-img-big" src="projects/trip-0.png" alt="">
+				</div>
 			<div class="detail" id="game">
 				<div class="banner">
-				<h4>NSYSU Hero - Unity 2D Game</h4>
+				<h5>NSYSU Hero - Unity 2D Game</h5>
 					<img class="banner-img" src="projects/nsysuhero_instruc.png" alt="">
 					<img class="banner-img" src="projects/nsysuhero_game.png" alt="">
 				</div>
-				<div class="column">
-					<span class="title">Position</span><br>
-					Game Scene Design<br>
-					User Interface Design
+				<div class="prow">
+				<div class="pcol">
+					<h4>Position</h4>
+					<li>Game Scene Design</li>
+					<li>User Interface Design</li>
 				</div>
-				<div class="column">
-					<span class="title">Tools</span><br>
-					Adobe Photoshop<br>
-					Unity
+				<div class="pcol">
+					<h4>Tools</h4>
+					<li>Adobe Photoshop</li>
+					<li>Unity</li>
 				</div>
-
-				<div class="column">
-					<span class="title">Description</span><br>
-					Located near a mountain, National Sun-Yat sen University is famous for monkeys. Student may be attacked by monkeys everyday, they often robbed people's food carrying in hand. This 2D game was made in a coding club marathon of Department of Information Management. 
+				</div>
+				<div class="prow">
+					<h4>Description</h4>
+					Located near a mountain, National Sun-Yat sen University is famous for monkeys. Student may be attacked by monkeys everyday, they often robbed people's food carrying in hand. This 2D game was made in a coding club hackathon competition of Department of Information Management. <br>
+					<br>
+					Play it : 
+					<a href="https://chengwei1010.github.io/nsysuHero/">
+						game link
+					</a>
 				</div>
 			</div>
 		<div class="detail" id="video_famifilm">
 			<div class="banner">
-			<h4>FamiFilm DEMO Video - NSYSU graduation project</h4>
+			<h5>FamiFilm DEMO Video - NSYSU graduation project</h5>
 				<video id="vid" controls>
 		  			<source src="projects/video_famifilm_demo.mp4" type="video/mp4">
 				</video>
 			</div>
-			<div class="column">
-				<span class="title">Tools</span><br>
-				iMovie<br>
-				keynote
-			</div>
-
-			<div class="column">
-				<span class="title">Description</span><br>
+			<div class="pcol">
+				<h4>Tools</h4>
+				<li>iMovie</li>
+				<li>keynote</li>
+				<br>
+				<h4>Description</h4>
 				This is the graduation project mobile application demo video.<br>It introduces the main funtions of the app in Chinese and English.
 			</div>
 		</div>
 	</div>
 	<div id="overlay" onclick="closeProject()"></div>
+		<footer>
+		<span>Connect with me:</span><br>
+		<a target="_blank" href="https://www.facebook.com/WeiChengLily" class="fa fa-facebook" style="font-size:25px"></a>
+		<a target="_blank" href="https://github.com/ChengWei1010" class="fa fa-github" style="font-size:25px"></a>
+		<a target="_blank" href="https://www.linkedin.com/in/wei-cheng-280045130/" class="fa fa-linkedin" style="font-size:25px"></a><br>
+		<span class="copyright">made by WEI CHENG, 2017.</span><br>
+	</footer>
 </body>
 </html>

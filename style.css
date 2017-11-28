@@ -56,7 +56,7 @@ footer{
 	font-size: 15px;
 }
 article{
-	padding: 0 6%;
+	padding: 1% 6%;
 }
 nav{
 	text-align: center;
@@ -318,6 +318,10 @@ div.gallery img {
 /******************************************************/
 /******************************************************/
 @media screen and (max-width: 600px) {
+#avatar{
+	width: 100%;
+	padding: 10% 20%;
+}
 .drawer-toggle{ 
 	cursor: pointer;
 	display: block; 

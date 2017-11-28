@@ -10,7 +10,9 @@ body{
 	margin: 0;
 	padding: 0;
 	/*background: url("img/bg.png");*/
-	font-family: 'Chivo-Regular';}
+	font-family: 'Chivo-Regular';
+	font-weight:350;
+	font-style:none;}
 h1{
 	color: #FF6C00;
 	margin: 20px 5px 10px 5px;}
@@ -37,6 +39,10 @@ p{
 a{
 	color: gray;
 	text-decoration: none;
+}
+b{
+	color: #269972;
+	font-weight:700;
 }
 header{
     padding: 1%;
@@ -150,8 +156,9 @@ nav{
 	width: 100%;
 	margin: 1% auto;
 	float: left;
+	padding: 0 10%;
 }
-.project{
+.project-small{
 	cursor: pointer;
 	width: 48%;
 	display: table;
@@ -161,20 +168,6 @@ nav{
 	margin: 0 1% auto;
 	padding: 1%;
 	background-color: rgba(248, 157, 70, 0.2);
-	border-radius: 8px;
-	transition: all .2s ease-in-out;
-}
-.project-small{
-	cursor: pointer;
-	width: 31.3%;
-	display: table;
-	margin: 0 auto;
-	float: left;
-	position: relative;
-	margin: 0 1% auto;
-	padding: 1%;
-	background-color: rgba(248, 157, 70, 0.2);
-	border-radius: 8px;
 	transition: all .2s ease-in-out;
 }
 .project:hover{
@@ -226,26 +219,32 @@ nav{
 	padding: 2% 0;
 	float: left;
 }
-.banner-img-big{
-	float: left;
-	display: block;
-	width: 98%;
-	padding: 1%;
-}
 .banner-img{
 	float: left;
 	display: block;
 	width: 46%;
 	padding: 1%;
 }
+.banner-img-big{
+	float: left;
+	display: block;
+	width: 98%;
+	padding: 1%;
+}
+.banner-img-medium{
+	float: left;
+	display: block;
+	width: 50%;
+	padding: 1%;
+}
 .banner-img-small{
 	float: left;
 	display: block;
-	width: 30%;
+	width: 33%;
 	padding: 1%;
 }
 .prow{
-	width: 38%;
+	width: 45%;
 	float: left;
 	text-align: left;
 	margin: 1%;	
@@ -276,11 +275,14 @@ nav{
 }
 img.project-size{
 	width: 100%;
-	height: auto;}
+	height: auto;
+	padding: 5% 5% 0 5%;
+}
 img#pdf{width: 10%;}
+
 video{
+	margin: 0 15% auto;
 	width:70%;
-	height:70%;
 	padding: 1%;
 }
 .drawer{
@@ -318,6 +320,12 @@ div.gallery img {
 /******************************************************/
 /******************************************************/
 @media screen and (max-width: 600px) {
+header{
+    height: 15%;
+    padding: 3%;
+    clear: left;
+    text-align: center;
+}
 #avatar{
 	width: 100%;
 	padding: 10% 20%;
@@ -482,6 +490,35 @@ nav{
         width: 49.99999%;
         margin: 6px 0;
     }
+    .project-small{
+		cursor: pointer;
+		width: 100%;
+		display: table;
+		margin: 1% auto;
+		float: left;
+		position: relative;
+		padding: 1%;
+		background-color: rgba(248, 157, 70, 0.2);
+		transition: all .2s ease-in-out;
+	}
+	.row{
+		width: 100%;
+		margin: 1% auto;
+		float: left;
+		padding: 0 1%;	
+	}
+    .prow{
+	width: 100%;
+	float: left;
+	text-align: left;
+	margin: 1%;	
+	}
+	.pcol{
+		width: 100%;
+		float: left;
+		text-align: left;
+		margin: 1%;
+	}
 }
 
 @media only screen and (max-width: 700px){
@@ -502,5 +539,6 @@ nav{
     display: table;
     clear: both;
 }
+
 
 

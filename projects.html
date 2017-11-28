@@ -39,82 +39,140 @@
 
 	<article>
 	<div class="row">
-	    <div class="mask">
-		    <div class="project">
-		    	<h2>TripGIF-group mode</h2>
-		    </div>
-		</div>
+	    <div class="project-small" onclick="openProject('app-trip')">
+	    	<img class="project-size" src="projects/app_trip.png" alt="">
+	    	<h2>TripGIF - iOS Application</h2>
+	    </div>
+		
 
-	    <div class="project">
-	    	<h2>FamiFilm</h2>
+	    <div class="project-small" onclick="openProject('app-famifilm')">
+	    	<img class="project-size" src="projects/app_famifilm.png" alt="">
+	    	<h2>FamiFilm - Android Application</h2>
 	    </div>
 	</div>
 	<div class="row">
-	    <div class="project" onclick="openProject('trip-ks')">
-	    	<img class="project-size" src="projects/trip-ks.png" alt="">
-	    	<h2>TripGIF-KS Exhibition Website</h2>
-	    	<h3>front-end develop</h3>
+	    <div class="project-small" onclick="openProject('trip-ks')">
+	    	<img class="project-size" src="projects/trip_ks.png" alt="">
+	    	<h2>TripGIF - KS Exhibition Website</h2>
 	    </div>
 	    <a href="http://bm.nsysu.edu.tw/krtc-competition2016/home.php">
-		    <div class="project">
+		    <div class="project-small">
 		    	<img class="project-size" src="projects/krtco.png" alt="">
-		    	<h2>Kaohsiung Rapid Transit Co. Website</h2>
-		    	<h3>front-end develop</h3>
+		    	<h2>Kaohsiung Rapid Transit Co. - Website</h2>
 		    </div>
 	    </a>
 	</div>
 	<div class="row">
 	    <div class="project-small" onclick="openProject('game')">
 	    	<img class="project-size" src="projects/nsysuhero.png" alt="">
-	    	<h2>NSYSU HERO</h2>
-	    	<h3>Unity game UI design</h3>
+	    	<h2>NSYSU HERO - Unity Game</h2>
 	    </div>
 	    <div class="project-small" onclick="openProject('video_famifilm')">
 	    	<img class="project-size" src="projects/video_famifilm.png" alt="">
-	    	<h2>FamiFilm DEMO Video</h2>
-	    	<h3>video editing</h3>
+	    	<h2>FamiFilm DEMO - Video Editing</h2>
 	    </div>
 	    <div class="project-small">
 	    	<a href="https://www.facebook.com/MSPTaiwan/videos/1454761914554866/">
 		    	<img target="_blank" class="project-size" src="projects/video_msp.png" alt="">
-		    	<h2>Microsoft Student Partners FAQ Video</h2>
-		    	<h3>video editing</h3>
+		    	<h2>Microsoft Student Partners FAQ - Video Editing</h2>
 	    	</a>
 	    </div>
 	</div>
 	</article>
 	<div class="project-content">
 		<div class="close" onclick="closeProject()">&times;</div>
-			<div class="detail" id="trip-ks">
+			<div class="detail" id="app-trip">
 				<div class="banner">
-					<h5>TripGif - Website for Kaohsiung EcoMobility World Festival</h5>
-					<img class="banner-img-small" src="projects/trip-1.png" alt="">
-					<img class="banner-img-small" src="projects/trip-2.png" alt="">
+					<h5>TripGif - iOS Mobile Application</h5>
+					<img class="banner-img" src="projects/app_trip.png" alt="">
+					<img class="banner-img-small" src="projects/trip_2.png" alt="">
 
 					<div class="prow">
 						<div class="pcol">
 							<h4>Company</h4>TripGIF<br>Kaohsiung, Taiwan
 						</div>
 						<div class="pcol">
-							<h4>Duration</h4>5 months
+							<h4>Duration</h4>6 months
 						</div>
 					</div>
 					<div class="prow">
 						<div class="pcol">
-							<h4>Position</h4>Front-end Developer
+							<h4>Position</h4>
+							<li>Team Leader of 6 people</li>
+							<li>Application Developer</li>
 						</div>
 						<div class="pcol">
 							<h4>Tools</h4>
-							<li>HTML, CSS, javascript</li>
+							<li>Swift3, Xcode</li>
 						</div>
 					</div>
 					<div class="prow">
 						<h4>Description</h4>
-						 This website is customized for Eco-Mobility Festival. Users can uploaded images to the web service ,and the imbedded google map can show the image on the street scene based on each location. I am responsible for communicate with back-end developers and the visual designer, turning visual design into front-end code.
-						 </div>
+						This project is collaborated with <b>MIS301 : System Analysis and Design Course</b> of NSYSU MIS department.
+						</div>
 					</div>
-					<img class="banner-img-big" src="projects/trip-0.png" alt="">
+				</div>			
+			<div class="detail" id="app-famifilm">
+				<div class="banner">
+					<h5>FamiFilm - Android Mobile Application</h5>
+					<img class="banner-img" src="projects/app_famifilm.png" alt="">
+				<div class="pcol">
+					<img class="banner-img-small" src="projects/app_famifilm1.png" alt="">
+					<img class="banner-img-small" src="projects/app_famifilm2.png" alt="">
+					<img class="banner-img-small" src="projects/app_famifilm3.png" alt="">
 				</div>
+				</div>
+				<div class="prow">
+					<div class="pcol">
+						<h4>Position</h4>
+						<li>Group Leader</li>
+						<li>User Interface Designer</li>
+						<br>
+						<h4>Duration</h4>9 months
+					</div>
+					<div class="pcol">
+						<h4>Tools</h4>
+						<li>sketch</li>
+						<li>Photoshop</li>
+						<li>java</li>
+						<li>Firebase Database</li>
+					</div>
+				</div>
+				<div class="prow">
+					<h4>Description</h4>
+						FamiFilm is the graduation milestone project for Information Management Department, NationalSun Yat-sen University.
+						<br><br>
+						Is is an android mobile application, by using images to represent functions include <b>group calendar</b>, <b>image phonebook</b>, <b>playing video</b> designed for family members of all ages.
+				</div>
+			</div>
+			<div class="detail" id="trip-ks">
+				<div class="banner">
+					<h5>TripGif - Website for Kaohsiung EcoMobility World Festival</h5>
+				<div class="pcol">
+					<img class="banner-img-medium" src="projects/trip_ks1.png" alt="">
+					<img class="banner-img-medium" src="projects/trip_ks2.png" alt="">
+				</div>
+					<img class="banner-img" src="projects/trip_ks0.png" alt="">
+				</div>
+					<div class="prow">
+						<div class="pcol">
+							<h4>Position</h4>Front-end Developer
+							<br><br>
+							<h4>Duration</h4>5 months
+						</div>
+						<div class="pcol">
+							<h4>Tools</h4>
+							<li>HTML, CSS, javascript</li>
+							<li>MySQL Database</li>
+							<br>
+							<h4>Company</h4>TripGIF<br>Kaohsiung, Taiwan							
+						</div>
+					</div>
+					<div class="prow">
+						<h4>Description</h4>
+						 This website is customized for Eco-Mobility Festival. Users can uploaded images to the web service ,and the imbedded google map can show the image on the street scene based on each location. <br><br>I am responsible for communicate with back-end developers and the visual designer, turning visual design into front-end code.
+						 </div>
+			</div>
 			<div class="detail" id="game">
 				<div class="banner">
 				<h5>NSYSU Hero - Unity 2D Game</h5>
@@ -137,26 +195,25 @@
 					<h4>Description</h4>
 					Located near a mountain, National Sun-Yat sen University is famous for monkeys. Student may be attacked by monkeys everyday, they often robbed people's food carrying in hand. This 2D game was made in a coding club hackathon competition of Department of Information Management. <br>
 					<br>
-					Play it : 
+					Play it ! : 
 					<a href="https://chengwei1010.github.io/nsysuHero/">
 						game link
 					</a>
 				</div>
 			</div>
 		<div class="detail" id="video_famifilm">
-			<div class="banner">
 			<h5>FamiFilm DEMO Video - NSYSU graduation project</h5>
+			<div class="banner">
 				<video id="vid" controls>
 		  			<source src="projects/video_famifilm_demo.mp4" type="video/mp4">
 				</video>
-			</div>
-			<div class="pcol">
+			<div class="prow">
 				<h4>Tools</h4>
 				<li>iMovie</li>
-				<li>keynote</li>
-				<br>
+				<li>keynote</li><br>
 				<h4>Description</h4>
 				This is the graduation project mobile application demo video.<br>It introduces the main funtions of the app in Chinese and English.
+			</div>
 			</div>
 		</div>
 	</div>

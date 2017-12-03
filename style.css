@@ -1,7 +1,6 @@
 @charset "UTF-8";
 html, body {
 	height: 100%;
-	font-size: 100%;
 }
 article, aside, footer, header, main, nav, section {
   display: block;
@@ -9,9 +8,9 @@ article, aside, footer, header, main, nav, section {
 body{
 	margin: 0;
 	padding: 0;
-	/*background: url("img/bg.png");*/
-	font-family: 'Chivo-Regular';
-	font-weight:350;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	color: ;
 	font-style:none;}
 h1{
 	color: #FF6C00;
@@ -26,23 +25,22 @@ h3{
 	text-align: center;
 }
 h4{
-	margin: 0;
+	margin: 2% 0;
 	color: #FF6C00;
-	font-size: 20px;}
+	font-size: 19px;}
 h5{
 	margin: 1%;
 	color: gray;
 	font-size: 28px;}
 p{
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 29px;}
 a{
 	color: gray;
 	text-decoration: none;
 }
 b{
-	color: #269972;
-	font-weight:700;
+	color: #B1643B;
 }
 header{
     padding: 1%;
@@ -54,12 +52,12 @@ footer{
     clear: left;
     text-align: center;
 	font-size: 8px;
-	font-size: 22px;
+	font-size: 18px;
 	font-family: 'Vollkorn SC';
 	color: gray;
 }
 .copyright{
-	font-size: 15px;
+	font-size: 14px;
 }
 article{
 	padding: 1% 6%;
@@ -87,10 +85,9 @@ nav{
 	display: none;
 }
 .btn_nav{
-	font-size: 20px;
-	margin-left: 10px;
-	margin-right: 10px;
-	padding: 10px 25px;
+	font-size: 18px;
+	margin: 0 8px;
+	padding: 10px;
 	transition: background-color 0.5s ease;
 	text-decoration: none;}
 .btn_nav:hover{
@@ -113,7 +110,7 @@ nav{
 }
 #avatar{
 	width: 30%;
-	/*margin: 2%;*/
+	margin: 3%;
 	padding: 2%;
 	display: block;
 	float: left;

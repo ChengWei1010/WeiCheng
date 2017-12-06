@@ -9,8 +9,8 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans';
-	font-size: 16px;
-	color: ;
+	font-size: 17px;
+	line-height: 28px;
 	font-style:none;}
 h1{
 	color: #FF6C00;
@@ -25,7 +25,7 @@ h3{
 	text-align: center;
 }
 h4{
-	margin: 2% 0;
+	margin: 5px 0;
 	color: #FF6C00;
 	font-size: 19px;}
 h5{
@@ -33,7 +33,7 @@ h5{
 	color: gray;
 	font-size: 28px;}
 p{
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 29px;}
 a{
 	color: gray;
@@ -51,7 +51,6 @@ footer{
     padding: 3%;
     clear: left;
     text-align: center;
-	font-size: 8px;
 	font-size: 18px;
 	font-family: 'Vollkorn SC';
 	color: gray;
@@ -117,18 +116,19 @@ nav{
 }
 #about_text{
 	display: inline;
-	margin: 0 20px;
+	margin: 0 2%;
 	width: 60%;
 	float: left;
 }
 #skill{
 	display: inline;
 	width: 30%;
-	margin: 0 20px;
-	float: left;
+	margin: 0 2%;
+	float: right;
 }
 /*icons*/
-.fa {
+.fa {}
+.foot {
     padding: 10px;
     width: 55px;
     height: 50px;
@@ -138,9 +138,15 @@ nav{
     text-decoration: none;
     border: gray solid 2px;
     color: gray;}
+.icon{
+	padding: 3px 6px 3px 0px; 
+    text-decoration: none;
+    color: #FF6C00;}
+}
 .fa-facebook:hover{
 	color: white;
-    background-color: #3D549C;}
+    background-color: #3D549C;
+}
 .fa-github:hover{
 	color: white;
     background-color: #171515;
@@ -185,7 +191,7 @@ nav{
 	background-color: rgba(255, 255, 255, 0.98);
 	height: 96%;
 	width: 90%;
-	padding: 0 3% 3% 3%;
+	padding: 3% 3% 3% 3%;
 	margin: 1% 5% auto;
 	position: fixed;
 	top: 0;
@@ -240,13 +246,21 @@ nav{
 	width: 33%;
 	padding: 0.5%;
 }
-.prow{
-	width: 45%;
-	float: left;
-	text-align: left;
-	margin: 0.5%;	
+.prow {
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin: 0.5%;
+    padding: 0 10%;
 }
 .pcol{
+	width: auto;
+	float: left;
+	text-align: left;
+	margin: 0.5%;
+    padding: 0% 1.5%;
+}
+.pcol-img{
 	width: 52%;
 	float: left;
 	text-align: left;
@@ -323,6 +337,14 @@ header{
     clear: left;
     text-align: center;
 }
+footer{
+    padding: 10%;
+    clear: left;
+    text-align: center;
+	font-size: 18px;
+	font-family: 'Vollkorn SC';
+	color: gray;
+}
 #avatar{
 	width: 100%;
 	padding: 10% 20%;
@@ -336,14 +358,28 @@ header{
 	right: 6%;
 	top: 6%; 
 }
-
+.close{
+	position: absolute;
+	cursor: pointer;
+	z-index: 101;
+	width: 45px;
+	height: 45px;
+	font-size: 45px;
+	line-height: 45px;
+	text-align: center;
+	float: right;
+	top: 0;
+	right: 0;
+	color: white;
+	background-color: gray;
+}
 /* Icon 3 */
 .nav-icon{
   width: 35px;
   height: 45px;
   position: absolute;
-  top: 4%;
-  right: 4%;
+  top: 6%;
+  right: 6%;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -466,32 +502,24 @@ nav{
 		float: left;
 	}
 	.project{
-	cursor: pointer;
-	width: 90%;
-	float: left;
-	position: relative;
-	margin: 1.5% auto;
-	padding: 3%;
-	display: block;
-	transition: all .2s ease-in-out;}
+		cursor: pointer;
+		width: 90%;
+		float: left;
+		position: relative;
+		margin: 1.5% auto;
+		padding: 3%;
+		display: block;
+		transition: all .2s ease-in-out;
+	}
+	.responsive {
+	    width: 49.99999%;
+	    margin: 6px 0;
+	}
 	.project-small{
-	cursor: pointer;
-	width: 90%;
-	float: left;
-	position: relative;
-	margin: 1.5% auto;
-	padding: 3%;
-	display: block;
-	transition: all .2s ease-in-out;}
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-    .project-small{
 		cursor: pointer;
 		width: 100%;
 		display: table;
-		margin: 1% auto;
+		margin: 6% 0% auto;
 		float: left;
 		position: relative;
 		padding: 1%;
@@ -504,13 +532,18 @@ nav{
 		float: left;
 		padding: 0 1%;	
 	}
-    .prow{
-	width: 100%;
-	float: left;
-	text-align: left;
-	margin: 1%;	
+	.prow{
+		width: 100%;
+		float: left;
+		text-align: left;
+		padding: 4%;
 	}
 	.pcol{
+		width: 100%;
+		float: left;
+		text-align: left;
+	}
+	.pcol-img{
 		width: 100%;
 		float: left;
 		text-align: left;

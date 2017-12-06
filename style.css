@@ -149,7 +149,7 @@ footer{
 }
 .fa-facebook:hover{
 	color: white;
-    background-color: #3D549C;
+    background-color: #0096D6;
 }
 .fa-github:hover{
 	color: white;
@@ -352,7 +352,7 @@ video{
     vertical-align: middle;
     -webkit-appearance: none;
     color: gray;
-    background-color: 
+    background-color:white; 
 }
 
 .btn:hover {
@@ -380,14 +380,21 @@ header{
     padding: 1%;
     clear: left;
     text-align: center;
-	height: 120px;
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	z-index: 98;
 }
 nav{
 	text-align: center;
 	padding-bottom: 2%;
     background-color: red;
 	height: 50%;
-	display: none;    
+	display: none;   
+}
+article{
+	position: relative;
+	padding: 85px 6%;
 }
 footer{
     padding: 10%;
@@ -411,7 +418,7 @@ footer{
 	top: 6%; 
 }
 .close{
-	position: absolute;
+	position: fixed;
 	cursor: pointer;
 	z-index: 101;
 	width: 45px;
@@ -425,12 +432,18 @@ footer{
 	color: white;
 	background-color: gray;
 }
+.logo{
+	width: 60px;
+	float: left;
+	left: 6%;
+	position: absolute;
+}
 /* Icon 3 */
 .nav-icon{
   width: 35px;
   height: 45px;
-  position: absolute;
-  top: 6%;
+  position: fixed;
+  top: 4%;
   right: 6%;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -441,6 +454,7 @@ footer{
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   cursor: pointer;
+  z-index: 99;
 }
 
 .nav-icon span{
@@ -480,7 +494,6 @@ footer{
   width: 0%;
   left: 50%;
 }
-
 .nav-icon.open span:nth-child(2) {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -512,100 +525,92 @@ footer{
     -moz-column-width: 33.33333333333333%;
     column-width: 33.33333333333333%;
 }
-	.drawer{
-		margin: 0% auto;
-		width: 100%;
-		height: 100%;
-		background-color: white;
-		color: white;
-	}
+.drawer{
+	padding: 40px;
+	margin: 0 auto;
+	background-color: white;
+	color: white;
+	position: absolute;
+}
 
-	.drawer_btn_nav{
-		color: white;
-		font-size: 30px;
-		width: 100%;
-		margin: 5%;
-		padding: 5%;
-		display: table;
-		transition: background-color 0.5s ease;
-		text-decoration: none;
-	}
-	.drawer_btn_nav:hover{
-		color: #FF6C00;
-		background-color: rgba(255, 255, 255, 0.6);
-	}
-	.logo{
-		width: 100px;
-		float: left;
-		top: 4%;
-		padding-left: 4%;
-	}
-	.banner-img{
-		float: left;
-		display: block;
-		width: 96%;
-		padding: 2%;
-	}
-	#about_text{
-		margin: 0 20px;
-		width: 90%;
-		float: left;
-	}
-	#skill{
-		width: 90%;
-		float: left;
-	}
-	.project{
-		cursor: pointer;
-		width: 90%;
-		float: left;
-		position: relative;
-		margin: 1.5% auto;
-		padding: 3%;
-		display: block;
-		transition: all .2s ease-in-out;
-	}
-	.responsive {
-	    width: 49.99999%;
-	    margin: 6px 0;
-	}
-	.project-small{
-		cursor: pointer;
-		width: 100%;
-		display: table;
-		margin: 6% 0% auto;
-		float: left;
-		position: relative;
-		padding: 1%;
-		background-color: rgba(248, 157, 70, 0.2);
-		transition: all .2s ease-in-out;
-	}
-	.row{
-		width: 100%;
-		margin: 1% auto;
-		float: left;
-		padding: 0 1%;	
-	}
-	.prow{
-		width: 100%;
-		float: left;
-		text-align: left;
-		padding: 4%;
-	}
-	.pcol{
-		width: 100%;
-		float: left;
-		text-align: left;
-	}
-	.pcol-img{
-		width: 100%;
-		float: left;
-		text-align: left;
-		margin: 1%;
-	}
-	.toolbar{
-		top:
-	}
+.drawer_btn_nav{
+	color: white;
+	font-size: 30px;
+	line-height: 60px;
+	width: 100%;
+	margin: 5%;
+	padding: 5%;
+	display: table;
+	transition: background-color 0.5s ease;
+	text-decoration: none;
+}
+.drawer_btn_nav:hover{
+	color: #FF6C00;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+.banner-img{
+	float: left;
+	display: block;
+	width: 96%;
+	padding: 2%;
+}
+#about_text{
+	margin: 0 20px;
+	width: 90%;
+	float: left;
+}
+#skill{
+	width: 90%;
+	float: left;
+}
+.project{
+	cursor: pointer;
+	width: 90%;
+	float: left;
+	position: relative;
+	margin: 1.5% auto;
+	padding: 3%;
+	display: block;
+	transition: all .2s ease-in-out;
+}
+.responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+}
+.project-small{
+	cursor: pointer;
+	width: 100%;
+	display: table;
+	margin: 6% 0% auto;
+	float: left;
+	position: relative;
+	padding: 1%;
+	background-color: rgba(248, 157, 70, 0.2);
+	transition: all .2s ease-in-out;
+}
+.row{
+	width: 100%;
+	margin: 1% auto;
+	float: left;
+	padding: 0 1%;	
+}
+.prow{
+	width: 100%;
+	float: left;
+	text-align: left;
+	padding: 4%;
+}
+.pcol{
+	width: 100%;
+	float: left;
+	text-align: left;
+}
+.pcol-img{
+	width: 100%;
+	float: left;
+	text-align: left;
+	margin: 1%;
+}
 }
 
 @media only screen and (max-width: 700px){

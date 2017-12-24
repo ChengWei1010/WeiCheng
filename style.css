@@ -194,7 +194,6 @@ footer{
 	z-index: 100;
 	background-color: rgba(255, 255, 255, 0.98);
 	height: 96%;
-	width: 90%;
 	padding: 0% 3% 3% 3%;
 	margin: 1% 5% auto;
 	position: fixed;
@@ -229,7 +228,7 @@ footer{
 .banner-img{
 	float: left;
 	display: block;
-	width: 46%;
+	width: 45%;
 	padding: 1%;
 }
 .banner-img-big{
@@ -247,25 +246,25 @@ footer{
 .banner-img-small{
 	float: left;
 	display: block;
-	width: 33%;
+	width: 32%;
 	padding: 0.5%;
 }
 .prow {
-    width: 100%;
+    width: 90%;
     float: left;
     text-align: left;
     margin: 0.5%;
-    padding: 0 10%;
+    padding: 0 5%;
 }
 .pcol{
-	width: auto;
+	width: 20%;
 	float: left;
 	text-align: left;
 	margin: 0.5%;
     padding: 0% 1.5%;
 }
 .pcol-img{
-	width: 52%;
+	width: 50%;
 	float: left;
 	text-align: left;
 	margin: 1%;
@@ -445,8 +444,8 @@ footer{
   width: 35px;
   height: 45px;
   position: fixed;
-  top: 2%;
-  right: 3%;
+  top: 15px;
+  right: 15px;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -593,7 +592,7 @@ footer{
 	padding: 0 1%;	
 }
 .prow{
-	width: 100%;
+	width: 92%;
 	float: left;
 	text-align: left;
 	padding: 4%;

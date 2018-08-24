@@ -14,10 +14,10 @@ body{
 	line-height: 28px;
 	font-style:none;}
 h1{
-	color: #FF6C00;
-	margin: 20px 5px 10px 5px;}
+	font-family: 'Vollkorn SC';
+	font-size: 30px;}
 h2{
-	color: #FF6C00;
+	color: gray;
 	font-size: 18px;
 	text-align: center;}
 h3{
@@ -25,6 +25,7 @@ h3{
 	font-size: 16px;
 	text-align: center;
 }
+/*h in projects*/
 h4{
 	margin: 5px 0;
 	color: #FF6C00;
@@ -44,7 +45,10 @@ b{
 	color: #B1643B;
 }
 header{
-    padding: 1%;
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+    padding: 2%;
     clear: left;
     text-align: center;
     background-color: #FFDEAD;
@@ -55,23 +59,26 @@ nav{
     background-color: #FFDEAD;
 }
 article{
-	padding: 2% 6%;
+	padding: 1%;
 }
 footer{
-    padding: 3%;
+    padding: 8%;
     clear: left;
     text-align: center;
 	font-size: 18px;
 	font-family: 'Vollkorn SC';
 	color: gray;
 }
+.introduce{
+	text-align: center;
+	padding: 14% 0 8% 0;
+}
 .copyright{
 	font-size: 14px;
 }
 
 .logo{
-	width: 10%;
-	margin: 1%;
+	width: 5%;
 }
 .navbar-fixed{
 	top: 0;
@@ -90,7 +97,7 @@ footer{
 }
 .btn_nav{
 	font-size: 18px;
-	margin: 0 8px;
+	margin: 10px;
 	padding: 10px;
 	transition: background-color 0.5s ease;
 	text-decoration: none;}
@@ -132,30 +139,32 @@ footer{
 	float: right;
 }
 /*icons*/
-.fa {}
-.foot {
+.fa {
     padding: 10px;
     width: 30px;
     height: 30px;
 	vertical-align: middle;
     margin: 1%;
     text-align: center;
-    text-decoration: none;
     border: gray solid 2px;
-    color: gray;}
+    color: gray;
+}
 .icon{
 	padding: 3px 6px 3px 0px; 
     text-decoration: none;
-    color: #FF6C00;}
+    color: #FF6C00;
 }
+
 .fa-facebook:hover{
 	color: white;
-    background-color: #0096D6;
+    background-color: #4360B5;
 }
+
 .fa-github:hover{
 	color: white;
     background-color: #171515;
 }
+
 .fa-linkedin:hover{
 	color: white;
     background-color: #0096D6;
@@ -377,7 +386,7 @@ video{
 /******************************************************/
 @media screen and (max-width: 600px) {
 header{
-    padding: 1%;
+    padding: 2%;
     clear: left;
     text-align: center;
 	height: 45px;
@@ -397,10 +406,10 @@ article{
 	padding: 65px 6%;
 }
 footer{
-    padding: 10%;
+    padding: 5%;
     clear: left;
     text-align: center;
-	font-size: 18px;
+	font-size: 19px;
 	font-family: 'Vollkorn SC';
 	color: gray;
 }

@@ -16,6 +16,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Vollkorn SC' rel='stylesheet'>	
+
 	<title>WEI CHENG's Portfolio</title>
 </head>
 <body>
@@ -32,28 +33,26 @@
 		<!-- <img class="logo" src="img/logo.png" alt=""> -->
 		<a href="index.html" class="a_nav light"><span class="btn_nav">PROJECTS</span></a>
 		<a href="artwork.html" class="a_nav"><span class="btn_nav">ARTWORK</span></a>
-		<a href="WEICHENG.pdf" class="a_nav"><span class="btn_nav">RESUME</span></a>
+		<a target="_blank" href="WEICHENG.pdf" class="a_nav"><span class="btn_nav">RESUME</span></a>
 	</header>
-<!-- 	<nav>
-
-	</nav> -->
-	<article class="introduce">
+	
+	<!-- intro -->
+	<article class="intro">
 		<h1>Hello, I'm Wei Cheng.</h1>
-		<h2>
+		<p>
 			I am a web/app programmer, UI designer, and a runner.<br>
-			I am now studying Master of Information Science at University of Texas at Austin,<br>
-			interested in HCI and user experience design. 
-		</h2>
+			I am now studying Master of Information Studies at University of Texas at Austin,<br>
+			focusing in user experience design. 
+		</p>
 	</article>
-
+	
+	<!-- projects-small -->
 	<article>
 	<div class="row">
 	    <div class="project-small" onclick="openProject('app-trip')">
 	    	<img class="project-size" src="projects/app_trip.png" alt="">
 	    	<h2>TripGIF - iOS Application</h2>
 	    </div>
-		
-
 	    <div class="project-small" onclick="openProject('app-famifilm')">
 	    	<img class="project-size" src="projects/app_famifilm.png" alt="">
 	    	<h2>FamiFilm - Android Application</h2>
@@ -74,20 +73,14 @@
 	    	<img class="project-size" src="projects/nsysuhero.png" alt="">
 	    	<h2>NSYSU HERO - Unity Game</h2>
 	    </div>
-	    <div class="project-small" onclick="openProject('video_famifilm')">
-	    	<img class="project-size" src="projects/video_famifilm.png" alt="">
-	    	<h2>FamiFilm DEMO - Video Editing</h2>
-	    </div>
-	    <div class="project-small">
-	    	<a href="https://www.facebook.com/MSPTaiwan/videos/1454761914554866/">
-		    	<img target="_blank" class="project-size" src="projects/video_msp.png" alt="">
-		    	<h2>Microsoft Student Partners FAQ - Video Editing</h2>
-	    	</a>
-	    </div>
 	</div>
 	</article>
+	
+	<!-- project-content -->
 	<div class="project-content">
 		<div class="close" onclick="closeProject()">&times;</div>
+			
+			<!-- app-trip -->
 			<div class="detail" id="app-trip">
 				<div class="banner">
 					<h5>TripGif - iOS Mobile Application</h5>
@@ -98,137 +91,124 @@
 						<img class="banner-img-small" src="projects/app_trip3.png" alt="">
 					</div>
 				</div>
+				
 				<div class="prow">
-					<div class="pcol">
-						<h4><span class="fa icon fa-building" style="font-size:26px"></span>Company</h4>TripGIF<br>Kaohsiung, Taiwan
-					</div>
-					<div class="pcol">
-						<h4><span class="fa icon fa-clock-o" style="font-size:26px"></span>Duration</h4>6 months
-					</div>
-					<div class="pcol">
-						<h4><span class="fa icon fa-briefcase" style="font-size:26px"></span> 
-						Position</h4>
-						<li>Team Leader of 6 people</li>
-						<li>User Interface Developer</li>
-						<li>Database Developer</li>
-					</div>
-					<div class="pcol">
-						<h4><span class="fa icon fa-wrench" style="font-size:26px"></span> Tools</h4>
-						<li>Swift3, Xcode</li>
-					</div>
+					<h4>01 Background</h4>
+					<p>
+						This a term project for <b>MIS301 : System Analysis and Design Course</b> at NSYSU MIS department, lasted for one semester. I collaborated with a start-up company called Adventrip.
+						<br>
+						There are 6 people in my group, I acted as the user interface designer and developer.
+					</p>
+					<h4>02 Tools</h4>
+						<p>
+							Swift3, Xcode, Sketch
+						</p>
 				</div>
 				<div class="prow">
-					<h4><h4><span class="fa icon fa-pencil" style="font-size:26px"></span>Description</h4>
-					This project is start-up company TripGIF collaborated with <b>MIS301 : System Analysis and Design Course</b> of NSYSU MIS department for a semester.
-					<br><br>
-					<li><b>Home page</b>, users can simply click the join button and log in, the id is corresponding to each mobile device.
-					</li>
-					<li>In <b>Login page</b>, users can customized avatar and username. User can add a new group map or join an exist one by entering the special number.
-					</li>
-					<li><b>On Travel map</b>, all members' position are shown on the map according to each GPS location. There is a chat space for all members to send text or images.</li>
+					<h4>03 Description</h4>
+					<p>
+					In <b>Home page</b>, users can simply click the join button and log in, the id is corresponding to each mobile device.
+					<br>
+					In <b>Login page</b>, users can customized avatar and username. User can add a new group map or join an exist one by entering the special number.
+					<br>
+					<b>On Travel map</b>, all members' position are shown on the map according to each GPS location. There is a chat space for all members to send text or images.</li>
+					</p>
 				</div>
-			</div>		
+			</div>
+
+			<!-- app-famifilm -->
 			<div class="detail" id="app-famifilm">
 				<div class="banner">
 					<h5>FamiFilm - Android Mobile Application</h5>
 					<img class="banner-img" src="projects/app_famifilm.png" alt="">
-				<div class="pcol-img">
+					<div class="pcol-img">
 					<img class="banner-img-small" src="projects/app_famifilm1.png" alt="">
 					<img class="banner-img-small" src="projects/app_famifilm2.png" alt="">
 					<img class="banner-img-small" src="projects/app_famifilm3.png" alt="">
+					</div>
 				</div>
 				<div class="prow">
-					<div class="pcol">
-						<h4><span class="fa icon fa-clock-o" style="font-size:26px"></span>Duration</h4>9 months
-					</div>
-					<div class="pcol">
-						<h4><span class="fa icon fa-briefcase" style="font-size:26px"></span>Position</h4>
-						<li>Group Leader of 6 people</li>
-						<li>User Interface Designer</li>
-					</div>
-					<div class="pcol">
-						<h4><span class="fa icon fa-wrench" style="font-size:26px"></span>Tools</h4>
+					<h4>01 Background</h4>
+					<p>
+						FamiFilm is the graduation capstone project for Information Management Department, National Sun Yat-sen University, lasted for 9 months.
+					</p>
+					<h4>02 Tools</h4>
+					<p>
 						<li>Sketch, Photoshop</li>
 						<li>Java, Firebase Database</li>
-					</div>
-					</div>
+					</p>
 				</div>
 				<div class="prow">
-					<!-- <div class="pcol"> -->
-						<h4><span class="fa icon fa-pencil" style="font-size:26px"></span>Description</h4>
-							FamiFilm is the graduation capstone project for Information Management Department, National Sun Yat-sen University.
-							<br>
-							It is an android mobile application, by using images to represent functions include <b>Group Calendar</b>, <b>Image Phonebook</b>, <b>Playing Video</b>.<br>FamiFilm was designed for family members in all ages.
+					<h4>03 Description</h4>
+							It is an android mobile application, by using images to represent functions include <b>Group Calendar</b>, <b>Image Phonebook</b>, <b>Playing Video</b>.FamiFilm is designed for family members in all ages.
 							<br><br>
 							<li><b>Group Calendar</b> provides a shared place for families to add events, users can click on the bell icon to turn on notification.</li>
 							<li><b>Image Phonebook</b> show each members' photos, clicking on the photos can call that person or edit the contact information.</li>
-							<li><b>Playing Video</b> shows videos from other family members in that day. By sliding left or right, and clicking on the play button can easily control it.</li>
-					<!-- </div> -->
+							<li><b>Playing Video</b> shows videos from other family members in that day. By sliding left or right, and clicking on the play button can easily control it.</li><br>
+					<h4>04 Demo Video</h4>
+					<video id="vid" controls>
+		  			<source src="projects/video_famifilm_demo.mp4" type="video/mp4">
+					</video>
 				</div>
 			</div>
+
+			<!-- trip-ks -->
 			<div class="detail" id="trip-ks">
 				<div class="banner">
 					<h5>TripGif - Website for Kaohsiung EcoMobility World Festival</h5>
-				<div class="pcol">
-					<img class="banner-img-medium" src="projects/trip_ks1.png" alt="">
-					<img class="banner-img-medium" src="projects/trip_ks2.png" alt="">
-				</div>
-					<img class="banner-img" src="projects/trip_ks0.png" alt="">
-				</div>
 					<div class="prow">
-						<div class="pcol">
-							<h4><span class="fa icon fa-building" style="font-size:26px"></span>Company</h4>TripGIF<br>Kaohsiung, Taiwan
-						</div>
-						<div class="pcol">
-							<h4><span class="fa icon fa-clock-o" style="font-size:26px"></span>Duration</h4>5 months
-						</div>
-						<div class="pcol">
-							<h4><span class="fa icon fa-briefcase" style="font-size:26px"></span>Position</h4>Front-end Developer
-						</div>
-						<div class="pcol">
-							<h4><h4><span class="fa icon fa-wrench" style="font-size:26px"></span>Tools</h4>
-							<li>HTML, CSS, javascript</li>
-							<li>MySQL Database</li>						
-						</div>
+						<img class="banner-img-small" src="projects/trip_ks1.png" alt="">
+						<img class="banner-img-small" src="projects/trip_ks2.png" alt="">
+						<img class="banner-img-small" src="projects/trip_ks3.png" alt="">
+					</div>
+				</div>
+				<div class="prow">
+					<h4>01 Background</h4>
+						<p>
+						This website is customized for Eco-Mobility World Festival. Users can uploaded images to the web service ,and the imbedded google map can show the image on the street scene based on each location. 
+						</p>
+					<h4>02 Tool</h4>
+						<p>
+							HTML, CSS, javascript
+						</p>
 					</div>
 					<div class="prow">
-						<!-- <div class="pcol"> -->
-							<h4><span class="fa icon fa-pencil" style="font-size:26px"></span>Description</h4>
-							This website is customized for Eco-Mobility World Festival. Users can uploaded images to the web service ,and the imbedded google map can show the image on the street scene based on each location. <br><br>I am responsible for communicate with back-end developers and the visual designer, turning visual design into front-end code.
-							</div>
-						<!-- </div> -->
+						<h4>03 Description</h4>
+						<p>
+						I am responsible for communicate with back-end developers and the visual designer, turning visual design into frontend code.
+						</p>
+					</div>
 			</div>
+			
+			<!-- web-krtco -->
 			<div class="detail" id="web-krtco">
+				<h5>Website KRTCO</h5>
 				<div class="banner">
-					<h5>Website KRTCO</h5>
-					<div class="pcol">
-						<img class="banner-img-medium" src="projects/.png" alt="">
-						<img class="banner-img-medium" src="projects/.png" alt="">
+					<div class="prow">
+						<img class="banner-img" src="projects/krtco.png" alt="">
+						<img class="banner-img" src="projects/web_krtco1.png" alt="">
+					</div>
+					<div class="prow">
+						<img class="banner-img" src="projects/web_krtco2.png" alt="">
+						<img class="banner-img" src="projects/web_krtco3.png" alt="">
 					</div>
 				</div>
 					<div class="prow">
-						<div class="pcol">
-							<h4><span class="fa icon fa-building" style="font-size:26px"></span>Company</h4>Kaohsiung Rapid Transit Corporation<br>Kaohsiung, Taiwan
-						</div>
-						<div class="pcol">
-							<h4><span class="fa icon fa-clock-o" style="font-size:26px"></span>Duration</h4>6 months
-						</div>
-						<div class="pcol">
-							<h4><span class="fa icon fa-briefcase" style="font-size:26px"></span>Position</h4>Front-end Developer
-						</div>
-						<div class="pcol">
-							<h4><h4><span class="fa icon fa-wrench" style="font-size:26px"></span>Tools</h4>
-							<li>HTML, CSS, javascript</li>
-						</div>
+					<h4>01 Background</h4>
+					<p>
+						Kaohsiung Rapid Transit Corporation held a corporate image filming competition in 2016, and they need a online voting system including the rules and sign up information of the competition.
+					</p>
+					<h4>02 Tools</h4>
+					<p>
+						<li>HTML, CSS, javascript</li>						
+					</p>
 					</div>
 					<div class="prow">
-						<!-- <div class="pcol"> -->
-							<h4><span class="fa icon fa-pencil" style="font-size:26px"></span>Description</h4>
-							This is a website for a corporate image filming competition. <br>
-							I was in a web development team with 2 database developers. <br>
-							I acted as the <b>front-end developer</b>, analyzed the needs of the contest project manager and then communicated with the visual designer. Finally, I translated the design into code.
-						    <br><br>Visit the website : <a href="http://bm.nsysu.edu.tw/krtc-competition2016/home.php">link</a>
-						<!-- </div> -->
+						<h4>03 Description</h4>
+						This is a website for a corporate image filming competition. <br>
+						I was in a web development team with 2 database developers. <br>
+						I acted as the <b>front-end developer</b>, analyzed the needs of the contest project manager and then communicated with the visual designer. Finally, I translated the design into code.
+					    <br><br>Visit the website : <a class="a-link" href="http://bm.nsysu.edu.tw/krtc-competition2016/home.php">link</a>
 					</div>
 			</div>			
 			<div class="detail" id="game">
@@ -238,48 +218,28 @@
 					<img class="banner-img" src="projects/nsysuhero_game.png" alt="">
 				</div>
 				<div class="prow">
-					<div class="pcol">
-						<h4><span class="fa icon fa-clock-o" style="font-size:26px"></span>Duration</h4>1 week
-					</div>
-					<div class="pcol">
-						<h4><span class="fa icon fa-briefcase" style="font-size:26px"></span>Position</h4>
-						<li>Game Scene Design</li>
-						<li>User Interface Design</li>
-					</div>
-					<div class="pcol">
-						<h4><span class="fa icon fa-wrench" style="font-size:26px"></span>Tools</h4>
-						<li>Adobe Photoshop</li>
-						<li>Unity</li>
-					</div>
+				<h4>01 Background</h4>
+				<p>
+					This Unity 2D game was made in a 2 days <b>hackathon competition</b> of Department of Information Management. I did the game scene design and the user interface design.
+				</p>
+				<h4>02 Tools</h4>
+				<p>
+					<li>Photoshop</li>
+					<li>Unity</li>
+				</p>
 				</div>
 				<div class="prow">
 				<!-- <div class="pcol"> -->
 					<h4><span class="fa icon fa-pencil" style="font-size:26px"></span>Description</h4>
-					This 2D game was made in a <b>hackathon competition</b> of Department of Information Management. <br>
-					Located near a mountain, National Sun-Yat sen University is famous for monkeys. Student may be attacked by monkeys everyday, they often robbed people's food carrying in hand. 
+					Located near a mountain, National Sun-Yat sen University is famous for monkeys. Student may be attacked by monkeys everyday, they often robbed people's food carrying in hand. Use the mouse to controller the direction of the avatar, and shoot the monkeys to prevent them from grabbing your food!
 					<br><br>
 					Play it ! : 
-					<a href="https://chengwei1010.github.io/nsysuHero/">
-						game link (please use Safari or FireFox)
+					<a class="a-link" href="https://chengwei1010.github.io/nsysuHero/">
+						game link (use Safari or FireFox)
 					</a>
 				<!-- </div> -->
 				</div>
 			</div>
-			<div class="detail" id="video_famifilm">
-			<h5>FamiFilm DEMO Video - NSYSU graduation project</h5>
-			<div class="banner">
-				<video id="vid" controls>
-		  			<source src="projects/video_famifilm_demo.mp4" type="video/mp4">
-				</video>
-			<div class="prow">
-				<h4>Tools</h4>
-				<li>iMovie</li>
-				<li>keynote</li><br>
-				<h4>Description</h4>
-				This is the graduation project mobile <b>application demo video</b>.<br>It introduces the main funtions of the app in Chinese and English.<br>I use MacOS Keynote to layout the content and apply slides animation, then use iMovie to add sound effects and the background music. <br>This is a fast way to produce a short video clip.
-			</div>
-			</div>
-		</div>
 	</div>
 	<div id="overlay" onclick="closeProject()"></div>
 	<footer>
@@ -289,7 +249,7 @@
 		<a target="_blank" href="https://github.com/ChengWei1010"><i class="fa fa-github" style="font-size:25px"></i></a>
 				
 		<a target="_blank" href="https://www.linkedin.com/in/wei-cheng-280045130/"><i class="fa fa-linkedin" style="font-size:25px"></i></a>
-		<br><br>
+		<br>
 		<span class="copyright">&copy; created by wei cheng | 2018.</span><br>
 	</footer>
 </div>

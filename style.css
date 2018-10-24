@@ -47,11 +47,11 @@ b{
 }
 header{
 	position: fixed;
-	width: 100%;
+	width: 98%;
+	height: 5.5%;
 	z-index: 99;
-    padding: 2%;
+    padding: 1%;
     clear: left;
-    text-align: center;
     background-color: #FFDEAD;
 }
 nav{
@@ -79,7 +79,8 @@ footer{
 }
 
 .logo{
-	width: 5%;
+	width: 90px;
+	padding: 0 2%;
 }
 .navbar-fixed{
 	top: 0;
@@ -97,9 +98,10 @@ footer{
 	display: none;
 }
 .btn_nav{
-	font-size: 18px;
-	margin: 10px;
-	padding: 10px;
+	font-size: 16px;
+	margin: 4px;
+	padding: 6px 15px;
+	float: right;
 	transition: background-color 0.5s ease;
 	text-decoration: none;}
 .btn_nav:hover{
@@ -409,7 +411,7 @@ header{
     padding: 2%;
     clear: left;
     text-align: center;
-	height: 45px;
+	height: 5.5%;
 	width: 100%;
 	position: fixed;
 	z-index: 98;
@@ -466,7 +468,7 @@ footer{
 	background-color: gray;
 }
 .logo{
-	width: 43px;
+	/*width: 43px;*/
 	float: left;
 	left: 2%;
 	top: 1%;

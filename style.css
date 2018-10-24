@@ -74,6 +74,10 @@ footer{
 	text-align: center;
 	padding: 14% 5% 8% 5%;
 }
+.artwork{
+	text-align: center;
+	padding: 0% 5%;
+}
 .copyright{
 	font-size: 14px;
 }
@@ -436,6 +440,10 @@ footer{
 	color: gray;
 }
 .intro{
+	text-align: center;
+	padding: 20% 5% 0% 5%;
+}
+.artwork{
 	text-align: center;
 	padding: 20% 5% 0% 5%;
 }

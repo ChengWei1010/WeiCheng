@@ -29,27 +29,32 @@
 	<div class="nav-icon">
 	  <span></span> <span></span> <span></span> <span></span>
 	</div>
-<div class="wrapper">
+
 	<header>
-		<img class="logo" src="img/logo.png" alt="">
+		<img class="logo" src="img/logo.png" alt="logo">
 		<a target="_blank" href="WEICHENG.pdf" class="a_nav"><span class="btn_nav">RESUME</span></a>
 		<a href="https://medium.com/design-diary-by-wei-cheng" class="a_nav"><span class="btn_nav">DESIGN DIARY</span></a>
 		<a href="artwork.html" class="a_nav"><span class="btn_nav">ARTWORK</span></a>
 		<a href="index.html" class="a_nav light"><span class="btn_nav">PROJECTS</span></a>
 	</header>
-	
-	<!-- intro -->
-	<article class="intro">
-		<h1>Hi! I'm Wei Cheng</h1>
-		<p>
-			I am a graduate student currently studies at iSchool in University of Texas at Austin.<br>
-			I came from 3+ years frontend developer experience,<br>
-			currently focusing on user experience design.<br>
-		</p>
-	</article>
-	
+	<div class="parallax-index-1">
+		<article class="intro">
+			<h1>Hi! I'm Wei Cheng</h1>
+			<p>
+				A graduate student  studying at iSchool<br>at University of Texas at Austin.<br>
+				I have 3+ years frontend develop experience,<br>
+				now I'm focusing on<br>
+				<b>User Experience Design</b>.<br>
+			</p><br>
+			see my projects:<br>
+			<a href="#wrapper">
+				<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+			</a>
+		</article>
+	</div>
+<div class="wrapper" id="wrapper">
 	<!-- projects-small -->
-	<article>
+	<article class="index">
 	<div class="row">
 	    <div class="project-small" onclick="openProject('app-trip')">
 	    	<img class="project-size" src="projects/app_trip.png" alt="">
@@ -77,6 +82,13 @@
 	    </div>
 	</div>
 	</article>
+	<footer>
+		<span>Contact wei:</span><br>
+		<a target="_blank" href="https://www.facebook.com/WeiChengLily" class="fa foot fa-facebook" style="font-size:25px"></a>
+		<a target="_blank" href="https://github.com/ChengWei1010" class="fa foot fa-github" style="font-size:25px"></a>
+		<a target="_blank" href="https://www.linkedin.com/in/wei-cheng-280045130/" class="fa foot fa-linkedin" style="font-size:25px"></a><br>
+		<span class="copyright">&copy; WEI CHENG | 2018.</span><br>
+	</footer>
 	
 	<!-- project-content -->
 	<div class="project-content">
@@ -244,16 +256,6 @@
 			</div>
 	</div>
 	<div id="overlay" onclick="closeProject()"></div>
-	<footer>
-		Let's Get In Touch: <br>
-		<a target="_blank" href="https://www.facebook.com/WeiChengLily"><i class="fa fa-facebook" style="font-size:25px"></i></a>
-
-		<a target="_blank" href="https://github.com/ChengWei1010"><i class="fa fa-github" style="font-size:25px"></i></a>
-				
-		<a target="_blank" href="https://www.linkedin.com/in/wei-cheng-280045130/"><i class="fa fa-linkedin" style="font-size:25px"></i></a>
-		<br>
-		<span class="copyright">&copy; created by wei cheng | 2018.</span><br>
-	</footer>
 </div>
 </body>
 </html>

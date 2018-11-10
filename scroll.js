@@ -14,18 +14,18 @@ $(document).ready(function() {
   });
 });
 
-function openProject(name){
-   $('.project-content').fadeIn(200);
-   $('#' + name).show();
-   $('#overlay').show();
-}
+// function openProject(name){
+//    $('.project-content').fadeIn(200);
+//    $('#' + name).show();
+//    $('#overlay').show();
+// }
 
-function closeProject(){
-   $('.project-content').fadeOut(200);
-   $('.detail').hide();
-   $('#overlay').hide();
-   $('#vid')[0].pause();
-}
+// function closeProject(){
+//    $('.project-content').fadeOut(200);
+//    $('.detail').hide();
+//    $('#overlay').hide();
+//    $('#vid')[0].pause();
+// }
 
 $(document).ready(function(){
 	$('.nav-icon').click(function(){

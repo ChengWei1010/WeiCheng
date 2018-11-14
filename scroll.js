@@ -1,5 +1,7 @@
+$('.loader').fadeIn('fast').delay(2000).fadeOut('slow');
+// $('#loader').fadeIn('slow').delay(1000).hide(0);
+
 $(document).ready(function() {
-    
   $(window).scroll(function () {
       //if you hard code, then use console
       //.log to determine when you want the 

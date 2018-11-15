@@ -9,10 +9,11 @@
 	<link rel="icon" type="image/png" href="img/logo.png" sizes="16x16">
 	<link rel="icon" type="image/png" href="img/logo.png" sizes="32x32">
 
-	<!-- for IE -->
-	<link rel="icon" type="image/x-icon" href="img/logo.png" >
-	<link rel="shortcut icon" type="image/x-icon" href="img/logo.png"/>
-	<script src="https://code.jquery.com/jquery-1.10.2.js"></script></script>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+	<!-- AOS -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
@@ -94,15 +95,15 @@
 	</div> -->
 	<div class="row-index">
 		<h2>PROJECTS</h2>
-	    <a href="projects/game-nsysuhero.html">
-		   	<div class="project-small">
+	    <a href="projects/nsysuhero.html">
+		   	<div class="project-small" data-aos="fade-up">
 		    	<img class="project-size" src="projects/game_nsysuhero/nsysuhero.png" alt="">
 		    	<h3>NSYSU HERO</h3>
 		    	<h4>Game Design</h4>
 		    </div>
 	    </a>
-	    <a href="projects/web-krtco.html">
-		    <div class="project-small">
+	    <a href="projects/krtco.html">
+		    <div class="project-small" data-aos="fade-down">
 		    	<img class="project-size" src="projects/web_krtco/krtco.png" alt="">
 		    	<h3>Kaohsiung Rapid Transit Co. Website</h3>
 		    	<h4>Web UI Design & Develop</h4>
@@ -112,17 +113,17 @@
 	<div class="row-index">
 		<h2>ABOUT WEI</h2>
 		<p>I have 3+ years frontend develop experience, I am familiar with app development, web frontend development, database management in SQL, System Analysis and Design Methods. I am now interested in UI/UX design.</p>
-		<div class="traits">
+		<div class="traits" data-aos="flip-left">
 			<img src="svg/light.svg" class="svg-index"/><br>
 			<h3>Creative</h3>
 			<p>I like to try different design to create products that are interesting but useful. Check out my <a href="art.html">ART</a>!</p>
 		</div>
-		<div class="traits">
+		<div class="traits" data-aos="flip-left" data-aos-delay="500">
 			<img src="svg/love.svg" class="svg-index"/><br>
 			<h3>Empathetic</h3>
 			<p>Being a UX designer, it is important to listen to users and understand their needs. </p>
 		</div>
-		<div class="traits">
+		<div class="traits" data-aos="flip-left" data-aos-delay="1000">
 			<img src="svg/gear.svg" class="svg-index"/><br>
 			<h3>Problem Solver</h3>
 			<p>I like to take challenge and solve problems that are related to people's life. Visit my <a href="https://medium.com/design-diary-by-wei-cheng">Design Diary</a> too see more.</p>
@@ -145,173 +146,10 @@
 		<span class="copyright">&copy; WEI CHENG | 2018.</span><br>
 	</footer>
 	
-	<!-- project-content -->
-	<div class="project-content">
-		<div class="close" onclick="closeProject()">&times;</div>
-			
-			<!-- app-trip -->
-			<div class="detail" id="app-trip">
-				<div class="banner">
-					<h5>TripGif - iOS Mobile Application</h5>
-					<img class="banner-img" src="projects/app_trip.png" alt="">
-					<div class="pcol-img">
-						<img class="banner-img-small" src="projects/app_trip1.png" alt="">
-						<img class="banner-img-small" src="projects/app_trip2.png" alt="">
-						<img class="banner-img-small" src="projects/app_trip3.png" alt="">
-					</div>
-				</div>
-				
-				<div class="prow">
-					<h4>01 Background</h4>
-					<p>
-						This a term project for <b>MIS301 : System Analysis and Design Course</b> at NSYSU MIS department, lasted for one semester. I collaborated with a start-up company called Adventrip.
-						<br>
-						There are 6 people in my group, I acted as the user interface designer and developer.
-					</p>
-					<h4>02 Tools</h4>
-						<p>
-							Swift3, Xcode, Sketch
-						</p>
-				</div>
-				<div class="prow">
-					<h4>03 Description</h4>
-					<p>
-					In <b>Home page</b>, users can simply click the join button and log in, the id is corresponding to each mobile device.
-					<br>
-					In <b>Login page</b>, users can customized avatar and username. User can add a new group map or join an exist one by entering the special number.
-					<br>
-					<b>On Travel map</b>, all members' position are shown on the map according to each GPS location. There is a chat space for all members to send text or images.</li>
-					</p>
-				</div>
-			</div>
-
-			<!-- app-famifilm -->
-			<div class="detail" id="app-famifilm">
-				<div class="banner">
-					<h5>FamiFilm - Android Mobile Application</h5>
-					<img class="banner-img" src="projects/app_famifilm.png" alt="">
-					<div class="pcol-img">
-					<img class="banner-img-small" src="projects/app_famifilm1.png" alt="">
-					<img class="banner-img-small" src="projects/app_famifilm2.png" alt="">
-					<img class="banner-img-small" src="projects/app_famifilm3.png" alt="">
-					</div>
-				</div>
-				<div class="prow">
-					<h4>01 Background</h4>
-					<p>
-						FamiFilm is the graduation capstone project for Information Management Department, National Sun Yat-sen University, lasted for 9 months.
-					</p>
-					<h4>02 Tools</h4>
-					<p>
-						<li>Sketch, Photoshop</li>
-						<li>Java, Firebase Database</li>
-					</p>
-				</div>
-				<div class="prow">
-					<h4>03 Description</h4>
-							It is an android mobile application, by using images to represent functions include <b>Group Calendar</b>, <b>Image Phonebook</b>, <b>Playing Video</b>.FamiFilm is designed for family members in all ages.
-							<br><br>
-							<li><b>Group Calendar</b> provides a shared place for families to add events, users can click on the bell icon to turn on notification.</li>
-							<li><b>Image Phonebook</b> show each members' photos, clicking on the photos can call that person or edit the contact information.</li>
-							<li><b>Playing Video</b> shows videos from other family members in that day. By sliding left or right, and clicking on the play button can easily control it.</li><br>
-					<h4>04 Demo Video</h4>
-					<video id="vid" controls>
-		  			<source src="projects/video_famifilm_demo.mp4" type="video/mp4">
-					</video>
-				</div>
-			</div>
-
-			<!-- trip-ks -->
-			<div class="detail" id="trip-ks">
-				<div class="banner">
-					<h5>TripGif - Website for Kaohsiung EcoMobility World Festival</h5>
-					<div class="prow">
-						<img class="banner-img-small" src="projects/trip_ks1.png" alt="">
-						<img class="banner-img-small" src="projects/trip_ks2.png" alt="">
-						<img class="banner-img-small" src="projects/trip_ks3.png" alt="">
-					</div>
-				</div>
-				<div class="prow">
-					<h4>01 Background</h4>
-						<p>
-						This website is customized for Eco-Mobility World Festival. Users can uploaded images to the web service ,and the imbedded google map can show the image on the street scene based on each location. 
-						</p>
-					<h4>02 Tool</h4>
-						<p>
-							HTML, CSS, javascript
-						</p>
-					</div>
-					<div class="prow">
-						<h4>03 Description</h4>
-						<p>
-						I am responsible for communicate with back-end developers and the visual designer, turning visual design into frontend code.
-						</p>
-					</div>
-			</div>
-			
-			<!-- web-krtco -->
-			<div class="detail" id="web-krtco">
-				<h5>Website KRTCO</h5>
-				<div class="banner">
-					<div class="prow">
-						<img class="banner-img" src="projects/krtco.png" alt="">
-						<img class="banner-img" src="projects/web_krtco1.png" alt="">
-					</div>
-					<div class="prow">
-						<img class="banner-img" src="projects/web_krtco2.png" alt="">
-						<img class="banner-img" src="projects/web_krtco3.png" alt="">
-					</div>
-				</div>
-					<div class="prow">
-					<h4>01 Background</h4>
-					<p>
-						Kaohsiung Rapid Transit Corporation held a corporate image filming competition in 2016, and they need a online voting system including the rules and sign up information of the competition.
-					</p>
-					<h4>02 Tools</h4>
-					<p>
-						<li>HTML, CSS, javascript</li>						
-					</p>
-					</div>
-					<div class="prow">
-						<h4>03 Description</h4>
-						This is a website for a corporate image filming competition. <br>
-						I was in a web development team with 2 database developers. <br>
-						I acted as the <b>front-end developer</b>, analyzed the needs of the contest project manager and then communicated with the visual designer. Finally, I translated the design into code.
-					    <br><br>Visit the website : <a class="a-link" href="http://bm.nsysu.edu.tw/krtc-competition2016/home.php">link</a>
-					</div>
-			</div>			
-			<div class="detail" id="game">
-				<div class="banner">
-				<h5>NSYSU Hero - Unity 2D Game</h5>
-					<img class="banner-img" src="projects/nsysuhero_instruc.png" alt="">
-					<img class="banner-img" src="projects/nsysuhero_game.png" alt="">
-				</div>
-				<div class="prow">
-				<h4>01 Background</h4>
-				<p>
-					This Unity 2D game was made in a 2 days <b>hackathon competition</b> of Department of Information Management. I did the game scene design and the user interface design.
-				</p>
-				<h4>02 Tools</h4>
-				<p>
-					<li>Photoshop</li>
-					<li>Unity</li>
-				</p>
-				</div>
-				<div class="prow">
-				<!-- <div class="pcol"> -->
-					<h4><span class="fa icon fa-pencil" style="font-size:26px"></span>Description</h4>
-					Located near a mountain, National Sun-Yat sen University is famous for monkeys. Student may be attacked by monkeys everyday, they often robbed people's food carrying in hand. Use the mouse to controller the direction of the avatar, and shoot the monkeys to prevent them from grabbing your food!
-					<br><br>
-					Play it ! : 
-					<a class="a-link" href="https://chengwei1010.github.io/nsysuHero/">
-						game link (use Safari or FireFox)
-					</a>
-				<!-- </div> -->
-				</div>
-			</div>
-	</div>
 	<div id="overlay" onclick="closeProject()"></div>
 </div>
+	<script src="loader.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script src="scroll.js"></script>
 </body>
 </html>

@@ -44,7 +44,7 @@ h4{
 h5{
 	margin: 1% 0;
 	color: #FF6C00;
-	font-size: 20px;
+	font-size: 25px;
 }
 h6{
 	margin: 1% 0;
@@ -145,10 +145,14 @@ footer{
 .seemore{
 	float: left;
 	width: 60%;
-	padding: 5% 20%;
+	height: 10%;
+	padding: 1% 20%;
 	height: 5%;
 	margin: 10% 0 0 0;
 	background-color: #FFDEAD;
+}
+.hcenter{
+	margin-top: 24%;
 }
 .wrapper-project{
 	width: 100%;
@@ -413,18 +417,18 @@ img.project-size{
 }
 img.img-col-one{
 	width: 100%;
+	margin: 3% 0 0 0;
 	height: auto;
-	margin: 0%;
 }
 img.img-col-two{
 	width: 100%;
+	margin: 3% 0 0 0;
 	height: auto;
-	margin: 0;
 }
 img.img-col-three{
 	width: 33%;
+	margin: 3% 0 0 0;
 	height: auto;
-	margin: 0%;
 }
 video{
 	margin: 0 15% auto;
@@ -438,14 +442,15 @@ video{
 	float: left;
 	width: 60%;
 	height: 100%;
-	padding: 0 20%;
+	padding: 2% 20%;
 }
 .row-project-color{
 	background-color: ;
 }
 .col-one{
 	float: left;
-	width: 100%;
+	width: 90%;
+	margin: 0 5%;
 	position: relative;
 }
 .col-two{

@@ -1,6 +1,9 @@
 AOS.init({
     duration: 1200,
 })
+$(window).on('mousewheel', function() {
+  $('html, body').stop();
+});
     
 $(document).ready(function() {
   $(window).scroll(function () {

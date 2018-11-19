@@ -45,13 +45,18 @@ $(document).ready(function(){
 $(function() {
     var selectedClass = "";
     $(".fil-cat").click(function(){ 
+    $(".fil-cat").removeClass('selectedClass');
     selectedClass = $(this).attr("data-rel"); 
-     $("#portfolio").fadeTo(100, 0.1);
+    console.log(selectedClass);
+    if($(this).attr("data-rel")==selectedClass){
+      $(this).addClass('selectedClass');
+    }
+    $("#portfolio").fadeTo(100, 0.1);
     $("#portfolio div").not("."+selectedClass).fadeOut().removeClass('scale-anm');
+
     setTimeout(function() {
       $("."+selectedClass).fadeIn().addClass('scale-anm');
       $("#portfolio").fadeTo(300, 1);
-    }, 300); 
-    
+    }, 300);   
   });
 });

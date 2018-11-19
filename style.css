@@ -59,6 +59,7 @@ a{
 	color: gray;
 	text-decoration: none;
 	font-style: bold;
+	font-weight: 600;
 	color: #FF6C00;
 }
 b{
@@ -129,8 +130,10 @@ footer{
 }	
 .parallax-nsysuhero{
 	background-image: url("projects/banner/nsysuhero.png");
-	
-}	
+}
+.parallax-designdiary{
+	background-image: url("projects/banner/designdiary.jpg");	
+}
 .intro{
 	text-align: center;
 	padding: 20% 5% 8% 5%;
@@ -191,6 +194,7 @@ footer{
 .btn_nav{
  	font-size: 18px;
 	line-height: 100%;
+	font-weight: 600;
 	margin: 4px;
 	padding: 10px 15px;
  	float: right;
@@ -254,6 +258,10 @@ footer{
 }
 .fa-chevron-down{
 	color: #FF6C00;
+	transition: color 0.5s ease;
+}
+.fa-chevron-down:hover{
+	color: gray;
 }
 
 .fa-facebook{
@@ -533,17 +541,38 @@ video{
   background-color: #FF6C00;
 }
 
-.btn:focus {
-  outline: none;
-  border-color: var(--darken-2);
-  box-shadow: 0 0 0 3px var(--darken-3);
-}
-
 ::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
+.btn-visit{
+	width: fit-content;
+	height: 60px;
+	line-height: 60px;
+	font-size: 18px;
+	font-weight: 600;
+	margin: auto;
+	padding: 0 35px;
+	text-align: center;
+	background-color: #fffaf0;
+	color: #FF6C00;
+	box-shadow: 2px 2px 12px grey;
+}
+.btn-visit:hover{
+	width: fit-content;
+	height: 60px;
+	line-height: 60px;
+	font-size: 18px;
+	font-weight: 600;
+	margin: auto;
+	padding: 0 35px;
+	text-align: center;
+	background-color: #FF6C00;
+	color: white;
+	box-shadow: 0 0 0 grey;
+ 	transition: background-color 0.5s ease;
+}
 
 .clearfix:after {
     content: "";

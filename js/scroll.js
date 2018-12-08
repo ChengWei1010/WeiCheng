@@ -17,6 +17,12 @@ $(document).ready(function() {
     if ($(window).scrollTop() < 261) {
       $('nav').removeClass('navbar-fixed');
     }
+    // if ($(window).scrollTop() > 650) {
+    //   $('header').fadeToggle();
+    // }
+    // if ($(window).scrollTop() < 651) {
+    //   $('header').fadeToggle();
+    // }
   });
 });
 

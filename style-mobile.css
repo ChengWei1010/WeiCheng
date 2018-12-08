@@ -89,6 +89,9 @@ footer{
 	top: 10%;
 	position: absolute;
 }
+.logo-mid{
+	width: 25%;
+}
 /* Icon 3 */
 .nav-icon{
   width: 35px;
@@ -113,7 +116,7 @@ footer{
   position: absolute;
   height: 4px;
   width: 100%;
-  background: gray;
+  background: #FF6C00;
   border-radius: 9px;
   opacity: 1;
   left: 0;
@@ -295,6 +298,12 @@ footer{
     margin: 0 5%;
     position: relative;
 }
+.col-four{
+    float: left;
+    width: 90%;
+    margin: 0 5%;
+    position: relative;
+}
 .wrapper-index{
 	width: 100%;
 	padding: 35px 0;
@@ -313,9 +322,9 @@ footer{
     position: relative;
 	padding: 5%;
 	text-align: center;
-	box-shadow: 10px 10px 50px grey; 
+/*	box-shadow: 10px 10px 50px grey; */
     border-radius: 15px;
-    background-color: rgba(248, 157, 70, 0.2);;
+    background-color: white;
 }
 .seemore{
 	text-align: center;

@@ -1,6 +1,7 @@
 @charset "UTF-8";
 html, body {
 	height: 100%;
+	margin: 0 1%;
 	/*font-family: 'Montserrat', serif;*/
 	font-family: 'Raleway', serif;
 }
@@ -16,26 +17,26 @@ body{
 	font-style:none;
 }
 h1{
-	font-size: 38px;
+	font-size: 36px;
 	line-height: 40px;
 	font-weight: bold;
 }
 h2{
-	font-size: 24px;
+	font-size: 22px;
 	text-align: center;
 	padding: 0 5%;
 	margin: 2%;
 	color: black;
 }
 h3{
-	font-size: 18px;
+	font-size: 16px;
 	text-align: center;
 	padding: 0 5%;
 	margin: 2%;
 	color: black;
 }
 h4{
-	font-size: 16px;
+	font-size: 15px;
 	text-align: center;
 	padding: 0 5%;
 	margin: 2%;
@@ -52,8 +53,13 @@ h6{
 	color: gray;
 	font-size: 18px;
 }
+hr{
+	border-color: #FF6C00;
+	opacity: 0.5;
+	width: 80%;
+}
 p{
-	margin: 0% 0% 5% 0%;
+	margin: 0% 0% 3% 0%;
 	font-size: 18px;
 	line-height: 29px;}
 a{
@@ -73,7 +79,7 @@ header{
 	z-index: 99;
     padding: 1% 5%;
     clear: left;
-    background-color: #FFDEAD;
+    /*background-color: white;*/
 }
 nav{
 	text-align: center;
@@ -97,9 +103,9 @@ footer{
     position: relative;
 	padding: 2%;
 	text-align: center;
-	box-shadow: 10px 10px 50px grey; 
+	/*box-shadow: 2px 2px 12px grey;*/
     border-radius: 10%;
-    background-color: #fffaf0;
+    background-color: white;
 }
 .parallax-100{ 
 	opacity: 0.8;
@@ -112,7 +118,6 @@ footer{
     background-size: cover;
 }
 .parallax-small{ 
-    /* Full height */
     width: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -120,11 +125,22 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.parallax-art{ 
+	height: 60%; 
+    /*width: 100%;*/
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .parallax-index-1{
-	background-image: url("img/parallax_index_1.jpg");
+	/*background-color: #FFDEAD;*/
+	background-image: url("img/wei.jpg");
 }
 .parallax-art-1{ 
-    background-image: url("img/parallax_art_1.jpg");
+    background-color: #FFDEAD;
+    /*background-image: url("img/parallax_art_1.jpg");*/
 }
 .parallax-krtco{
 	background-image: url("projects/banner/krtco.png");
@@ -135,18 +151,17 @@ footer{
 .parallax-designdiary{
 	background-image: url("projects/banner/designdiary.jpg");	
 }
+.parallax-artism{
+	background-image: url("projects/banner/artism.jpg");	
+}
 .intro{
 	text-align: center;
-	padding: 20% 5% 8% 5%;
+	padding: 15% 5% 8% 5%;
 	color: black;
+	z-index: 100;
 }
 .wrapper{
 	padding: 30px 0;
-}
-.wrapper-index{
-	width: 80%;
-	padding: 35px 0;
-	margin: 0 auto;
 }
 .seemore{
 	float: left;
@@ -176,6 +191,9 @@ footer{
 .logo{
 	height: 100%;
 }
+.logo-mid{
+	width: 7%;
+}
 .navbar-fixed{
 	top: 0;
     z-index: 99;
@@ -195,12 +213,10 @@ footer{
 .btn_nav{
  	font-size: 18px;
 	line-height: 100%;
-	font-weight: 600;
 	margin: 4px;
 	padding: 10px 15px;
  	float: right;
  	transition: background-color 0.5s ease;
-	text-decoration: none;
 }
 .btn_nav:hover{
 	color: white;
@@ -297,10 +313,14 @@ footer{
     background-color: #0096D6;
 }
 .row-index{
-	width: 80%;
-	margin: 1% 1% 10% 1%;
+	width: 60%;
 	float: left;
-	padding: 0 10%;
+	padding: 0 20%;
+}
+.row-trait{
+	width: 70%;
+	float: left;
+	padding: 5% 15%;
 }
 .project-small{
 	cursor: pointer;
@@ -398,13 +418,13 @@ footer{
 	background-color:rgba(0, 0, 0, 0.8); 
 }
 img.project-size{
-	width: 90%;
+	width: 100%;
 	height: auto;
-	padding: 5% 5% 0% 5%;
+	padding: 2.5% 0% 0% 0%;
 }
 img.img-col-one{
 	width: 100%;
-	margin: 5% 0 0 0;
+	margin: 3% 0 1% 0;
 	height: auto;
 }
 img.img-col-two{
@@ -415,6 +435,11 @@ img.img-col-two{
 img.img-col-three{
 	width: 33%;
 	margin: 4% 0 0 0;
+	height: auto;
+}
+img.img-col-three-close{
+	width: 32.333333%;
+	margin: 0 0 5% 0;
 	height: auto;
 }
 video{
@@ -434,22 +459,32 @@ video{
 .row-project-color{
 	background-color: #fffaf0;
 }
+.row-full{
+	width: 80%;
+	padding: 0 10%;
+}
 .col-one{
 	float: left;
 	width: 90%;
-	margin: 0 5%;
+	margin: 0 2%;
 	position: relative;
 }
 .col-two{
 	float: left;
 	width: 40%;
-	margin: 0 5%;
+	margin: 0 2%;
 	position: relative;
 }
 .col-three{
 	float: left;
 	width: 23%;
-	margin: 0 5%;
+	margin: 0 2%;
+	position: relative;
+}
+.col-four{
+	float: left;
+	width: 21%;
+	margin: 0 2%;
 	position: relative;
 }
 .drawer{
@@ -549,30 +584,29 @@ video{
 
 .btn-visit{
 	width: fit-content;
-	height: 60px;
+	/*height: 60px;*/
 	line-height: 60px;
 	font-size: 18px;
 	font-weight: 600;
 	margin: auto;
-	padding: 0 35px;
+	padding: 0 30px;
 	text-align: center;
-	background-color: #fffaf0;
-	color: #FF6C00;
-	box-shadow: 2px 2px 12px grey;
+	background-color: #FF6C00;
+	color: white;
 }
 .btn-visit:hover{
 	width: fit-content;
 	height: 60px;
 	line-height: 60px;
-	font-size: 18px;
+	font-size: 19px;
 	font-weight: 600;
 	margin: auto;
-	padding: 0 35px;
+	padding: 0 30px;
 	text-align: center;
-	background-color: #FF6C00;
+	background-color: #FF6C5F;
 	color: white;
-	box-shadow: 0 0 0 grey;
- 	transition: background-color 0.5s ease;
+	box-shadow: 2px 2px 12px grey;
+ 	/*transition: background-color 0.5s ease;*/
 }
 
 .clearfix:after {

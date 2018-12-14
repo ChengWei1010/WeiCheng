@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="251px" viewBox="0 0 250 251" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>apps</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="design-diary" transform="translate(-595.000000, -1774.000000)">
+            <g id="apps" transform="translate(595.000000, 1774.000000)">
+                <g id="Apps">
+                    <circle id="Oval-2" fill="#4FA6AA" cx="125" cy="126" r="125"></circle>
+                    <g id="Group" transform="translate(68.000000, 0.000000)">
+                        <rect id="Rectangle-2" fill="#E8E8E8" x="0" y="0" width="114" height="178" rx="6"></rect>
+                        <path d="M10,20 L102,20 L102,152 C102,155.313708 99.3137085,158 96,158 L16,158 C12.6862915,158 10,155.313708 10,152 L10,20 Z" id="Rectangle-2" fill="#FF7A7A"></path>
+                        <rect id="Rectangle-7" fill="#FFFFFF" x="28" y="32" width="56" height="57"></rect>
+                        <rect id="Rectangle-7" fill="#FFB900" x="28" y="95" width="56" height="43"></rect>
+                    </g>
+                    <text id="mobile-apps" font-family="Stencil" font-size="30" font-weight="normal" line-spacing="31" letter-spacing="3.82697725" fill="#FFFFFF">
+                        <tspan x="59" y="210">mobile</tspan>
+                        <tspan x="80.0974851" y="241">apps</tspan>
+                    </text>
+                </g>
+                <circle id="Oval-3" fill="#676767" cx="105.5" cy="11.5" r="3.5"></circle>
+                <circle id="Oval-3" stroke="#676767" fill="#FFFFFF" cx="125" cy="168" r="6"></circle>
+                <circle id="Oval-3" fill="#676767" cx="125" cy="8" r="2"></circle>
+                <rect id="Rectangle-4" fill="#676767" x="112" y="12" width="26" height="3" rx="1.5"></rect>
+                <path d="M143.912526,127 C139.623599,127 141.757252,150.511234 140.914917,150.932401 C139.48506,151.647329 134.441443,145.942166 133.011586,148.80188 C132.312204,150.200644 134.245215,153.406239 138.462056,157.522632 C141.842205,160.822262 145.19954,165.910919 147.349273,166.660826 C150.570335,167.784453 155.098215,166.116286 160.932913,161.656327 C163.346642,146.546132 163.12365,138.991034 160.263936,138.991034 C158.810477,138.991034 158.318541,141.303323 158.788128,145.927902 C158.788128,140.685094 157.83489,138.063689 155.928414,138.063689 C154.021939,138.063689 153.068701,140.685094 153.068701,145.927902 C153.54532,140.208475 152.592082,137.348761 150.208987,137.348761 C147.825892,137.348761 146.872654,140.208475 147.349273,145.927902 C147.603594,133.309301 146.458011,127 143.912526,127 Z" id="Path-3" stroke="#363636" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="250px" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>websites</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="design-diary" transform="translate(-192.000000, -1775.000000)">
+            <g id="websites" transform="translate(192.000000, 1775.000000)">
+                <circle id="Oval-2" fill="#FF7A7A" cx="125" cy="125" r="125"></circle>
+                <g id="Group" transform="translate(12.000000, 23.000000)">
+                    <path d="M0,25 L227,25 L227,148 C227,151.313708 224.313708,154 221,154 L6,154 C2.6862915,154 4.05812251e-16,151.313708 0,148 L0,25 Z" id="Rectangle-2" fill="#4FA6AA"></path>
+                    <path d="M6,0 L221,0 C224.313708,-6.08718376e-16 227,2.6862915 227,6 L227,25 L0,25 L0,6 C-4.05812251e-16,2.6862915 2.6862915,6.08718376e-16 6,0 Z" id="Rectangle-2" fill="#E8E8E8"></path>
+                    <circle id="Oval" stroke="#EE564E" stroke-width="4" fill="#3E0B05" cx="13.5" cy="13.5" r="5.5"></circle>
+                    <circle id="Oval" fill="#62CB43" cx="51.5" cy="13.5" r="7.5"></circle>
+                    <circle id="Oval" fill="#F8BD32" cx="32.5" cy="13.5" r="7.5"></circle>
+                    <rect id="Rectangle-7" fill="#FFFFFF" x="20" y="39" width="92" height="58"></rect>
+                    <rect id="Rectangle-7" fill="#4D568B" x="12" y="124" width="159" height="13"></rect>
+                    <rect id="Rectangle-7" fill="#4D568B" x="12" y="105" width="108" height="13"></rect>
+                    <rect id="Rectangle-7" fill="#FFB900" x="129" y="50" width="77" height="37"></rect>
+                    <path d="M192.711823,81.4778815 L203.989442,107.564838 L194.694271,105.139918 L194.875667,120.466047 C194.882203,121.018293 194.439818,121.471275 193.887572,121.477811 C193.883627,121.477858 193.879682,121.477881 193.875737,121.477881 L191.746708,121.477881 C191.194424,121.477881 190.746708,121.030166 190.746708,120.477881 C190.746708,120.469634 190.74681,120.461387 190.747014,120.453142 L191.123576,105.236652 L181.434204,107.564838 L192.711823,81.4778815 Z" id="Triangle" stroke="#FFFFFF" fill="#363636" transform="translate(192.711823, 101.477881) rotate(-20.000000) translate(-192.711823, -101.477881) "></path>
+                </g>
+                <text id="WebsiteS" font-family="Stencil" font-size="30" font-weight="normal" letter-spacing="3.82697725" fill="#FFFFFF">
+                    <tspan x="38.0685558" y="206">WebsiteS</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

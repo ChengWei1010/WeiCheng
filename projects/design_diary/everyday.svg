@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="250px" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>everyday</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="design-diary" transform="translate(-998.000000, -1775.000000)">
+            <g id="everyday" transform="translate(998.000000, 1775.000000)">
+                <g id="Group-2">
+                    <circle id="Oval-2" fill="#4D568B" cx="125" cy="125" r="125"></circle>
+                    <text id="everyday-things" font-family="Stencil" font-size="30" font-weight="normal" line-spacing="30" letter-spacing="3.82697725" fill="#FFFFFF">
+                        <tspan x="37" y="204">everyday</tspan>
+                        <tspan x="60.9539304" y="234">things</tspan>
+                    </text>
+                </g>
+                <circle id="Oval-4" fill="#FFB900" cx="64" cy="62" r="53"></circle>
+                <rect id="Rectangle-5" fill="#E8E8E8" x="80" y="77" width="90" height="90" rx="19"></rect>
+                <polygon id="Triangle-2" fill="#4FA6AA" points="186 62 231 144 141 144"></polygon>
+                <g id="eye" transform="translate(53.000000, 97.000000)">
+                    <path d="M23.5944444,31 C36.1497178,31 46.3277778,22.7333333 46.3277778,20.6666667 C46.3277778,18.6 36.1497178,10.3333333 23.5944444,10.3333333 C11.0391711,10.3333333 0.861111111,18.6 0.861111111,20.6666667 C0.861111111,22.7333333 11.0391711,31 23.5944444,31 Z" id="Oval-5" stroke="#363636" fill="#FFFFFF"></path>
+                    <path d="M32.7222222,1.72222222 L30.5694444,10.7638889" id="Line" stroke="#363636" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M0,5.16666667 L5.59722222,15.0694444" id="Line" stroke="#363636" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M11.1944444,0.861111111 L14.2083333,10.7638889" id="Line" stroke="#363636" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M21.5277778,0 L22.3888889,9.47222222" id="Line" stroke="#363636" stroke-width="2" stroke-linecap="square"></path>
+                    <ellipse id="Oval-6" fill="#363636" cx="31.4305556" cy="19.8055556" rx="8.18055556" ry="7.75"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

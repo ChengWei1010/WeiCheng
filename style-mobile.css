@@ -275,6 +275,12 @@ footer{
 	text-align: left;
 	padding: 4%;
 }
+.row-full{
+	width: 92%;
+	float: left;
+	text-align: left;
+	padding: 4%;
+}
 /*.pcol{
 	width: 100%;
 	float: left;
@@ -303,6 +309,12 @@ footer{
     width: 90%;
     margin: 0 5%;
     position: relative;
+}
+.col-gif{
+    float: left;
+    width: 90%;
+    margin: 0 5%;
+    position: relative;	
 }
 .wrapper-index{
 	width: 100%;

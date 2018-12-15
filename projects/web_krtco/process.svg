@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1058px" height="591px" viewBox="0 0 1058 591" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Process</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-4.8%" y="-7.6%" width="115.1%" height="123.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.866666667   0 0 0 0 0.403921569  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-4.8%" y="-7.6%" width="115.1%" height="123.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.866666667   0 0 0 0 0.403921569  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-4.8%" y="-7.6%" width="115.1%" height="123.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.866666667   0 0 0 0 0.403921569  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-7.8%" y="-7.6%" width="124.4%" height="123.9%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.866666667   0 0 0 0 0.403921569  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-7.8%" y="-7.6%" width="124.4%" height="123.9%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.866666667   0 0 0 0 0.403921569  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-6.3%" y="-7.6%" width="119.8%" height="123.9%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.866666667   0 0 0 0 0.403921569  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-6.4%" y="-7.6%" width="120.2%" height="123.9%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.866666667   0 0 0 0 0.403921569  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-8.2%" y="-7.6%" width="125.9%" height="123.9%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.866666667   0 0 0 0 0.403921569  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-8.2%" y="-7.6%" width="125.9%" height="123.9%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.866666667   0 0 0 0 0.403921569  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-7.0%" y="-7.6%" width="122.0%" height="123.9%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.866666667   0 0 0 0 0.403921569  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="krtco" transform="translate(-237.000000, -2178.000000)">
+            <g id="Process" transform="translate(238.000000, 2178.000000)">
+                <rect id="Rectangle-3" fill="#22396C" x="0" y="0" width="1056" height="591"></rect>
+                <path d="M31,276.200231 L992,276.200231" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M961,171 L961.208333,227" id="Line-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                <g id="0.0" filter="url(#filter-1)" transform="translate(41.000000, 178.000000)">
+                    <rect id="Rectangle-4" fill="#FFFFFF" x="0" y="0" width="146" height="92"></rect>
+                    <text id="Theme-Visual-Design" font-family="Calibri" font-size="20" font-weight="normal" letter-spacing="0.36" fill="#000000">
+                        <tspan x="44.0335938" y="43">Theme</tspan>
+                        <tspan x="16.8855859" y="67">Visual Design</tspan>
+                    </text>
+                </g>
+                <g id="0.0" filter="url(#filter-2)" transform="translate(41.000000, 283.000000)">
+                    <rect id="Rectangle-4" fill="#FFFFFF" x="0" y="0" width="146" height="92"></rect>
+                    <text id="KRTCO-requirements" font-family="Calibri" font-size="20" font-weight="normal" letter-spacing="0.36" fill="#000000">
+                        <tspan x="45.5394531" y="42">KRTCO </tspan>
+                        <tspan x="16.4913672" y="66">requirements</tspan>
+                    </text>
+                </g>
+                <g id="0.1" filter="url(#filter-3)" transform="translate(199.000000, 230.000000)">
+                    <rect id="Rectangle-4" fill="#FFFFFF" x="0" y="0" width="146" height="92"></rect>
+                    <text id="Business-Requirement" font-family="Calibri" font-size="20" font-weight="normal" letter-spacing="0.36" fill="#000000">
+                        <tspan x="36.6088281" y="30">Business</tspan>
+                        <tspan x="18.1830859" y="54">Requirement</tspan>
+                        <tspan x="38.8842188" y="78">Analysis</tspan>
+                    </text>
+                </g>
+                <g id="1" filter="url(#filter-4)" transform="translate(397.000000, 178.000000)">
+                    <rect id="Rectangle-4" fill="#FFFFFF" x="0" y="0" width="90" height="92"></rect>
+                    <text id="UI-Design" font-family="Calibri" font-size="20" font-weight="normal" letter-spacing="0.36" fill="#000000">
+                        <tspan x="36.2044531" y="43">UI</tspan>
+                        <tspan x="17.1250781" y="67">Design</tspan>
+                    </text>
+                </g>
+                <g id="1" filter="url(#filter-5)" transform="translate(397.000000, 283.000000)">
+                    <rect id="Rectangle-4" fill="#FFFFFF" x="0" y="0" width="90" height="92"></rect>
+                    <text id="Database-Design" font-family="Calibri" font-size="20" font-weight="normal" letter-spacing="0.36" fill="#000000">
+                        <tspan x="6.26214844" y="41">Database</tspan>
+                        <tspan x="17.1250781" y="65">Design</tspan>
+                    </text>
+                </g>
+                <g id="2" filter="url(#filter-6)" transform="translate(549.000000, 178.000000)">
+                    <rect id="Rectangle-4" fill="#FFFFFF" x="2" y="0" width="109" height="92"></rect>
+                    <text id="UI-develop" font-family="Calibri" font-size="20" font-weight="normal" letter-spacing="0.36" fill="#000000">
+                        <tspan x="45.2044531" y="42">UI</tspan>
+                        <tspan x="20.8425391" y="66">develop</tspan>
+                    </text>
+                </g>
+                <g id="2" filter="url(#filter-7)" transform="translate(551.000000, 283.000000)">
+                    <rect id="Rectangle-4" fill="#FFFFFF" x="0" y="0" width="109" height="92"></rect>
+                    <text id="Database-Implement" font-family="Calibri" font-size="20" font-weight="normal" letter-spacing="0.36" fill="#000000">
+                        <tspan x="9.76214844" y="40">Database</tspan>
+                        <tspan x="0.432421875" y="64"> Implement</tspan>
+                    </text>
+                </g>
+                <g id="3" filter="url(#filter-8)" transform="translate(672.000000, 227.000000)">
+                    <rect id="Rectangle-4" fill="#FFFFFF" x="0" y="0" width="85" height="92"></rect>
+                    <text id="System-Testing" font-family="Calibri" font-size="20" font-weight="normal" letter-spacing="0.36" fill="#000000">
+                        <tspan x="12.5088672" y="43">System</tspan>
+                        <tspan x="13.1289844" y="67">Testing</tspan>
+                    </text>
+                </g>
+                <g id="3" filter="url(#filter-9)" transform="translate(767.000000, 231.000000)">
+                    <rect id="Rectangle-4" fill="#FFFFFF" x="0" y="0" width="85" height="92"></rect>
+                    <text id="Release" font-family="Calibri" font-size="20" font-weight="normal" letter-spacing="0.36" fill="#000000">
+                        <tspan x="10.0632422" y="51">Release</tspan>
+                    </text>
+                </g>
+                <g id="3" filter="url(#filter-10)" transform="translate(912.000000, 232.000000)">
+                    <rect id="Rectangle-4" fill="#FFFFFF" x="0" y="0" width="100" height="92"></rect>
+                    <text id="Collect-Feedback-&amp;-E" font-family="Calibri" font-size="20" font-weight="normal" letter-spacing="0.36" fill="#000000">
+                        <tspan x="20.9909766" y="28">Collect </tspan>
+                        <tspan x="10.0883203" y="52">Feedback</tspan>
+                        <tspan x="4.84550781" y="76">&amp; Evaluate</tspan>
+                    </text>
+                </g>
+                <path d="M653,526.208333 L1055.5,526.208333" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M0,525.201389 L402.5,525.201389" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                <text id="DEVELOPMENT-PROCESS" font-family="Calibri-Bold, Calibri" font-size="44" font-weight="bold" letter-spacing="0.36" fill="#FFFFFF">
+                    <tspan x="299.204023" y="501">DEVELOPMENT PROCESS</tspan>
+                    <tspan x="426.639951" y="555" font-size="23">FOR KRTCO WEBSITE</tspan>
+                </text>
+                <text id="System-Planning-and" font-family="Calibri-Bold, Calibri" font-size="22" font-weight="bold" letter-spacing="0.396000028" fill="#FFFFFF">
+                    <tspan x="165.698719" y="102">System</tspan>
+                    <tspan x="96.2023513" y="129">Planning and Analysis</tspan>
+                </text>
+                <text id="System-Design" font-family="Calibri-Bold, Calibri" font-size="22" font-weight="bold" letter-spacing="0.396000028" fill="#FFFFFF">
+                    <tspan x="406.198719" y="102">System</tspan>
+                    <tspan x="408.132312" y="129">Design</tspan>
+                </text>
+                <text id="System-Implementatio" font-family="Calibri-Bold, Calibri" font-size="22" font-weight="bold" letter-spacing="0.396000028" fill="#FFFFFF">
+                    <tspan x="666.698719" y="102">System</tspan>
+                    <tspan x="553.410105" y="129">Implementation and Operation</tspan>
+                </text>
+                <text id="System-Adjustment" font-family="Calibri-Bold, Calibri" font-size="22" font-weight="bold" letter-spacing="0.396000028" fill="#FFFFFF">
+                    <tspan x="749.075406" y="405">System Adjustment</tspan>
+                </text>
+                <text id="System-Maintenance" font-family="Calibri-Bold, Calibri" font-size="22" font-weight="bold" letter-spacing="0.396000028" fill="#FFFFFF">
+                    <tspan x="926.698719" y="102">System</tspan>
+                    <tspan x="898.181863" y="129">Maintenance</tspan>
+                </text>
+                <path d="M701,383 L701,328" id="Line-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M701,383.333333 L958,383.333333" id="Line-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M702,169.201389 L961,169.201389" id="Line-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                <path id="Line-3" d="M702,174 L695,188 L709,188 L702,174 Z M703,235 L703,187 L703,186 L701,186 L701,187 L701,235 L701,236 L703,236 L703,235 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path id="Line-3" d="M961.25,381 L968.25,367 L954.25,367 L961.25,381 Z M960.25,320 L960.25,368 L960.25,369 L962.25,369 L962.25,368 L962.25,320 L962.25,319 L960.25,319 L960.25,320 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

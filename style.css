@@ -73,7 +73,7 @@ h5{
 }
 h6{
 	margin: 1% 0;
-	color: gray;
+	color: #FF6C00;
 	font-size: 18px;
 }
 hr{
@@ -84,6 +84,7 @@ hr{
 	border-width: 2px;
 }
 p{
+	color: rgb(64, 64, 64);
 	margin: 0% 0% 2% 0%;
 	font-size: 18px;
 	line-height: 30px;}
@@ -93,6 +94,14 @@ a{
 	font-style: bold;
 	font-weight: 600;
 	color: #FF6C00;
+}
+mark{
+	height: 10%;
+    background-color: #FFDEAD;
+    padding: 0 5px;
+}
+.white{
+	color: white;
 }
 /*****************************************************/
 /********************* parallax **********************/
@@ -132,8 +141,8 @@ a{
     background-color: #FFDEAD;
     background-image: url("img/parallax_art_1.jpg");
 }
-.parallax-krtco{background-image: url("projects/banner/krtco.png");}	
-.parallax-nsysuhero{background-image: url("projects/banner/nsysuhero.png");}
+.parallax-krtco{background-image: url("projects/banner/krtco.jpg");}	
+.parallax-nsysuhero{background-image: url("projects/banner/nsysuhero.jpg");}
 .parallax-designdiary{background-image: url("projects/banner/designdiary.jpg");}
 .parallax-artism{background-image: url("projects/banner/artism.jpg");}
 /*****************************************************/
@@ -351,8 +360,9 @@ img.img-col-four{
 }
 img.img-col-three-close{
 	width: 32.333333%;
-	margin: 0 0 5% 0;
+	margin: 2% 0;
 	height: auto;
+	box-shadow: 3px 3px 5px grey;
 }
 img.img-tab{
 	width: 100%;
@@ -365,6 +375,12 @@ img.img-tab-content{
 	height: auto;
 	float: left;
 }
+img.img-small-logo{
+	width: 30%;
+	margin: 2% 5%;
+	height: auto;
+	float: left;
+}
 .svg-index{
 	width: 40%;
 }
@@ -373,29 +389,28 @@ img.img-tab-content{
 /*****************************************************/
 .row-project{
 	float: left;
-	width: 70%;
+	width: 60%;
 	height: 100%;
-	padding: 3.5% 15%;
+	padding: 3.5% 20%;
 }
 .row-project-color{
 	background-color: #fffaf0;
 }
 .row-full{
 	float: left;
-	width: 76%;
-	height: 100%;
-	padding: 3.5% 12%;
+	width: 74%;
+	padding: 5% 13%;
 }
 .col-one{
 	float: left;
 	width: 96%;
-	margin: 0 2%;
+	margin: 2%;
 	position: relative;
 }
 .col-two{
 	float: left;
 	width: 46%;
-	margin: 0 2%;
+	margin: 1% 2%;
 	position: relative;
 }
 .col-three{
@@ -407,6 +422,12 @@ img.img-tab-content{
 .col-four{
 	float: left;
 	width: 21%;
+	margin: 0 2%;
+	position: relative;
+}
+.col-gif{
+	float: left;
+	width: 58%;
 	margin: 0 2%;
 	position: relative;
 }
@@ -460,7 +481,7 @@ img.img-tab-content{
 .quote{
 	text-align: center;
 	padding:5%;
-	font-size: 20px;
+	font-size: 24px;
 	line-height: 30px;
 }
 .tab{

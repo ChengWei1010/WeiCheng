@@ -66,9 +66,9 @@ $(function() {
     var p1 = "<img src='design_diary/p1.jpg' class='img-tab-content'>";
     var p2 = "<img src='design_diary/p2.jpg' class='img-tab-content'>";
     var p3 = "<img src='design_diary/p3.jpg' class='img-tab-content'>";
-    var process1 = "Mostly, I observed designs of websites, mobile applications, and things that I often use by myself in daily life.<br>I also asked other people’s opinions and challenges of using things in their experience and observation.<br>Sometimes I just pick a environment and observed the using behavior of other people.<br>";
-    var process2 = "After I observed and detected the problem that I want to discuss about, I will define the analytical framing of the discussion. I read and research design principles and ux articles to find a theoretical support of the problem and introduce the concept/theory  in the design diary as well.";
-    var process3 = "The outcome can be a re-design or a suggestions, I use paper sketch to draw wireframes on paper, and use Sketch to design the new version based on the old version of the design.<br>In some cases, I also modify the user flow.";
+    var process1 = "Mostly, I observed designs of websites, mobile applications, and things that I often use by myself in daily life. I also asked other people’s opinions and challenges of using things in their experience and observation. Sometimes I just pick a environment and observed the using behavior of other people.";
+    var process2 = "After I observed and detected the problem that I want to discuss about, I will define the analytical framing of the discussion. I read and research design principles and ux articles to find a theoretical support of the problem and introduce the concept/theory in the design diary as well.";
+    var process3 = "The outcome of one design diary can be a re-design or design suggestions, I draw wireframes sketches on paper, and use Sketch to design the new version based on the old version of the design. In some cases, I not only change the design but also modify the user flow.";
     $(".dd-process-1").hover(function(){ 
       $(".tab-content").css("background-color", "#FFAAAA");
       $(".tab-content").html(p1+process1);

@@ -100,8 +100,18 @@ mark{
     background-color: #FFDEAD;
     padding: 0 5px;
 }
-.white{
-	color: white;
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
 }
 /*****************************************************/
 /********************* parallax **********************/
@@ -325,7 +335,7 @@ mark{
 	width: 90%;
 	height: 6%;
 	padding: 1% 5%;
-	margin: auto;
+	margin: 0 -1%;
 	text-align: center;
 	background-color: white;
 	z-index: 98;

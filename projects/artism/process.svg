@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="964px" height="374px" viewBox="0 0 964 374" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="964px" height="342px" viewBox="0 0 964 342" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>process</title>
     <desc>Created with Sketch.</desc>
@@ -19,19 +19,19 @@
                 <text id="Ideate" font-family="Calibri-Bold, Calibri" font-size="32" font-weight="bold" letter-spacing="0.09406383" fill="#63BA6F">
                     <tspan x="409.310617" y="140">Ideate</tspan>
                 </text>
-                <g id="Group">
+                <g id="process-1">
                     <rect id="Rectangle-6" fill="#FFC3C3" x="0" y="0" width="321" height="58"></rect>
                     <text id="Discover" font-family="Calibri-Bold, Calibri" font-size="32" font-weight="bold" letter-spacing="0.09406383" fill="#666666">
                         <tspan x="103.88937" y="37">Discover</tspan>
                     </text>
                 </g>
-                <g id="Group" transform="translate(642.000000, 0.000000)">
+                <g id="process-3" transform="translate(642.000000, 0.000000)">
                     <rect id="Rectangle-6" fill="#BDE2FF" x="0" y="0" width="321" height="58"></rect>
                     <text id="Deliver" font-family="Calibri-Bold, Calibri" font-size="32" font-weight="bold" letter-spacing="0.09406383" fill="#666666">
                         <tspan x="113.506714" y="37">Deliver</tspan>
                     </text>
                 </g>
-                <g id="Group" transform="translate(321.000000, 0.000000)">
+                <g id="process-2" transform="translate(321.000000, 0.000000)">
                     <rect id="Rectangle-6" fill="#D8D8D8" x="0" y="0" width="321" height="58"></rect>
                     <rect id="Rectangle-6" fill="#B8FFC2" x="0" y="0" width="321" height="58"></rect>
                     <text id="Design" font-family="Calibri-Bold, Calibri" font-size="32" font-weight="bold" letter-spacing="0.09406383" fill="#666666">
@@ -55,7 +55,7 @@
                 <text id="Test" font-family="Calibri-Bold, Calibri" font-size="32" font-weight="bold" letter-spacing="0.09406383" fill="#2D93E3">
                     <tspan x="840.936245" y="140">Test</tspan>
                 </text>
-                <text id="Emphathize---intervi" font-family="Calibri-Bold, Calibri" font-size="26" font-weight="bold" letter-spacing="0.0764268786" fill="#4A4A4A">
+                <text id="Emphathize---intervi" font-family="Calibri-Bold, Calibri" font-size="26" font-weight="bold" letter-spacing="0.07642688" fill="#4A4A4A">
                     <tspan x="30" y="273">Emphathize</tspan>
                     <tspan x="157.387316" y="273" font-family="Calibri" font-weight="normal"></tspan>
                     <tspan x="30" y="305" font-family="Calibri" font-weight="normal">- interview</tspan>
@@ -66,12 +66,11 @@
                     <tspan x="230" y="305" font-family="Calibri" font-weight="normal">- insights</tspan>
                     <tspan x="230" y="337" font-family="Calibri" font-weight="normal">- persona</tspan>
                 </text>
-                <text id="Solution---wireframe" font-family="Calibri-Bold, Calibri" font-size="26" font-weight="bold" letter-spacing="0.0764268786" fill="#4A4A4A">
+                <text id="Solution---Lo-fi-wir" font-family="Calibri-Bold, Calibri" font-size="26" font-weight="bold" letter-spacing="0.07642688" fill="#4A4A4A">
                     <tspan x="607" y="273">Solution</tspan>
                     <tspan x="697.290848" y="273" font-family="Calibri" font-weight="normal"></tspan>
-                    <tspan x="607" y="305" font-family="Calibri" font-weight="normal">- wireframe</tspan>
-                    <tspan x="607" y="337" font-family="Calibri" font-weight="normal">- storyboards</tspan>
-                    <tspan x="607" y="369" font-family="Calibri" font-weight="normal">- mockups</tspan>
+                    <tspan x="607" y="305" font-family="Calibri" font-weight="normal">- Lo-fi wireframe</tspan>
+                    <tspan x="607" y="337" font-family="Calibri" font-weight="normal">- Hi-fi mockups</tspan>
                 </text>
                 <text id="Evaluation---feedbac" font-family="Calibri-Bold, Calibri" font-size="26" font-weight="bold" letter-spacing="0.07642688" fill="#4A4A4A">
                     <tspan x="812" y="273">Evaluation</tspan>
@@ -79,11 +78,11 @@
                     <tspan x="812" y="305" font-family="Calibri" font-weight="normal">- feedbacks</tspan>
                     <tspan x="812" y="337" font-family="Calibri" font-weight="normal">- improve</tspan>
                 </text>
-                <text id="Brainstorming---pape" font-family="Calibri-Bold, Calibri" font-size="26" font-weight="bold" letter-spacing="0.0764268786" fill="#4A4A4A">
+                <text id="Brainstorming---pape" font-family="Calibri-Bold, Calibri" font-size="26" font-weight="bold" letter-spacing="0.07642688" fill="#4A4A4A">
                     <tspan x="375" y="273">Brainstorming</tspan>
                     <tspan x="528.286518" y="273" font-family="Calibri" font-weight="normal"></tspan>
                     <tspan x="375" y="305" font-family="Calibri" font-weight="normal">- paper sketch </tspan>
-                    <tspan x="375" y="337" font-family="Calibri" font-weight="normal">- user scenario</tspan>
+                    <tspan x="375" y="337" font-family="Calibri" font-weight="normal">- user flow</tspan>
                 </text>
                 <g id="Group-2" transform="translate(544.000000, 169.500000) scale(-1, -1) translate(-544.000000, -169.500000) translate(454.000000, 155.000000)">
                     <path id="Line-5" d="M179.25,29 L183.75,20 L174.75,20 L179.25,29 Z M178.75,1.5 L178.75,20.5 L178.75,21 L179.75,21 L179.75,20.5 L179.75,1.5 L179.75,1 L178.75,1 L178.75,1.5 Z" fill="#63BA6F" fill-rule="nonzero"></path>

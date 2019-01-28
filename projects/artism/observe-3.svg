@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>observe-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="design-diary" transform="translate(-856.000000, -1463.000000)">
+            <g id="observe-3" transform="translate(856.000000, 1463.000000)">
+                <circle id="Oval-7" fill="#FFCCCC" cx="100" cy="100" r="100"></circle>
+                <text id="Need-Feeback-&amp;Instru" font-family="HoboStd, Hobo Std" font-size="21" font-weight="400" line-spacing="32" letter-spacing="1.05000007" fill="#4A4A4A">
+                    <tspan x="28.1064996" y="110">Need Feeback</tspan>
+                    <tspan x="25.4289995" y="142">&amp;Instructions</tspan>
+                </text>
+                <g id="Group-4" transform="translate(73.000000, 35.000000)">
+                    <path d="M1.31838984e-16,9.65835743 C4.83377414,9.8286221 10.8881392,9.02720144 18.1630952,7.25409545 C23.639021,5.91946241 38,-0.83296757 38,1.47762186 C38,3.7882113 38,36.1364634 38,36.1364634 C38,38.7592946 26.1814844,34.9811687 19,32.6705792 C14.2123437,31.1301863 10.2101623,30.745088 6.99345571,31.5152845 L8,48 L4,48 C4,45.3333333 3.65129024,39.8384282 2.95387071,31.5152845 C2.92438577,31.1634054 1.9397622,30.7783072 0,30.3599898 L1.31838984e-16,9.65835743 Z" id="Path-6" fill="#FFFFFF"></path>
+                    <path d="M43,9 C45,11.9806484 46,14.9806484 46,18 C46,21.0193516 45,24.0193516 43,27" id="Line-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M48,5 C51.3333333,9.47097258 53,13.9709726 53,18.5 C53,23.0290274 51.3333333,27.5290274 48,32" id="Line-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M53,0 C57,6.12688834 59,12.293555 59,18.5 C59,24.706445 57,30.8731117 53,37" id="Line-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

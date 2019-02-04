@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="style-mobile.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	<!-- for FF, Chrome, Opera -->
 	<link rel="icon" type="image/png" href="img/logo.png" sizes="16x16">
 	<link rel="icon" type="image/png" href="img/logo.png" sizes="32x32">
@@ -24,7 +24,7 @@
 
 	<div class="drawer">
 		<span class="drawer_btn_nav"><a href="index.html" class="light">WORK</a></span>
-		<span class="drawer_btn_nav"><a href="art.html">ART</a></span>
+		<span class="drawer_btn_nav"><a href="about.html">ABOUT</a></span>
 	</div>
 	<div class="nav-icon">
 	  <span></span> <span></span> <span></span> <span></span>
@@ -32,17 +32,21 @@
 
 	<header class="header">
 		<a href="index.html"><img class="logo" src="img/logo.png" alt="logo"></a>
-		<a href="art.html" class="a_nav"><span class="btn_nav">ART</span></a>
-		<a href="#work" class="a_nav"><span class="btn_nav">WORK</span></a>
+		<a href="about.html" class="a_nav"><span class="btn_nav">ABOUT</span></a>
+		<a href="#work" class="a_nav"><span class="btn_nav light">WORK</span></a>
 	</header>
 	<div class="parallax-100 parallax-index-1">
 	<article class="intro">
 		<img src="img/logo.png" alt="logo" class="logo-mid">
 		<h1 class="tracking-in-contract">Wei Cheng</h1>
 		<p>
-			<b>UI/UX Designer</b><br>A graduate student studying at iSchool<br>at University of Texas at Austin.<br>
-		</p><br>
-		learn more about Wei:<br>
+			<b>is a UI/UX Designer loves to...</b><br>
+			<h1>
+			  <a href="" class="typewrite" data-period="2000" data-type='[ "Design.", "Create.", "Listen to users."]'>
+			    <span class="wrap"></span>
+			  </a>
+			</h1>			
+		</p><br><br>
 		<a href="#work">
 			<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
 		</a>
@@ -51,17 +55,18 @@
 <div class="wrapper">
 	<div class="section-trait" id="work">
 		<h2>WORK</h2>
+		<h4>See what problems have I solved?</h4>
 		<div class="row-index">
 		    <a href="projects/krtco.html">
 			    <div class="project-small">
-			    	<img class="project-size" src="projects/web_krtco/krtco.png" alt="" data-aos="fade-down" data-aos-once="true">
+			    	<img class="project-size" src="projects/web_krtco/krtco.png" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
 			    	<h3>KRTCO Website</h3>
 			    	<h4>Web UI Design & Develop</h4>
 			    </div>
 			</a>
 		    <a href="projects/artism.html">
 			    <div class="project-small">
-			    	<img class="project-size" src="projects/artism/artism.png" alt="" data-aos="fade-down" data-aos-once="true">
+			    	<img class="project-size" src="projects/artism/artism.png" alt="" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">
 			    	<h3>Artism</h3>
 			    	<h4>UX Design</h4>
 			    </div>
@@ -70,42 +75,25 @@
 		<div class="row-index">
 			<a href="projects/designdiary.html">
 			    <div class="project-small">
-			    	<img class="project-size" src="projects/design_diary/designdiary.png" alt="" data-aos="fade-down" data-aos-once="true">
+			    	<img class="project-size" src="projects/design_diary/designdiary.png" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
 			    	<h3>Design Diary</h3>
 			    	<h4>UX Design</h4>
 			    </div>
 			</a>
 		    <a href="projects/nsysuhero.html">
 			   	<div class="project-small">
-			    	<img class="project-size" src="projects/game_nsysuhero/nsysuhero.png" alt="" data-aos="fade-down" data-aos-once="true">
+			    	<img class="project-size" src="projects/game_nsysuhero/nsysuhero.png" alt="" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">
 			    	<h3>NSYSU HERO</h3>
 			    	<h4>Game UI Design</h4>
 			    </div>
 		    </a>
-		</div>
-	</div>
-	<div class="section-trait row-project-color">
-		<h2>ABOUT WEI</h2>
-		<p>I have 3+ years frontend develop experience, I am positive and energetic, like to accept challenges and I am familiar with app development, web frontend development, UI/UX design.</p>
-		<div class="traits" data-aos="flip-left" data-aos-once="true">
-			<img src="svg/light.svg" class="svg-index"/><br>
-			<h3>Creative</h3>
-			<p>I like to try different design to create products that are interesting but useful. Check out my <a href="art.html">ART</a>!</p>
-		</div>
-		<div class="traits" data-aos="flip-left" data-aos-delay="500" data-aos-once="true">
-			<img src="svg/love.svg" class="svg-index"/><br>
-			<h3>Empathetic</h3>
-			<p>Being a UX designer, it is important to listen to users and understand their needs.<br>Check out <a href="weicheng_resume.pdf" target="_blank">what I've done</a>!</p>
-		</div>
-		<div class="traits" data-aos="flip-left" data-aos-delay="1000" data-aos-once="true">
-			<img src="svg/gear.svg" class="svg-index"/><br>
-			<h3>Problem Solver</h3>
-			<p>I like to take challenge and solve problems that are related to people's life. Visit <a href="projects/designdiary.html">Design Diary</a> too see more.</p>
-		</div>
-		<div class="row-project">
-			<div class="col-one">
-				<a href="weicheng_resume.pdf"><div class="btn-visit">Download Resume</div></a>
-			</div>
+		    <a href="art.html">
+			   	<div class="project-small">
+			    	<img class="project-size" src="img/parallax_art_1.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+			    	<h3>ART WORKS</h3>
+			    	<h4>Designs and Illustrations</h4>
+			    </div>
+		    </a>		    
 		</div>
 	</div>
 	</article>

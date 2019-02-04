@@ -105,6 +105,11 @@ mark{
     background-color: #FFDEAD;
     padding: 0 5px;
 }
+span.caption{
+	width: 100%;
+	padding-bottom: 20%;
+	text-align: center;
+}
 .iframe-container {
   overflow: hidden;
   padding-top: 56.25%;
@@ -122,7 +127,6 @@ mark{
 /********************* parallax **********************/
 /*****************************************************/
 .parallax-100{ 
-	opacity: 0.8;
     /* Full height */
     height: 100%; 
     /* Create the parallax scrolling effect */
@@ -310,6 +314,9 @@ mark{
 }
 .a_nav:hover{color: white;
 }
+.a_nav_light{
+	background-color: #FF6C00;
+}
 .light{
 	color: white;
 	background-color: #FF6C00;
@@ -402,6 +409,11 @@ img.img-small-logo{
 	height: auto;
 	float: left;
 }
+img.img-intro{
+	width: 100%;
+	margin: 4% 0% 1% 0%;
+	height: auto;
+}
 .svg-index{
 	width: 40%;
 }
@@ -421,6 +433,11 @@ img.img-small-logo{
 	float: left;
 	width: 74%;
 	padding: 3% 13%;
+}
+.row-intro{
+	float: left;
+	width: 90%;
+	padding: 5% 5%;
 }
 .col-one{
 	float: left;
@@ -450,6 +467,12 @@ img.img-small-logo{
 	float: left;
 	width: 58%;
 	margin: 0 2%;
+	position: relative;
+}
+.col-intro{
+	float: left;
+	width: 46%;
+	margin: 1% 2%;
 	position: relative;
 }
 .a-link{
@@ -491,8 +514,7 @@ img.img-small-logo{
 	transition: all .2s ease-in-out;
 }
 .project-small:hover{
-	background-color: white;
-	opacity: 0.7;
+	background-color: #fffaf0;
 	transform: scale(1.05);
 }
 .tracking-in-contract {
@@ -535,7 +557,6 @@ img.img-small-logo{
     opacity: 1;
   }
 }
-
 
 /*****************************************************/
 /********************** project **********************/

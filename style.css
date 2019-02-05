@@ -1,3 +1,4 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 @charset "UTF-8";
 html, body {
 	height: 100%;
@@ -227,9 +228,9 @@ span.caption{
 .fa {
     padding: 10px;
     width: 30px;
-    height: 30px;
+    height: 25px;
 	vertical-align: middle;
-    margin: 1%;
+    margin: 5px;
     text-align: center;
     color: gray;
 }
@@ -245,26 +246,21 @@ span.caption{
 .fa-chevron-down:hover{color: gray;
 }
 .fa-facebook{
-	border-style: solid;
-	border-width: 2px;
-	border-color: gray;
 	color: gray;
 }
 .fa-github{
-	border-style: solid;
-	border-width: 2px;
-	border-color: gray;
 	color: gray;
 }
 .fa-linkedin{
-	border-style: solid;
-	border-width: 2px;
-	border-color: gray;
 	color: gray;
 }
 .fa-facebook:hover{
 	color: white;
     background-color: #4360B5;
+}
+.fa-instagram:hover{
+    color: white;
+    background-color: #e95950;
 }
 .fa-github:hover{
 	color: white;
@@ -274,7 +270,11 @@ span.caption{
     color: white;
     background-color: #0096D6;
 }
-.copyright{font-size: 14px;
+.fa-medium:hover{
+    color: white;
+    background-color: #00ab6c;
+}
+.footer{font-size: 15px;
 }
 /*****************************************************/
 /********************* nav bar ***********************/
@@ -282,6 +282,8 @@ span.caption{
 .logo{height: 100%;
 }
 .logo-mid{width: 7%;
+}
+.logo-small{width: 5%;
 }
 .navbar-fixed{
 	top: 0;

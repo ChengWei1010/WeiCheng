@@ -5,11 +5,13 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="style-mobile.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<!-- for FF, Chrome, Opera -->
 	<link rel="icon" type="image/png" href="img/logo.png" sizes="16x16">
 	<link rel="icon" type="image/png" href="img/logo.png" sizes="32x32">
 
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134084956-1"></script>
 	<script>
@@ -30,7 +32,8 @@
 
 	<div class="drawer">
 		<span class="drawer_btn_nav"><a href="index.html" class="light">WORK</a></span>
-		<span class="drawer_btn_nav"><a href="about.html">ABOUT</a></span>
+		<span class="drawer_btn_nav"><a href="index.html#about">ABOUT</a></span>
+		<span class="drawer_btn_nav"><a href="wei_cheng_resume.pdf" target="_blank" >RESUME</a></span>
 	</div>
 	<div class="nav-icon">
 	  <span></span> <span></span> <span></span> <span></span>
@@ -38,72 +41,122 @@
 
 	<header class="header">
 		<a href="index.html"><img class="logo" src="img/logo.png" alt="logo"></a>
-		<a href="about.html" class="a_nav"><span class="btn_nav">ABOUT</span></a>
-		<a href="#work" class="a_nav"><span class="btn_nav light">WORK</span></a>
+		<a href="wei_cheng_resume.pdf" target="_blank" class="a_nav"><span class="btn_nav">RESUME</span></a>
+		<a href="#about" class="a_nav scrollLink"><span class="btn_nav">ABOUT</span></a>
+		<a href="#work" class="a_nav scrollLink"><span class="btn_nav light">WORK</span></a>
 	</header>
-	<div class="parallax-100 parallax-index-1">
-	<article class="intro">
-		<img src="img/logo.png" alt="logo" class="logo-mid">
-		<h1 class="tracking-in-contract">Wei Cheng</h1>
-		<p>
-			<b>is a UI/UX Designer who loves to...</b><br>
-			<h1>
-			  <a href="" class="typewrite" data-period="2000" data-type='[ "Understand.", "Create.", "Iterate."]'>
-			    <span class="wrap"></span>
-			  </a>
-			</h1>			
-		</p><br><br>
-		<a href="#work">
-			<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
-		</a>
-	</article>
+
+	<!-- <div class="parallax-100 parallax-index-1"> -->
+	<div class="parallax" id="trans1">
+		<article class="intro">
+			<img src="img/logo.png" alt="logo" class="logo-mid">
+			<h1 class="tracking-in-contract">Wei Cheng</h1>
+			<p>
+				<b>is a UI/UX Designer who loves to...</b><br>
+				<h1>
+				  <a href="" class="typewrite" data-period="2000" data-type='[ "Understand.", "Create.", "Iterate."]'>
+				    <span class="wrap"></span>
+				  </a>
+				</h1>			
+			</p><br><br>
+			<a href="#work">
+				<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+			</a>
+		</article>
+	  <div style="clear:both;"></div>
 	</div>
-<div class="wrapper">
-	<div class="section-trait" id="work">
-		<h2>WORK</h2>
-		<h4>What problems have I solved?</h4>
-		<div class="row-index">
-		    <a href="projects/krtco.html">
-			    <div class="project-small">
-			    	<img class="project-size" src="projects/web_krtco/krtco.png" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
-			    	<h3>KRTCO Website</h3>
-			    	<h4>Web UI Design & Develop</h4>
-			    </div>
-			</a>
-		    <a href="projects/artism.html">
-			    <div class="project-small">
-			    	<img class="project-size" src="projects/artism/artism.png" alt="" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">
-			    	<h3>Artism</h3>
-			    	<h4>UX Design</h4>
-			    </div>
-			</a>			
-		</div>		
-		<div class="row-index">
-			<a href="projects/designdiary.html">
-			    <div class="project-small">
-			    	<img class="project-size" src="projects/design_diary/designdiary.png" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
-			    	<h3>Design Diary</h3>
-			    	<h4>UX Design</h4>
-			    </div>
-			</a>
-		    <a href="projects/nsysuhero.html">
-			   	<div class="project-small">
-			    	<img class="project-size" src="projects/game_nsysuhero/nsysuhero.png" alt="" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">
-			    	<h3>NSYSU HERO</h3>
-			    	<h4>Game UI Design</h4>
-			    </div>
-		    </a>
-		    <a href="art.html">
-			   	<div class="project-small">
-			    	<img class="project-size" src="img/parallax_art_1.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
-			    	<h3>ART WORKS</h3>
-			    	<h4>Designs and Illustrations</h4>
-			    </div>
-		    </a>		    
+
+	<div class="wrapper">
+		<div class="section-trait" id="work">
+			<h2>WORK</h2>
+			<h4>What problems have I solved?</h4>
+			<div class="row-index">
+			    <a href="projects/artism.html">
+				    <div class="project-small" id="artism">
+				    	<img id="img-artism" class="project-size" src="projects/artism/artism-project.png" alt="" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">
+				    	<h3>Artism</h3>
+				    	<h4>UX Design</h4>
+				    </div>
+				</a>			    
+			    <a href="projects/krtco.html">
+				    <div class="project-small" id="krtco">
+				    	<img id="img-artism" class="project-size" src="projects/web_krtco/krtco-project.png" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+				    	<h3>KRTCO Website</h3>
+				    	<h4>Web UI Design & Develop</h4>
+				    </div>
+				</a>			
+			</div>		
+			<div class="row-index">
+				<a href="projects/designdiary.html">
+				    <div class="project-small" id="designdiary">
+				    	<img class="project-size" src="projects/design_diary/designdiary-project.png" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+				    	<h3>Design Diary</h3>
+				    	<h4>UX Design</h4>
+				    </div>
+				</a>
+			    <a href="projects/nsysuhero.html">
+				   	<div class="project-small" id="nsysu">
+				    	<img class="project-size" src="projects/game_nsysuhero/nsysuhero-project.png" alt="" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">
+				    	<h3>NSYSU HERO</h3>
+				    	<h4>Game UI Design</h4>
+				    </div>
+			    </a>
+			    <a href="art.html">
+				   	<div class="project-small">
+				    	<img class="project-size" src="img/parallax_art_1.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+				    	<h3>ART WORKS</h3>
+				    	<h4>Designs and Illustrations</h4>
+				    </div>
+			    </a>		    
+			</div>
+		</div>
+		</article>
+		<div style="clear:both;"></div>
+	</div>
+
+	<div class="parallax" id="about">
+	<div class="row-intro">
+		<div class="col-intro-img">
+		<img src="img/wei.png" alt="wei" class="img-intro">
+		<span class="caption">I traveled to Chichén Itzá. Yucatán, Mexico. (Jan. 2018)</span>		
+		</div>
+		<div class="col-intro">
+			<h2>About Wei Cheng</h2>
+			<h4>(You can pronounce “Wei” like “way”)</h4>
+			<p>
+			I am a passionate UX designer based in Austin, pursuing MS degree of information science at UT Austin. I am originally from Taiwan and I have 3+ years of frontend design and develop experience. I see myself as a designer who has a developer’s analytical, logical mind.
+			<br><br>
+			I am familiar with app and web frontend development, UI and interaction design and prototyping. Currently I’m enhancing UX research knowledge, as well as more design skills.
+			<br><br>
+			I am optimistic and energetic, I like to accept challenges and share my experiences with people. I hope that I can design meaningful solutions for users and make them happy.<br>
+			Thank you for visiting my portfolio :)</p>	
+			<a href="weicheng_resume.pdf"><div class="btn-visit">View Resume</div></a>
 		</div>
 	</div>
-	</article>
-</div>
+	<div style="clear:both;"></div>
+	</div>
+
+<!-- 	<div class="parallax">
+		<div class="row-intro">
+		<h2>Wei is...</h2>
+		<div class="traits" data-aos="flip-left" data-aos-once="true">
+			<img src="svg/light.svg" class="svg-index"/><br>
+			<h3>Creative</h3>
+			<p>I like to try different design to create products that are interesting but useful. Check out my <a href="art.html">ART</a>!</p>
+		</div>
+		<div class="traits" data-aos="flip-left" data-aos-delay="500" data-aos-once="true">
+			<img src="svg/love.svg" class="svg-index"/><br>
+			<h3>Empathetic</h3>
+			<p>Being a UX designer, it is important to listen to users and understand their needs.<br>Check out <a href="weicheng_resume.pdf" target="_blank">what I've done</a>!</p>
+		</div>
+		<div class="traits" data-aos="flip-left" data-aos-delay="1000" data-aos-once="true">
+			<img src="svg/gear.svg" class="svg-index"/><br>
+			<h3>Problem Solver</h3>
+			<p>I like to take challenge and solve problems that are related to people's life. Visit <a href="projects/designdiary.html">Design Diary</a> too see more.</p>
+		</div>
+		</div>
+	</div> -->			
+
 	<footer>
 		<img class="logo-small" src="img/logo.png" alt="logo"><br>
 		<a target="_blank" href="https://www.facebook.com/WeiChengLily" class="fa foot fa-facebook" style="font-size:25px"></a>

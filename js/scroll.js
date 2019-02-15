@@ -4,6 +4,13 @@ AOS.init({
 $(window).on('mousewheel', function() {
   $('html, body').stop();
 });
+
+$(document).ready(function(){
+    $( "a.scrollLink" ).click(function( event ) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
+    });
+});
     
 $(document).ready(function() {
   $(window).scroll(function () {
@@ -19,19 +26,6 @@ $(document).ready(function() {
     }
   });
 });
-
-// function openProject(name){
-//    $('.project-content').fadeIn(200);
-//    $('#' + name).show();
-//    $('#overlay').show();
-// }
-
-// function closeProject(){
-//    $('.project-content').fadeOut(200);
-//    $('.detail').hide();
-//    $('#overlay').hide();
-//    $('#vid')[0].pause();
-// }
 
 $(document).ready(function(){
 	$('.nav-icon').click(function(){

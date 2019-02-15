@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="../style.css">
 	<link rel="stylesheet" type="text/css" href="../style-mobile.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<!-- for FF, Chrome, Opera -->
 	<link rel="icon" type="image/png" href="img/logo.png" sizes="16x16">
 	<link rel="icon" type="image/png" href="img/logo.png" sizes="32x32">
@@ -22,30 +23,31 @@
 </head>
 <body>
 	<div class="drawer">
-		<span class="drawer_btn_nav"><a href="index.html" class="light">WORK</a></span>
-		<span class="drawer_btn_nav"><a href="about.html">ABOUT</a></span>
+		<span class="drawer_btn_nav"><a href="../index#work.html" class="light">WORK</a></span>
+		<span class="drawer_btn_nav"><a href="../index.html#about">ABOUT</a></span>
+		<span class="drawer_btn_nav"><a href="../wei_cheng_resume.pdf" target="_blank">RESUME</a></span>		
 	</div>
 	<div class="nav-icon">
 	  <span></span> <span></span> <span></span> <span></span>
 	</div>
 
 	<header class="header">
-		<a href="../index.html"><img class="logo" src="../img/logo.png" alt="logo"></a>
-		<a href="../about.html" class="a_nav"><span class="btn_nav">ABOUT</span></a>
-		<a href="../index.html" class="a_nav"><span class="btn_nav light">WORK</span></a>
+		<a href="../index.html"><img class="logo" src="../img/logo.png" alt="logo"></a>	
+		<a href="../wei_cheng_resume.pdf" target="_blank" class="a_nav"><span class="btn_nav">RESUME</span></a>		
+		<a href="../index.html#about" class="a_nav"><span class="btn_nav">ABOUT</span></a>
+		<a href="../index.html#work" class="a_nav"><span class="btn_nav light">WORK</span></a>	
 	</header>
 
-	<div class="parallax-small parallax-krtco">
-		<article class="intro">
-			<h1>KRTCO Website</h1>
-			<p>UI Design & Develop</p>
-		</article>
-	</div>
+	<article class="intro parallax-project intro-krtco">
+		<h1>KRTCO Website</h1>
+		<p>UI Design & Develop</p>
+		<img class="img-project-intro" src="web_krtco/krtco-intro.png" alt="" data-aos="zoom-in" data-aos-once="true">
+	</article>
 
 	<div class="wrapper-project" id="wrapper">
 		<div class="row-project">
 			<div class="col-two">
-				<h5>Overview</h5>
+				<h5 class="overview">Overview</h5>
 				<p>
 					The website is developed for 2016 Coorporate Image Filming Competition of Kaoshiung Rapid Transit Coorperation for contestants to know information and register for the filming competition.
 				</p>
@@ -55,29 +57,28 @@
 			</div>
 
 			<div class="col-three">
-			<h5>Role</h5>
-			<p>frontend UI design<br>UI development</p>
+			<h6 class="overview">Role</h6>
+			<p>UI design / UI development</p>
 			</div>
 
 			<div class="col-three">
-				<h5>Tools</h5>
-				<p>HTML<br>CSS<br>JavaScript<br>Adobe Photoshop</p>
+				<h6 class="overview">Tools</h6>
+				<p>HTML / CSS / JavaScript / Adobe Photoshop</p>
 			</div>
 
 			<div class="col-three">
-				<h5>Time</h5>
+				<h6 class="overview">Time</h6>
 				<p>6 months</p>
 			</div>
 		</div>
 
 		<div class="row-project row-project-color" data-aos="slide-up" data-aos-once="true">
 			<div class="col-one">
-				<h5>Background</h5>
-				<img src="web_krtco/krtco-logo.jpg" alt="krtco-logo" class="img-tab-content">
-				<p>Kaohsiung Rapid Transportation Corporation is a company that manages rapid transit system in Kaohsiung city, Taiwan. They held a competition for their corporate image video since 2013. People can team up, shoot short advertisement film and compete to win the corporate image video.</p>
-			</div>
-
-			<div class="col-one">
+				<h6>WHY DID THIS WEBSITE EXIST?</h6>
+				<h5>Background</h5>				
+				<p>Kaohsiung Rapid Transportation Corporation is a company that manages rapid transit system in Kaohsiung city, Taiwan. They held a competition for their corporate image video since 2013. People can team up, shoot short advertisement film and compete to win the corporate image video.
+				</p>
+				<h5>Build With Students</h5>
 				<p>In 2016, the product manager cooperated with students from National Sun Yat-sen University — 2 students from business management department to plan for the promoting campaigns, and 4 students from information management department to build the website and voting system. I acted as the frontend designer and developer in this project.
 				</p>
 			</div>
@@ -85,17 +86,18 @@
 
 		<div class="row-project" data-aos="slide-up" data-aos-once="true">
 			<div class="col-one">
-				<h5>Development Process</h5>
-				<p>This project used System Analysis and Design method to develop.</p>
+				<h6>PROCESS</h6>
+				<h5>System Analysis and Design</h5>
+				<p>This project used System Analysis and Design method to develop. KRTCO listed their requirements and provided resources, project managers planned the structures with developers.</p>
 				<img src="web_krtco/process.svg" alt="" class="img-col-one">
 			</div>
 			<div class="col-one">
 				<div class="col-two">
-					<b>1 - System Planning and Analysis Phase</b><br>
-					Kaoshiung Rapid Transit Cooperation hired visual designer to determined the visual elements, and the project manager have listed out the requirements in advance, then they held meeting with development teams to discussed the business requirements.<br><br>
+					<b>1 - System Planning and Analysis</b><br>
+					Kaoshiung Rapid Transit Cooperation hired visual designer to determined the visual elements, and the project manager have listed out the requirements. Then they held meeting with development teams to discussed about the requirements.<br><br>
 				</div>
 				<div class="col-two">
-					<b>2 - System Design Phase</b><br>
+					<b>2 - System Design</b><br>
 					In this step, I utalized the materials the company gave me and made wireframe of the web layout, and I cooporated with databse managers to discuss about the structure of frontend and backend.<br><br>
 				</div>
 			</div>
@@ -112,7 +114,10 @@
 		</div>		
 			
 			<div class="row-full row-project-color">
-				<div class="col-one"><h5>User Interfaces</h5></div>
+				<div class="col-one">
+					<h6>FINAL PRODUCT</h6>
+					<h5>User Interfaces</h5>
+				</div>
 				<div class="col-gif"><img src="web_krtco/01.gif" alt="" class="img-col-two"></div>
 				<div class="col-three">
 					<h6>1 - Home Page</h6>				
@@ -158,13 +163,34 @@
 					<h6>5 - Voting / Viewing Video</h6>
 					<p>During the voting stage, this page provide as the voting system for people to vote for their favorite short film. After the voting, it listed out all the films that participated in this competition.</p>
 				</div>
-			</div>
+			</div>		
+			<div class="row-project">
+				<div class="col-one">
+					<h5>Responsive Design</h5>
+					<p>In order to provide better viewing experience for users to view on multiple devices, I created additional mobile and tablets version of the websites.</p>
+				</div>
+
+				<div class="col-two" data-aos="zoom-in"data-aos-once="true">
+					<h6>Mobile version</h6>
+					<img class="img-original" src="web_krtco/krtco-phone.png" alt="">
+				</div>
+				<div class="col-two" data-aos="zoom-in" data-aos-delay="200" data-aos-once="true">
+					<h6>Tablet version</h6>	
+					<img class="img-original" src="web_krtco/krtco-ipad.png" alt="">
+				</div>
+			</div>			
+			<div class="row-full row-project-color">
+				<div class="col-one">
+					<h2>View the Live Demo</h2>
+					<h4>You can visit the website to see the final development product.</h4>
+					<a target="_blank" href="http://bm.nsysu.edu.tw/krtc-competition2016/home.php">
+					<div class="btn-visit">Visit KRTCO Website</div></a>
+				</div>
+			</div>		
 		<div class="row-project row-project-color-2">
 			<div class="col-one" data-aos="zoom-in" data-aos-once="true">
 				<h5>Conclusion</h5>
-				<p>In this project, I cooperated with the project team and visual designer in the company, and applied the System Analysis and Design Method the development of this website. However, it lacks the real opinions and insights from the use of the users. The future work can be applying user center design approach to redesign it.</p>
-				<a target="_blank" href="http://bm.nsysu.edu.tw/krtc-competition2016/home.php">
-				<div class="btn-visit">Live Demo</div></a>		
+				<p>In this project, I cooperated with the project team and visual designer in the company, and applied the System Analysis and Design Method the development of this website. I practiced how to communicate with designers and project managers, and enhanced my web design and elopement skills.</p>		
 			</div>
 		</div>
 		<a href="artism.html">

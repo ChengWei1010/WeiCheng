@@ -41,6 +41,8 @@ footer{
 .intro{
 	text-align: center;
 	padding: 10% 5% 0% 5%;
+	color: black;
+    z-index: auto;	
 }
 .artwork{
 	text-align: center;
@@ -356,6 +358,9 @@ footer{
 }
 img.img-col-two{ 
 }
+img.img-project-intro{
+	width: 90%;
+}
 }
 
 @media only screen and (max-width: 750px){
@@ -365,7 +370,7 @@ img.img-col-two{
     }
     img.img-intro{
 	width: 100%;
-	margin: 4% 0% 1% 0%;
+	margin: 4% 0% -3% 0%;
 	height: auto;
 	}
 	.col-intro{
@@ -380,4 +385,16 @@ img.img-col-two{
     .responsive {
         width: 100%;
     }
+    .col-intro-img{
+    float: left;
+    width: 90%;
+    margin: 1% 5%;
+    position: relative;
+	}   
+	span.caption {
+	width: 100%;
+	padding-bottom: 20%;
+	font-size: 12px;
+	text-align: center;
+	}
 }

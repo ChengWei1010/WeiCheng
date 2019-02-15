@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="style-mobile.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<!-- for FF, Chrome, Opera -->
 	<link rel="icon" type="image/png" href="img/logo.png" sizes="16x16">
 	<link rel="icon" type="image/png" href="img/logo.png" sizes="32x32">
@@ -21,29 +22,32 @@
 	<title>ART | WEI CHENG</title>
 </head>
 <body>
-	<div class="loader"><img class="img-loader" src="img/logo.gif"></div>
+	<div class="loader"><img src="img/logo.gif"></div>
+
 	<div class="drawer">
 		<span class="drawer_btn_nav"><a href="index.html" class="light">WORK</a></span>
-		<span class="drawer_btn_nav"><a href="about.html">ABOUT</a></span>
+		<span class="drawer_btn_nav"><a href="index.html#about">ABOUT</a></span>
+		<span class="drawer_btn_nav"><a href="wei_cheng_resume.pdf" target="_blank" >RESUME</a></span>
 	</div>
 	<div class="nav-icon">
 	  <span></span> <span></span> <span></span> <span></span>
 	</div>
 
 	<header class="header">
-		<a href="../index.html"><img class="logo" src="../img/logo.png" alt="logo"></a>
-		<a href="../about.html" class="a_nav"><span class="btn_nav">ABOUT</span></a>
-		<a href="../index.html" class="a_nav"><span class="btn_nav light">WORK</span></a>
+		<a href="index.html"><img class="logo" src="img/logo.png" alt="logo"></a>
+		<a href="wei_cheng_resume.pdf" target="_blank" class="a_nav"><span class="btn_nav">RESUME</span></a>
+		<a href="#about" class="a_nav scrollLink"><span class="btn_nav">ABOUT</span></a>
+		<a href="#work" class="a_nav scrollLink"><span class="btn_nav light">WORK</span></a>
 	</header>
-	<div class="parallax-art parallax-art-1">
+	
+	<div class="parallax-project" id="intro-art">
 		<article class="intro">
 			<h1>Art</h1>
-			<p>
-				I like poster design, oil painting, and calligraphy.<br>
-				Here are some of my art works.<br>
-			</p> 
+			<p>I like poster design, oil painting, and calligraphy.<br>
+			Here are some of my art works.<br></p>
 		</article>
 	</div>
+
 <div class="wrapper">
 	<div class="toolbar mb2 mt2">
 	  <button class="btn fil-cat selectedClass" data-rel="all">All</button>
@@ -110,7 +114,7 @@
 
 	</article>
 	<footer>
-		<img class="logo-small" src="../img/logo.png" alt="logo"><br>
+		<img class="logo-small" src="img/logo.png" alt="logo"><br>
 		<a target="_blank" href="https://www.facebook.com/WeiChengLily" class="fa foot fa-facebook" style="font-size:25px"></a>
 		<a target="_blank" href="https://www.instagram.com/weichenglily" class="fa foot fa-instagram" style="font-size:25px"></a>	
 		<a target="_blank" href="https://github.com/ChengWei1010" class="fa foot fa-github" style="font-size:25px"></a>

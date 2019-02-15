@@ -361,19 +361,28 @@ img.img-col-two{
 img.img-project-intro{
 	width: 90%;
 }
+img.img-original {
+    margin: 4% 0% 1% 0%;
+    width: 80%;
 }
-
-@media only screen and (max-width: 750px){
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-    img.img-intro{
+.col-intro-img{
+	float: left;
+	width: 90%;
+	margin: 1% 5%;
+	position: relative;
+}   
+span.caption {
+	width: 100%;
+	padding-bottom: 20%;
+	font-size: 12px;
+	text-align: center;
+}
+img.img-intro{
 	width: 100%;
 	margin: 4% 0% -3% 0%;
 	height: auto;
 	}
-	.col-intro{
+.col-intro{
     float: left;
     width: 90%;
     margin: 0 5%;
@@ -381,20 +390,15 @@ img.img-project-intro{
 	}
 }
 
+@media only screen and (max-width: 750px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
 @media only screen and (max-width: 500px){
     .responsive {
         width: 100%;
     }
-    .col-intro-img{
-    float: left;
-    width: 90%;
-    margin: 1% 5%;
-    position: relative;
-	}   
-	span.caption {
-	width: 100%;
-	padding-bottom: 20%;
-	font-size: 12px;
-	text-align: center;
-	}
 }

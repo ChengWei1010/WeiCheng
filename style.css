@@ -3,19 +3,18 @@
 html, body {
 	height: 100%;
 	margin: 0 1%;
-	/*font-family: 'Montserrat', serif;*/
-	/*font-family: 'Raleway', serif;*/
-font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	/*font-family: 'Source Sans Pro', sans-serif;*/
 }
 article, aside, footer, header, main, nav, section {display: block;}
 body{
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	font-size: 20px;
+	font-size: 17px;
 	font-weight: 300;
 	line-height: 32px;
-	font-style:none;
+	font-style:normal;
 }
 header{
 	position: fixed;
@@ -46,7 +45,7 @@ footer{
 h1{/*main title center*/
 	font-size: 45px;
 	line-height: 40px;
-	font-weight: bold;
+	font-weight: 700;
 }
 h2{/*orange middle, work, intro*/
 	font-size: 28px;
@@ -68,7 +67,7 @@ h4{/*gray, center*/
 	padding: 0 5%;
 	margin: 1%;
 	color: gray;
-	font-weight: 500;
+	/*font-weight: 500;*/
 }
 h5{/*orange, large, left*/
 	font-size: 34px;
@@ -90,10 +89,12 @@ hr{
 }
 p{
 	color: rgb(64, 64, 64);
-	font-size: 20px;}
+	font-size: 17px;
+	font-weight: 100;
+}
 b{
 	font-size: 20px;
-	font-weight: 600;}
+	font-weight: 700;}
 a{
 	color: gray;
 	text-decoration: none;
@@ -150,7 +151,7 @@ ol{
 	-o-background-size: cover;
 	background-size: cover;
 	display: block;
-	overflow: auto;
+	/*overflow: auto;*/
 }
 #intro-art {
 	background: url('img/bg-about.svg') no-repeat top center fixed;
@@ -544,14 +545,7 @@ img.img-original{
 	transition: all .2s ease-in-out;
 }
 .project-small:hover{
-	background-color: #FF6C00; 
-	transform: scale(1.05);
-}
-.project-small:hover h3{
-	color: white;
-}
-.project-small:hover h4{
-	color: white;
+	transform: scale(0.95);
 }
 .tracking-in-contract {
 	-webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.6s both;

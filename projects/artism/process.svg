@@ -1,96 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="964px" height="342px" viewBox="0 0 964 342" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="927px" height="261px" viewBox="0 0 927 261" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>process</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="design-diary" transform="translate(-208.000000, -912.000000)">
-            <g id="process" transform="translate(209.000000, 912.000000)">
-                <path d="M0.5,217.25 L961.5,217.25" id="Line-4" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
-                <circle id="Oval" fill="#D8D8D8" cx="99" cy="217" r="14"></circle>
-                <circle id="Oval" fill="#D8D8D8" cx="872" cy="217" r="14"></circle>
-                <circle id="Oval" fill="#D8D8D8" cx="269" cy="217" r="14"></circle>
-                <circle id="Oval" fill="#D8D8D8" cx="451" cy="217" r="14"></circle>
-                <circle id="Oval" fill="#D8D8D8" cx="663" cy="217" r="14"></circle>
+        <g id="design-diary" transform="translate(-241.000000, -989.000000)">
+            <g id="process" transform="translate(242.000000, 988.000000)">
+                <path d="M0.5,137.25 L924.5,137.25" id="Line-4" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+                <circle id="Oval" fill="#F18080" cx="133" cy="136" r="14"></circle>
+                <circle id="Oval" fill="#F79884" cx="346" cy="137" r="14"></circle>
+                <circle id="Oval" fill="#63BA6F" cx="559" cy="137" r="14"></circle>
+                <circle id="Oval" fill="#37AB85" cx="772" cy="137" r="14"></circle>
                 <text id="Observe" font-family="Calibri-Bold, Calibri" font-size="32" font-weight="bold" letter-spacing="0.09406383" fill="#F18080">
-                    <tspan x="44.2009282" y="140">Observe</tspan>
+                    <tspan x="78.2009282" y="60">Observe</tspan>
                 </text>
                 <text id="Ideate" font-family="Calibri-Bold, Calibri" font-size="32" font-weight="bold" letter-spacing="0.09406383" fill="#63BA6F">
-                    <tspan x="409.310617" y="140">Ideate</tspan>
+                    <tspan x="517.310617" y="60">Ideate</tspan>
                 </text>
-                <g id="process-1">
-                    <rect id="Rectangle-6" fill="#FFC3C3" x="0" y="0" width="321" height="58"></rect>
-                    <text id="Discover" font-family="Calibri-Bold, Calibri" font-size="32" font-weight="bold" letter-spacing="0.09406383" fill="#666666">
-                        <tspan x="103.88937" y="37">Discover</tspan>
-                    </text>
-                </g>
-                <g id="process-3" transform="translate(642.000000, 0.000000)">
-                    <rect id="Rectangle-6" fill="#BDE2FF" x="0" y="0" width="321" height="58"></rect>
-                    <text id="Deliver" font-family="Calibri-Bold, Calibri" font-size="32" font-weight="bold" letter-spacing="0.09406383" fill="#666666">
-                        <tspan x="113.506714" y="37">Deliver</tspan>
-                    </text>
-                </g>
-                <g id="process-2" transform="translate(321.000000, 0.000000)">
-                    <rect id="Rectangle-6" fill="#D8D8D8" x="0" y="0" width="321" height="58"></rect>
-                    <rect id="Rectangle-6" fill="#B8FFC2" x="0" y="0" width="321" height="58"></rect>
-                    <text id="Design" font-family="Calibri-Bold, Calibri" font-size="32" font-weight="bold" letter-spacing="0.09406383" fill="#666666">
-                        <tspan x="116.092809" y="37">Design</tspan>
-                    </text>
-                </g>
-                <g id="Group-2" transform="translate(453.000000, 78.000000)">
-                    <path id="Line-5" d="M180.25,29 L184.75,20 L175.75,20 L180.25,29 Z M179.75,1.5 L179.75,20.5 L179.75,21 L180.75,21 L180.75,20.5 L180.75,1.5 L180.75,1 L179.75,1 L179.75,1.5 Z" fill="#63BA6F" fill-rule="nonzero"></path>
-                    <path d="M1.25,1.5 L1.25,27.5 M1.25,1.5 L179.5,1.5" id="Line" stroke="#63BA6F" stroke-linecap="square"></path>
-                </g>
-                <g id="Group-2" transform="translate(686.000000, 80.000000)">
-                    <path id="Line-5" d="M180.25,29 L184.75,20 L175.75,20 L180.25,29 Z M179.75,1.5 L179.75,20.5 L179.75,21 L180.75,21 L180.75,20.5 L180.75,1.5 L180.75,1 L179.75,1 L179.75,1.5 Z" fill="#63BA6F" fill-rule="nonzero"></path>
-                    <path d="M1.25,1.5 L1.25,27.5 M1.25,1.5 L179.5,1.5" id="Line" stroke="#63BA6F" stroke-linecap="square"></path>
+                <g id="Group-2" transform="translate(559.000000, 0.000000)">
+                    <path id="Line-5" d="M208.25,29 L212.75,20 L203.75,20 L208.25,29 Z M207.75,1.5 L207.75,20.5 L207.75,21 L208.75,21 L208.75,20.5 L208.75,1.5 L208.75,1 L207.75,1 L207.75,1.5 Z" fill="#63BA6F" fill-rule="nonzero"></path>
+                    <path d="M1.44444444,1.5 L1.44444444,27.5 M1.44444444,1.5 L207.422222,1.5" id="Line" stroke="#63BA6F" stroke-linecap="square"></path>
                 </g>
                 <text id="Prototype" font-family="Calibri-Bold, Calibri" font-size="32" font-weight="bold" letter-spacing="0.09406383" fill="#37AB85">
-                    <tspan x="599.419051" y="138">Prototype</tspan>
+                    <tspan x="705.419051" y="60">Prototype</tspan>
                 </text>
-                <text id="Research" font-family="Calibri-Bold, Calibri" font-size="32" font-weight="bold" letter-spacing="0.09406383" fill="#F18080">
-                    <tspan x="209.434989" y="140">Research</tspan>
-                </text>
-                <text id="Test" font-family="Calibri-Bold, Calibri" font-size="32" font-weight="bold" letter-spacing="0.09406383" fill="#2D93E3">
-                    <tspan x="840.936245" y="140">Test</tspan>
+                <text id="Research" font-family="Calibri-Bold, Calibri" font-size="32" font-weight="bold" letter-spacing="0.09406383" fill="#F79884">
+                    <tspan x="286.434989" y="60">Research</tspan>
                 </text>
                 <text id="Emphathize---intervi" font-family="Calibri-Bold, Calibri" font-size="26" font-weight="bold" letter-spacing="0.07642688" fill="#4A4A4A">
-                    <tspan x="30" y="273">Emphathize</tspan>
-                    <tspan x="157.387316" y="273" font-family="Calibri" font-weight="normal"></tspan>
-                    <tspan x="30" y="305" font-family="Calibri" font-weight="normal">- interview</tspan>
-                    <tspan x="30" y="337" font-family="Calibri" font-weight="normal">- observation</tspan>
+                    <tspan x="71" y="193">Emphathize</tspan>
+                    <tspan x="198.387316" y="193" font-family="Calibri" font-weight="normal"></tspan>
+                    <tspan x="71" y="225" font-family="Calibri" font-weight="normal">- interview</tspan>
+                    <tspan x="71" y="257" font-family="Calibri" font-weight="normal">- observation</tspan>
                 </text>
                 <text id="Define---insights--" font-family="Calibri-Bold, Calibri" font-size="26" font-weight="bold" letter-spacing="0.07642688" fill="#4A4A4A">
-                    <tspan x="230" y="273">Define</tspan>
-                    <tspan x="230" y="305" font-family="Calibri" font-weight="normal">- insights</tspan>
-                    <tspan x="230" y="337" font-family="Calibri" font-weight="normal">- persona</tspan>
+                    <tspan x="310" y="193">Define</tspan>
+                    <tspan x="310" y="225" font-family="Calibri" font-weight="normal">- insights</tspan>
+                    <tspan x="310" y="257" font-family="Calibri" font-weight="normal">- persona</tspan>
                 </text>
                 <text id="Solution---Lo-fi-wir" font-family="Calibri-Bold, Calibri" font-size="26" font-weight="bold" letter-spacing="0.07642688" fill="#4A4A4A">
-                    <tspan x="607" y="273">Solution</tspan>
-                    <tspan x="697.290848" y="273" font-family="Calibri" font-weight="normal"></tspan>
-                    <tspan x="607" y="305" font-family="Calibri" font-weight="normal">- Lo-fi wireframe</tspan>
-                    <tspan x="607" y="337" font-family="Calibri" font-weight="normal">- Hi-fi mockups</tspan>
-                </text>
-                <text id="Evaluation---feedbac" font-family="Calibri-Bold, Calibri" font-size="26" font-weight="bold" letter-spacing="0.07642688" fill="#4A4A4A">
-                    <tspan x="812" y="273">Evaluation</tspan>
-                    <tspan x="925.536475" y="273" font-family="Calibri" font-weight="normal"></tspan>
-                    <tspan x="812" y="305" font-family="Calibri" font-weight="normal">- feedbacks</tspan>
-                    <tspan x="812" y="337" font-family="Calibri" font-weight="normal">- improve</tspan>
+                    <tspan x="728" y="193">Solution</tspan>
+                    <tspan x="818.290848" y="193" font-family="Calibri" font-weight="normal"></tspan>
+                    <tspan x="728" y="225" font-family="Calibri" font-weight="normal">- Lo-fi wireframe</tspan>
+                    <tspan x="728" y="257" font-family="Calibri" font-weight="normal">- Hi-fi mockups</tspan>
                 </text>
                 <text id="Brainstorming---pape" font-family="Calibri-Bold, Calibri" font-size="26" font-weight="bold" letter-spacing="0.07642688" fill="#4A4A4A">
-                    <tspan x="375" y="273">Brainstorming</tspan>
-                    <tspan x="528.286518" y="273" font-family="Calibri" font-weight="normal"></tspan>
-                    <tspan x="375" y="305" font-family="Calibri" font-weight="normal">- paper sketch </tspan>
-                    <tspan x="375" y="337" font-family="Calibri" font-weight="normal">- user flow</tspan>
+                    <tspan x="489" y="193">Brainstorming</tspan>
+                    <tspan x="642.286518" y="193" font-family="Calibri" font-weight="normal"></tspan>
+                    <tspan x="489" y="225" font-family="Calibri" font-weight="normal">- paper sketch </tspan>
+                    <tspan x="489" y="257" font-family="Calibri" font-weight="normal">- user flow</tspan>
                 </text>
-                <g id="Group-2" transform="translate(544.000000, 169.500000) scale(-1, -1) translate(-544.000000, -169.500000) translate(454.000000, 155.000000)">
-                    <path id="Line-5" d="M179.25,29 L183.75,20 L174.75,20 L179.25,29 Z M178.75,1.5 L178.75,20.5 L178.75,21 L179.75,21 L179.75,20.5 L179.75,1.5 L179.75,1 L178.75,1 L178.75,1.5 Z" fill="#63BA6F" fill-rule="nonzero"></path>
-                    <path d="M1.25,1.5 L179.5,1.5 L1.25,1.5 Z M1.25,1.5 L1.25,27.5 L1.25,1.5 Z" id="Line" stroke="#37AB85" stroke-linecap="square"></path>
-                </g>
-                <g id="Group-2" transform="translate(777.000000, 171.500000) scale(-1, -1) translate(-777.000000, -171.500000) translate(687.000000, 157.000000)">
-                    <path id="Line-5" d="M179.25,29 L183.75,20 L174.75,20 L179.25,29 Z M178.75,1.5 L178.75,20.5 L178.75,21 L179.75,21 L179.75,20.5 L179.75,1.5 L179.75,1 L178.75,1 L178.75,1.5 Z" fill="#63BA6F" fill-rule="nonzero"></path>
-                    <path d="M1.25,1.5 L179.5,1.5 L1.25,1.5 Z M1.25,1.5 L1.25,27.5 L1.25,1.5 Z" id="Line" stroke="#37AB85" stroke-linecap="square"></path>
+                <g id="Group-2" transform="translate(664.500000, 91.500000) scale(-1, -1) translate(-664.500000, -91.500000) translate(560.000000, 77.000000)">
+                    <path id="Line-5" d="M208.5,29 L213,20 L204,20 L208.5,29 Z M208,1.5 L208,20.5 L208,21 L209,21 L209,20.5 L209,1.5 L209,1 L208,1 L208,1.5 Z" fill="#63BA6F" fill-rule="nonzero"></path>
+                    <path d="M1.45138889,1.5 L208.419444,1.5 L1.45138889,1.5 Z M1.45138889,1.5 L1.45138889,27.5 L1.45138889,1.5 Z" id="Line" stroke="#37AB85" stroke-linecap="square"></path>
                 </g>
                 <path d="" id="Path-2" stroke="#979797"></path>
             </g>

@@ -12,9 +12,9 @@
 	<link rel="icon" type="image/png" href="img/logo.png" sizes="32x32">
 
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134084956-1"></script>
+
 	<script>
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
@@ -51,11 +51,12 @@
 	<div class="parallax" id="trans1">
 		<article class="intro">
 			<img src="img/logo.png" alt="logo" class="logo-mid">
-			<h1 class="tracking-in-contract">Wei Cheng</h1>
+			<!-- <h1 class="tracking-in-contract">Wei Cheng</h1> -->
+			<h1>Wei Cheng</h1>
 			<p>
 				<b>is a UI/UX Designer who loves to...</b><br>
 				<h1>
-				  <a href="" class="typewrite" data-period="2000" data-type='[ "Understand.", "Create.", "Iterate."]'>
+				  <a href="" class="typewrite" data-period="2000" data-type='[ "Understand.", "Make.", "Repeat."]'>
 				    <span class="wrap"></span>
 				  </a>
 				</h1>			
@@ -67,10 +68,10 @@
 	  <div style="clear:both;"></div>
 	</div>
 
-	<div class="wrapper">
-		<div class="section-trait" id="work">
+	<div class="wrapper-index">
+		<div class="section-index" id="work">
 			<h2>WORK</h2>
-			<h4>See what I've designed, created, iterated</h4>
+			<h4>Some projects I've done</h4>
 			<div class="row-index">
 			    <a href="projects/artism.html">
 				    <div class="project-small" id="artism">
@@ -136,27 +137,26 @@
 	</div>
 	<div style="clear:both;"></div>
 	</div>
-
-<!-- 	<div class="parallax">
-		<div class="row-intro">
-		<h2>Wei is...</h2>
-		<div class="traits" data-aos="flip-left" data-aos-once="true">
-			<img src="svg/light.svg" class="svg-index"/><br>
-			<h3>Creative</h3>
-			<p>I like to try different design to create products that are interesting but useful. Check out my <a href="art.html">ART</a>!</p>
+	<div class="wrapper-index">
+		<div class="section-index">
+			<h2>My Design Process</h2>
+			<div class="card" data-aos="flip-left">
+				<img src="img/process-1.png" class="img-col-one"/><br>
+				<h3>1 - UNDERSTAND</h3>
+				<p>First, I do research, explore users, and keep challenging assumptions to <mark>define</mark> the problem space.</p>
+			</div>
+			<div class="card" data-aos="flip-left" data-aos-delay="400">
+				<img src="img/process-2.png" class="img-col-one"/><br>
+				<h3>2 - MAKE</h3>
+				<p>Then I use the insights from <mark>UNDERSTNAD</mark> to design, ideate, and create prptotypes.</p>
+			</div>
+			<div class="card" data-aos="flip-left" data-aos-delay="600">
+				<img src="img/process-3.png" class="img-col-one"/><br>
+				<h3>3 - REPEAT</h3>
+				<p>Finally, I repeat and iterate ideas and do usability testing based on learnings from <mark>MAKE</mark> to improve.</p>
+			</div>
 		</div>
-		<div class="traits" data-aos="flip-left" data-aos-delay="500" data-aos-once="true">
-			<img src="svg/love.svg" class="svg-index"/><br>
-			<h3>Empathetic</h3>
-			<p>Being a UX designer, it is important to listen to users and understand their needs.<br>Check out <a href="weicheng_resume.pdf" target="_blank">what I've done</a>!</p>
-		</div>
-		<div class="traits" data-aos="flip-left" data-aos-delay="1000" data-aos-once="true">
-			<img src="svg/gear.svg" class="svg-index"/><br>
-			<h3>Problem Solver</h3>
-			<p>I like to take challenge and solve problems that are related to people's life. Visit <a href="projects/designdiary.html">Design Diary</a> too see more.</p>
-		</div>
-		</div>
-	</div> -->			
+	</div>		
 
 	<footer>
 		<img class="logo-small" src="img/logo.png" alt="logo"><br>
@@ -173,5 +173,8 @@
 	<script src="js/loader.js"></script>
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script src="js/scroll.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+
 </body>
 </html>

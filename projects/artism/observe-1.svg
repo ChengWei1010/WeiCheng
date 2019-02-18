@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>observe-1</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="design-diary" transform="translate(-324.000000, -1463.000000)">
-            <g id="observe-1" transform="translate(324.000000, 1463.000000)">
-                <circle id="Oval-7" fill="#FFD6D6" cx="100" cy="100" r="100"></circle>
-                <text id="Communication-Tool" font-family="HoboStd, Hobo Std" font-size="21" font-weight="400" line-spacing="32" letter-spacing="1.05000007" fill="#4A4A4A">
-                    <tspan x="19.8219995" y="110">Communication</tspan>
-                    <tspan x="78.1494999" y="142">Tool</tspan>
-                </text>
-                <g id="Group-3" transform="translate(65.000000, 43.000000)">
+        <g id="design-diary" transform="translate(-350.000000, -1785.000000)">
+            <g id="observe-1" transform="translate(350.000000, 1785.000000)">
+                <circle id="Oval-7" fill="#FFD6D6" cx="75" cy="75" r="75"></circle>
+                <g id="Group-3" transform="translate(40.000000, 55.000000)">
                     <path d="M0,13.3392134 C6.58025217,7.53098434 12.0490022,3.47406898 16.40625,1.16846733 C20.7634978,-1.13713432 26.9614145,-0.0307028547 35,4.48776172 C39.8188159,0.955422969 45.6521492,-0.151008494 52.5,1.16846733 C59.3478508,2.48794315 65.1811841,6.54485852 70,13.3392134 C58.4173826,31.7797378 46.7507159,41 35,41 C23.2492841,41 11.5826174,31.7797378 0,13.3392134 Z" id="Path-4" fill="#FFFFFF"></path>
                     <path d="M5,13.3333333 C5,11.8408673 28.8239285,10 34.5,10 C40.1760715,10 64,11.9991536 64,13.3333333 C64,15.5555556 51.4688248,30 34.5,30 C17.5311752,30 5,15.5555556 5,13.3333333 Z" id="Path-5" fill="#FFD6D6"></path>
                 </g>

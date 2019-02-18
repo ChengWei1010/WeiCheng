@@ -325,21 +325,18 @@ footer{
 	padding: 5% 0;
 	margin: 0 auto;
 }
-.section-trait {
-    width: 90%;
+.section-index {
+    width: 80%;
     float: left;
-    padding: 8% 5%;
+    padding: 8% 10%;
 }
-.traits{
+.card{
 	float: left;
-    width: 86%;
+    width: 96%;
     height: 18%;
     position: relative;
-	padding: 5%;
+	padding: 2%;
 	text-align: center;
-/*	box-shadow: 10px 10px 50px grey; */
-    border-radius: 15px;
-    background-color: white;
 }
 .seemore{
 	text-align: center;

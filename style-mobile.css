@@ -394,6 +394,12 @@ img.img-intro{
 	display: block;
 	height: fit-content;
 }
+/*****************************************************/
+/********************* hide **********************/
+/*****************************************************/
+.fa-chevron-down{
+	visibility: hidden;
+}
 }
 
 @media only screen and (max-width: 750px){

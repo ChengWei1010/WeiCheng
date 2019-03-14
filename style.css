@@ -145,7 +145,7 @@ ol{
 /*****************************************************/
 #trans1 {
   background: url('img/bg.svg') no-repeat fixed;
-  height: 95%;
+  height: 70%;
   background-position: center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -170,6 +170,11 @@ ol{
 	background-size: cover;
 	display: block;
 	overflow: auto;
+}
+.journey{
+	padding: 4.5% .5%;
+	background: url('img/bg-journey.png') no-repeat;
+	background-size: 100% auto;
 }
 .parallax {
   position:relative;
@@ -264,7 +269,7 @@ ol{
 	color: #FF6C00;
 	transition: color 0.5s ease;
 }
-.fa-chevron-down:hover{color: gray;
+.fa-chevron-down:hover{color: white;
 }
 .fa-facebook{
 	color: gray;
@@ -446,6 +451,9 @@ img.img-original{
 img.img-icon{
 	width: 100px;
 	height: 100px;
+}
+img.img-journey{
+	width: 19.6%;
 }
 /*****************************************************/
 /******************* row and col *********************/

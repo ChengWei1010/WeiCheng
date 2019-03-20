@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="927px" height="288px" viewBox="0 0 927 288" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>process</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Competitive" transform="translate(-49.000000, -449.000000)">
+            <g id="process" transform="translate(50.000000, 448.000000)">
+                <path d="M0.5,136.25 L924.5,136.25" id="Line-4" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+                <circle id="Oval" fill="#F18080" cx="114" cy="136" r="14"></circle>
+                <circle id="Oval" fill="#F79884" cx="347" cy="136" r="14"></circle>
+                <circle id="Oval" fill="#63BA6F" cx="580" cy="136" r="14"></circle>
+                <circle id="Oval" fill="#37AB85" cx="813" cy="136" r="14"></circle>
+                <text id="Observe" font-family="Calibri-Bold, Calibri" font-size="32" font-weight="bold" letter-spacing="0.09406383" fill="#F18080">
+                    <tspan x="59.2009282" y="59">Observe</tspan>
+                </text>
+                <text id="Ideate" font-family="Calibri-Bold, Calibri" font-size="32" font-weight="bold" letter-spacing="0.09406383" fill="#63BA6F">
+                    <tspan x="538.310617" y="60">Ideate</tspan>
+                </text>
+                <g id="Group-2" transform="translate(577.000000, 0.000000)">
+                    <path id="Line-5" d="M235,20 L235,1.5 L235,1 L236,1 L236,1.5 L236,20 L240,20 L235.5,29 L231,20 L235,20 Z" fill="#63BA6F" fill-rule="nonzero"></path>
+                    <path d="M1.63194444,1.5 L1.63194444,27.5 M1.63194444,1.5 L234.347222,1.5" id="Line" stroke="#63BA6F" stroke-linecap="square"></path>
+                </g>
+                <text id="Prototype" font-family="Calibri-Bold, Calibri" font-size="32" font-weight="bold" letter-spacing="0.09406383" fill="#37AB85">
+                    <tspan x="746.419051" y="60">Prototype</tspan>
+                </text>
+                <text id="Research" font-family="Calibri-Bold, Calibri" font-size="32" font-weight="bold" letter-spacing="0.09406383" fill="#F79884">
+                    <tspan x="287.434989" y="59">Research</tspan>
+                </text>
+                <text id="Emphathize-interview" font-family="Calibri-Bold, Calibri" font-size="26" font-weight="bold" letter-spacing="0.07642688" fill="#4A4A4A">
+                    <tspan x="50.3063422" y="192">Emphathize</tspan>
+                    <tspan x="177.693658" y="192" font-family="Calibri" font-weight="normal"></tspan>
+                    <tspan x="64.0745361" y="224" font-family="Calibri" font-weight="normal">interview</tspan>
+                    <tspan x="51.0744086" y="256" font-family="Calibri" font-weight="normal">observation</tspan>
+                </text>
+                <text id="Define-research-insi" font-family="Calibri-Bold, Calibri" font-size="26" font-weight="bold" letter-spacing="0.07642688" fill="#4A4A4A">
+                    <tspan x="311.939792" y="192">Define</tspan>
+                    <tspan x="258.484649" y="224" font-family="Calibri" font-weight="normal">research insights</tspan>
+                    <tspan x="240.133447" y="256" font-family="Calibri" font-weight="normal">competitive analysis</tspan>
+                </text>
+                <text id="Solution-Lo-fi-wiref" font-family="Calibri-Bold, Calibri" font-size="26" font-weight="bold" letter-spacing="0.07642688" fill="#4A4A4A">
+                    <tspan x="767.854576" y="192">Solution</tspan>
+                    <tspan x="858.145424" y="192" font-family="Calibri" font-weight="normal"></tspan>
+                    <tspan x="732.154465" y="224" font-family="Calibri" font-weight="normal">Lo-fi wireframe</tspan>
+                    <tspan x="740.609798" y="256" font-family="Calibri" font-weight="normal">Hi-fi mockups</tspan>
+                </text>
+                <text id="Brainstorm-storyboar" font-family="Calibri-Bold, Calibri" font-size="26" font-weight="bold" letter-spacing="0.07642688" fill="#4A4A4A">
+                    <tspan x="519.803901" y="192">Brainstorm</tspan>
+                    <tspan x="640.196099" y="192" font-family="Calibri" font-weight="normal"></tspan>
+                    <tspan x="522.019233" y="224" font-family="Calibri" font-weight="normal">storyboard</tspan>
+                    <tspan x="537.127037" y="256" font-family="Calibri" font-weight="normal">persona </tspan>
+                    <tspan x="530.861773" y="288" font-family="Calibri" font-weight="normal">user flow</tspan>
+                </text>
+                <g id="Group-2" transform="translate(696.000000, 91.500000) scale(-1, -1) translate(-696.000000, -91.500000) translate(578.000000, 77.000000)">
+                    <path id="Line-5" d="M235,20 L235,1.5 L235,1 L236,1 L236,1.5 L236,20 L240,20 L235.5,29 L231,20 L235,20 Z" fill="#63BA6F" fill-rule="nonzero"></path>
+                    <path d="M1.63888889,1.5 L235.344444,1.5 L1.63888889,1.5 Z M1.63888889,1.5 L1.63888889,27.5 L1.63888889,1.5 Z" id="Line" stroke="#37AB85" stroke-linecap="square"></path>
+                </g>
+                <path d="" id="Path-2" stroke="#979797"></path>
+            </g>
+        </g>
+    </g>
+</svg>

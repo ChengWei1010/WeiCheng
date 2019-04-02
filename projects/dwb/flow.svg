@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="922px" height="295px" viewBox="0 0 922 295" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>flow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-20.0%" y="-20.0%" width="140.0%" height="140.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-20.0%" y="-20.0%" width="140.0%" height="140.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-20.0%" y="-20.0%" width="140.0%" height="140.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-4" x="0" y="0" width="100" height="70"></rect>
+        <filter x="-15.0%" y="-21.4%" width="130.0%" height="142.9%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-20.0%" y="-20.0%" width="140.0%" height="140.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-20.0%" y="-20.0%" width="140.0%" height="140.0%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-20.0%" y="-33.3%" width="140.0%" height="166.7%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-20.0%" y="-33.3%" width="140.0%" height="166.7%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="user-flow" transform="translate(-52.000000, -214.000000)">
+            <g id="flow" transform="translate(62.000000, 224.000000)">
+                <g id="go" transform="translate(0.000000, 110.000000)">
+                    <g id="Group" filter="url(#filter-1)" fill="#BDEB51">
+                        <rect id="Rectangle" x="0" y="0" width="100" height="100"></rect>
+                    </g>
+                    <text id="Go!" font-family="Calibri-Bold, Calibri" font-size="30" font-weight="bold" letter-spacing="0.1386204" fill="#727272">
+                        <tspan x="27.2847452" y="61">Go!</tspan>
+                    </text>
+                    <path d="M100,50.5 L140,50.5" id="Line-2" stroke="#D4C21C" stroke-linecap="square"></path>
+                </g>
+                <g id="home" transform="translate(140.000000, 110.000000)">
+                    <g id="Group-Copy-2" filter="url(#filter-2)" fill="#BDEB51">
+                        <rect id="Rectangle" x="0" y="0" width="100" height="100"></rect>
+                    </g>
+                    <text id="Home" font-family="Calibri-Bold, Calibri" font-size="25" font-weight="bold" letter-spacing="0.115517" fill="#727272">
+                        <tspan x="18.7020715" y="60">Home</tspan>
+                    </text>
+                    <path d="M100,49.5 L140,49.5" id="line" stroke="#D4C21C" stroke-linecap="square"></path>
+                </g>
+                <g id="first-time?" transform="translate(278.000000, 89.000000)">
+                    <g id="Group-Copy-2" filter="url(#filter-3)" transform="translate(71.642136, 70.792893) rotate(45.000000) translate(-71.642136, -70.792893) translate(21.642136, 20.792893)" fill="#FFEE4B">
+                        <polygon id="Rectangle" points="14.7911076 14.7911076 99.1923882 0.393398282 85.4012806 85.6022907 0.192388155 99.3933983"></polygon>
+                    </g>
+                    <text id="Start-a-new-story?" font-family="Calibri-Bold, Calibri" font-size="18" font-weight="bold" letter-spacing="0.06931021" fill="#727272">
+                        <tspan x="47.7315354" y="63">Start a </tspan>
+                        <tspan x="31.0645818" y="85">new story?</tspan>
+                    </text>
+                    <path d="M141,70.5 L161,70.5" id="line" stroke="#D4C21C" stroke-linecap="square"></path>
+                    <g id="yes/no" transform="translate(160.000000, 39.000000)" stroke="#D4C21C" stroke-linecap="square">
+                        <path d="M2,1.5 L63.5,1.5" id="line-copy"></path>
+                        <path d="M2,61.5 L63.5,61.5" id="line-copy-2"></path>
+                        <path d="M1.5,1.5 L1.5,61.5" id="line-copy-3"></path>
+                    </g>
+                    <text id="Yes" font-family="Calibri" font-size="16" font-weight="normal" letter-spacing="0.101655" fill="#83A13C">
+                        <tspan x="166" y="31">Yes</tspan>
+                    </text>
+                    <text id="No" font-family="Calibri" font-size="16" font-weight="normal" letter-spacing="0.101655" fill="#C13737">
+                        <tspan x="168" y="121">No</tspan>
+                    </text>
+                </g>
+                <g id="fork" transform="translate(620.500000, 160.000000) scale(-1, 1) translate(-620.500000, -160.000000) translate(579.000000, 129.000000)" stroke="#D4C21C" stroke-linecap="square">
+                    <path d="M3.01980663e-14,31.5 L20,31.5" id="line-copy-4"></path>
+                    <g id="yes/no-copy" transform="translate(19.000000, 0.000000)">
+                        <path d="M2,1.5 L63.5,1.5" id="line-copy"></path>
+                        <path d="M2,61.5 L63.5,61.5" id="line-copy-2"></path>
+                        <path d="M1.5,1.5 L1.5,61.5" id="line-copy-3"></path>
+                    </g>
+                </g>
+                <g id="parent" transform="translate(140.000000, 0.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        <use fill="#BDEB51" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    </g>
+                    <text id="Parent-Mode" font-family="Calibri-Bold, Calibri" font-size="22" font-weight="bold" letter-spacing="0.101655" fill="#727272">
+                        <tspan x="20.1867342" y="29">Parent</tspan>
+                        <tspan x="23.3284283" y="56">Mode</tspan>
+                    </text>
+                    <text id="--set-playing-limit" font-family="Calibri" font-size="18" font-weight="normal" letter-spacing="0.101655" fill="#727272">
+                        <tspan x="115" y="30">- set playing limit time</tspan>
+                        <tspan x="115" y="52">- upgrade functions</tspan>
+                    </text>
+                </g>
+                <g id="draw" transform="translate(662.000000, 110.000000)">
+                    <g id="Group-Copy-2" filter="url(#filter-6)" fill="#BDEB51">
+                        <rect id="Rectangle" x="0" y="0" width="100" height="100"></rect>
+                    </g>
+                    <text id="Draw!" font-family="Calibri-Bold, Calibri" font-size="25" font-weight="bold" letter-spacing="0.115517" fill="#727272">
+                        <tspan x="18.2048598" y="58">Draw!</tspan>
+                    </text>
+                    <path d="M100,49.5 L140,49.5" id="line" stroke="#D4C21C" stroke-linecap="square"></path>
+                </g>
+                <g id="draw-copy" filter="url(#filter-7)" transform="translate(802.000000, 110.000000)">
+                    <g id="Group-Copy-2" fill="#BDEB51">
+                        <rect id="Rectangle" x="0" y="0" width="100" height="100"></rect>
+                    </g>
+                    <text id="Share" font-family="Calibri-Bold, Calibri" font-size="25" font-weight="bold" letter-spacing="0.115517" fill="#727272">
+                        <tspan x="20.3288833" y="58">Share</tspan>
+                    </text>
+                </g>
+                <g id="new" filter="url(#filter-8)" transform="translate(492.000000, 89.000000)">
+                    <rect id="Rectangle" fill="#BDEB51" x="0" y="0" width="100" height="60"></rect>
+                    <text id="Choose-a-new-story" font-family="Calibri-Bold, Calibri" font-size="18" font-weight="bold" letter-spacing="0.121986" fill="#727272">
+                        <tspan x="15.6434037" y="25">Choose a</tspan>
+                        <tspan x="12.532606" y="47">new story</tspan>
+                    </text>
+                </g>
+                <g id="old" filter="url(#filter-9)" transform="translate(492.000000, 171.000000)">
+                    <rect id="Rectangle" fill="#BDEB51" x="0" y="0" width="100" height="60"></rect>
+                    <text id="Select-old-story" font-family="Calibri-Bold, Calibri" font-size="18" font-weight="bold" letter-spacing="0.1134167" fill="#727272">
+                        <tspan x="27.7476405" y="23.8">Select </tspan>
+                        <tspan x="17.2152108" y="45.8">old story</tspan>
+                    </text>
+                </g>
+                <text id="--feedback-and-guida" font-family="Calibri" font-size="18" font-weight="normal" letter-spacing="0.08317224" fill="#727272">
+                    <tspan x="665" y="237">- feedback and guidance</tspan>
+                    <tspan x="665" y="259">- interactive effects</tspan>
+                    <tspan x="665" y="281">- story based</tspan>
+                </text>
+                <path d="M190,70.5 L190,110" id="Line" stroke="#D4C21C" stroke-linecap="square" stroke-dasharray="3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

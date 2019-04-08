@@ -576,8 +576,8 @@ img.img-journey{
     text-align: center;
 }
 .project-block{
-	cursor: pointer;
 	width: 29%;
+	cursor: pointer;
 	display: table;
 	float: left;
 	position: relative;

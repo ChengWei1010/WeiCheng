@@ -110,7 +110,7 @@ mark{
     background-color: #FFDEAD;
     padding: 0 5px;
 }
-span.caption{
+.caption{
 	width: 100%;
 	font-size: 14px;
 	text-align: center;
@@ -169,7 +169,7 @@ ol{
 	-o-background-size: cover;
 	background-size: cover;
 	display: block;
-	overflow: auto;
+	overflow: hidden;
 }
 .journey{
 	padding: 4.5% 0%;
@@ -193,6 +193,7 @@ ol{
 .intro-sport{background-color:#B9CEFF;}
 .intro-hcx{background-color:#F6FFA8;}
 .bg-dwb{background-color:#EBFFD4 !important;}
+.bg-spending{background-color:#FFE8F5 !important;}
 /*****************************************************/
 /******************* structures **********************/
 /*****************************************************/
@@ -408,7 +409,7 @@ img.img-col-two{
 }
 img.img-col-three{
 	width: 70%;
-	margin: 10% 15%;
+	margin: 3% 15%;
 	height: auto;
 }
 img.img-col-four{
@@ -568,9 +569,15 @@ img.img-journey{
     display: inline-block;	
     text-align: center;
 }
+.section-index-project{
+	width: 90%;
+	padding: 3% 5%;
+    display: inline-block;	
+    text-align: center;
+}
 .project-block{
 	cursor: pointer;
-	width: 46%;
+	width: 29%;
 	display: table;
 	float: left;
 	position: relative;
@@ -594,11 +601,11 @@ img.img-journey{
     opacity: 0;
     height: 44%;
     width: 80%; 
-	padding: 20% 10%;
+	padding: 15% 10% 25% 10%;
 	transition: all .3s ease-in-out;
 }
 .project-block:hover .project-overlay {
-	opacity: .95;
+	opacity: .99;
 	-webkit-box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.88);
 	-moz-box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.88);
 	box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.88);

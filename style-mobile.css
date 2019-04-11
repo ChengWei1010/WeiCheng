@@ -40,7 +40,7 @@ footer{
 }
 .intro{
 	text-align: center;
-	padding: 10% 5% 0% 5%;
+	padding: 1% 5% 0% 5%;
 	color: black;
     z-index: auto;	
 }
@@ -378,6 +378,10 @@ img.img-intro{
 	width: 100%;
 	margin: 4% 0% -3% 0%;
 	height: auto;
+}
+img.img-intro-gif{
+	width: 40%;
+	padding: 0 25%; 
 }
 .col-intro{
     float: left;

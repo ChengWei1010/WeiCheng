@@ -43,8 +43,8 @@ footer{
 /****************** header and text ******************/
 /*****************************************************/
 h1{/*main title center*/
-	font-size: 45px;
-	line-height: 40px;
+	font-size: 40px;
+	line-height: 70px;
 	font-weight: 700;
 }
 h2{/*orange middle, work, intro*/
@@ -151,6 +151,7 @@ ol{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  text-align: center;
 }
 
 #about {
@@ -198,8 +199,8 @@ ol{
 /******************* structures **********************/
 /*****************************************************/
 .intro{
-	text-align: center;
-	padding: 15% 5% 8% 5%;
+	text-align: left;
+	padding: 15% 25% 5% 25%;
 	color: black;
 	z-index: 98;
 }
@@ -209,6 +210,9 @@ ol{
 	margin: 0 auto;
 }
 .wrapper-index{padding: 30px;
+}
+.scrollLink{
+	text-align: center;
 }
 /*****************************************************/
 /******************** buttons ************************/
@@ -355,6 +359,9 @@ ol{
 .center{
 	margin: auto;
 	text-align: center;}
+.left{
+	margin: auto;
+	text-align: left;}
 .banner{
 	width: 100%;
 	margin: 0 auto;
@@ -447,6 +454,12 @@ img.img-intro{
 	width: 100%;
 	margin: 4% 0% 0% 0%;
 	height: auto;
+}
+img.img-intro-gif{
+	width: 30%;
+	margin: 4% 5%;
+	height: auto;
+	float: left;	
 }
 img.img-original{
 	margin: 4% 0% 1% 0%;

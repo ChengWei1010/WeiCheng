@@ -42,9 +42,12 @@ footer{
 /*****************************************************/
 /****************** header and text ******************/
 /*****************************************************/
+.name{
+	font-size: 70px;
+}
 h1{/*main title center*/
 	font-size: 40px;
-	line-height: 70px;
+	line-height: 100px;
 	font-weight: 700;
 }
 h2{/*orange middle, work, intro*/
@@ -145,7 +148,7 @@ ol{
 /*****************************************************/
 #trans1 {
   background: url('img/bg.svg') no-repeat fixed;
-  height: 95%;
+  height: 100%;
   background-position: center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -199,7 +202,7 @@ ol{
 /******************* structures **********************/
 /*****************************************************/
 .intro{
-	text-align: left;
+	text-align: center;
 	padding: 10% 20% 5% 20%;
 	color: black;
 	z-index: 98;

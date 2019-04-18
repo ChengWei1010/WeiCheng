@@ -28,6 +28,11 @@ footer{
 	font-size: 19px;
 	color: gray;
 }
+h1{
+	font-size: 30px;
+	line-height: 60px;
+	font-weight: 700;	
+}
 .parallax-small{ 
     /* Full height */
     /*width: 100%;*/

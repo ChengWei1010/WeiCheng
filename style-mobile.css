@@ -272,6 +272,7 @@ h1{
 	float: left;
 	text-align: left;
 	padding: 4%;
+	overflow: hidden;
 }
 .row-project{
 	width: 92%;
